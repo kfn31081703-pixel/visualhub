@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API 설정 도우미 - MySQL 관리자</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            width: 100%;
+            padding: 40px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #1e293b;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #64748b;
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+        }
+
+        .step {
+            background: #f8fafc;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            border-left: 4px solid #3b82f6;
+        }
+
+        .step-number {
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            background: #3b82f6;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 32px;
+            font-weight: bold;
+            margin-right: 12px;
+        }
+
+        .step h2 {
+            display: inline-block;
+            font-size: 1.3rem;
+            color: #1e293b;
+            margin-bottom: 16px;
+        }
+
+        .input-group {
+            margin: 20px 0;
+        }
+
+        .input-group label {
+            display: block;
+            font-weight: 600;
+            color: #1e293b;
+            margin-bottom: 8px;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.2s;
+        }
+
+        .input-group input:focus {
+            outline: none;
+            border-color: #3b82f6;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-decoration: none;
+        }
+
+        .btn-primary {
+            background: #3b82f6;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #2563eb;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+        }
+
+        .btn-success {
+            background: #10b981;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #059669;
+        }
+
+        .btn-secondary {
+            background: #64748b;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #475569;
+        }
+
+        .result {
+            background: #ecfdf5;
+            border: 2px solid #10b981;
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 20px;
+            display: none;
+        }
+
+        .result.error {
+            background: #fef2f2;
+            border-color: #ef4444;
+        }
+
+        .result.show {
+            display: block;
+        }
+
+        .result h3 {
+            color: #065f46;
+            margin-bottom: 12px;
+        }
+
+        .result.error h3 {
+            color: #991b1b;
+        }
+
+        .code-block {
+            background: #1e293b;
+            color: #e2e8f0;
+            padding: 16px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            overflow-x: auto;
+            margin: 12px 0;
+        }
+
+        .status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+
+        .status-indicator.success {
+            background: #10b981;
+        }
+
+        .status-indicator.error {
+            background: #ef4444;
+        }
+
+        .status-indicator.pending {
+            background: #f59e0b;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 12px;
+            margin-top: 16px;
+        }
+
+        .alert {
+            background: #fef3c7;
+            border: 2px solid #f59e0b;
+            border-radius: 8px;
+            padding: 16px;
+            margin: 20px 0;
+        }
+
+        .alert-icon {
+            font-size: 1.5rem;
+            margin-right: 8px;
+        }
+
+        ul {
+            margin-left: 20px;
+            line-height: 1.8;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔧 API 설정 도우미</h1>
+        <p class="subtitle">MySQL 관리자 API 경로를 자동으로 찾아드립니다</p>
+
+        <!-- 1단계: API 경로 입력 -->
+        <div class="step">
+            <span class="step-number">1</span>
+            <h2>API 파일 경로 확인</h2>
+            <p style="margin: 16px 0; color: #64748b;">
+                api.php 파일을 업로드한 위치를 입력하세요.
+            </p>
+
+            <div class="alert">
+                <span class="alert-icon">💡</span>
+                <strong>팁:</strong> 가비아 FTP에서 파일을 업로드한 폴더 경로를 확인하세요.
+            </div>
+
+            <div class="input-group">
+                <label>API URL 입력</label>
+                <input type="text" id="apiUrl" placeholder="예: https://www.visualhub.co.kr/db_add/api.php" 
+                       value="https://www.visualhub.co.kr/db_add/api.php">
+            </div>
+
+            <div class="button-group">
+                <button class="btn btn-primary" onclick="testConnection()">
+                    🔍 연결 테스트
+                </button>
+                <button class="btn btn-secondary" onclick="tryCommonPaths()">
+                    📂 자동 경로 찾기
+                </button>
+            </div>
+
+            <div id="testResult" class="result"></div>
+        </div>
+
+        <!-- 2단계: 설정 적용 -->
+        <div class="step">
+            <span class="step-number">2</span>
+            <h2>설정 파일 수정</h2>
+            <p style="margin: 16px 0; color: #64748b;">
+                연결이 성공하면 아래 코드를 복사하여 <strong>js/api.js</strong> 파일의 6번째 줄에 붙여넣으세요.
+            </p>
+
+            <div class="code-block" id="configCode">
+                const API_BASE_URL = 'https://www.visualhub.co.kr/db_add/api.php';
+            </div>
+
+            <button class="btn btn-success" onclick="copyCode()">
+                📋 코드 복사
+            </button>
+        </div>
+
+        <!-- 3단계: 최종 확인 -->
+        <div class="step">
+            <span class="step-number">3</span>
+            <h2>설정 완료 확인</h2>
+            <p style="margin: 16px 0; color: #64748b;">
+                js/api.js 파일을 수정한 후 메인 페이지로 이동하세요.
+            </p>
+
+            <a href="index.html" class="btn btn-success">
+                ✅ 메인 페이지로 이동
+            </a>
+        </div>
+
+        <div class="footer">
+            <p>문제가 계속되면 <strong>DEBUGGING.md</strong> 파일을 참고하세요.</p>
+        </div>
+    </div>
+
+    <script>
+        let successUrl = '';
+
+        async function testConnection() {
+            const apiUrl = document.getElementById('apiUrl').value.trim();
+            const resultDiv = document.getElementById('testResult');
+            
+            if (!apiUrl) {
+                showResult(false, 'API URL을 입력하세요.');
+                return;
+            }
+
+            resultDiv.innerHTML = '<p><span class="status-indicator pending"></span> 연결 테스트 중...</p>';
+            resultDiv.className = 'result show';
+
+            try {
+                const testUrl = apiUrl + '?action=test_connection';
+                const response = await fetch(testUrl);
+                const contentType = response.headers.get('content-type');
+
+                console.log('응답 상태:', response.status);
+                console.log('Content-Type:', contentType);
+
+                // JSON 응답인지 확인
+                if (!contentType || !contentType.includes('application/json')) {
+                    const text = await response.text();
+                    console.error('응답 내용:', text.substring(0, 500));
+                    
+                    if (text.includes('<!DOCTYPE') || text.includes('<html')) {
+                        showResult(false, `
+                            <h3><span class="status-indicator error"></span> HTML 페이지가 반환되었습니다</h3>
+                            <p><strong>원인:</strong> PHP 파일이 실행되지 않거나 파일이 없습니다.</p>
+                            <ul>
+                                <li>api.php 파일이 올바른 위치에 업로드되었는지 확인</li>
+                                <li>파일 권한: 644 또는 755</li>
+                                <li>PHP가 활성화되어 있는지 확인</li>
+                            </ul>
+                            <div class="code-block">${text.substring(0, 200).replace(/</g, '&lt;').replace(/>/g, '&gt;')}...</div>
+                        `);
+                    } else {
+                        showResult(false, `
+                            <h3><span class="status-indicator error"></span> JSON 응답이 아닙니다</h3>
+                            <p>서버 응답: ${text.substring(0, 200)}</p>
+                        `);
+                    }
+                    return;
+                }
+
+                const data = await response.json();
+                console.log('응답 데이터:', data);
+
+                if (data.success) {
+                    successUrl = apiUrl;
+                    updateConfigCode(apiUrl);
+                    showResult(true, `
+                        <h3><span class="status-indicator success"></span> 연결 성공!</h3>
+                        <p><strong>데이터베이스:</strong> ${data.database}</p>
+                        <p><strong>서버 정보:</strong> ${data.server_info || 'N/A'}</p>
+                        <p style="margin-top: 16px; color: #059669;">
+                            ✅ 이 URL이 올바릅니다. 아래 코드를 복사하여 js/api.js 파일에 붙여넣으세요.
+                        </p>
+                    `);
+                } else {
+                    showResult(false, `
+                        <h3><span class="status-indicator error"></span> 연결 실패</h3>
+                        <p><strong>오류:</strong> ${data.error}</p>
+                    `);
+                }
+
+            } catch (error) {
+                console.error('테스트 오류:', error);
+                showResult(false, `
+                    <h3><span class="status-indicator error"></span> 연결 실패</h3>
+                    <p><strong>오류:</strong> ${error.message}</p>
+                    <ul>
+                        <li>URL이 올바른지 확인하세요</li>
+                        <li>CORS 설정을 확인하세요</li>
+                        <li>api.php 파일이 업로드되었는지 확인하세요</li>
+                    </ul>
+                `);
+            }
+        }
+
+        async function tryCommonPaths() {
+            const baseUrls = [
+                'https://www.visualhub.co.kr/api.php',
+                'https://www.visualhub.co.kr/db_add/api.php',
+                'https://www.visualhub.co.kr/sds_db/api.php',
+                '/sds_db/api.php',
+                './api.php',
+                '../api.php',
+                '/api.php'
+            ];
+
+            const resultDiv = document.getElementById('testResult');
+            resultDiv.innerHTML = '<p><span class="status-indicator pending"></span> 여러 경로를 시도하는 중...</p>';
+            resultDiv.className = 'result show';
+
+            for (const url of baseUrls) {
+                try {
+                    const testUrl = url + '?action=test_connection';
+                    const response = await fetch(testUrl);
+                    const contentType = response.headers.get('content-type');
+
+                    if (contentType && contentType.includes('application/json')) {
+                        const data = await response.json();
+                        if (data.success) {
+                            document.getElementById('apiUrl').value = url;
+                            successUrl = url;
+                            updateConfigCode(url);
+                            showResult(true, `
+                                <h3><span class="status-indicator success"></span> 경로를 찾았습니다!</h3>
+                                <p><strong>발견된 URL:</strong> ${url}</p>
+                                <p><strong>데이터베이스:</strong> ${data.database}</p>
+                                <p style="margin-top: 16px; color: #059669;">
+                                    ✅ 위 URL이 자동으로 입력되었습니다. 아래 코드를 복사하세요.
+                                </p>
+                            `);
+                            return;
+                        }
+                    }
+                } catch (error) {
+                    // 다음 경로 시도
+                    continue;
+                }
+            }
+
+            showResult(false, `
+                <h3><span class="status-indicator error"></span> 경로를 찾을 수 없습니다</h3>
+                <p>다음 경로를 모두 시도했지만 연결할 수 없었습니다:</p>
+                <ul>
+                    ${baseUrls.map(url => '<li>' + url + '</li>').join('')}
+                </ul>
+                <p style="margin-top: 16px;"><strong>해결 방법:</strong></p>
+                <ul>
+                    <li>api.php 파일이 FTP에 업로드되었는지 확인</li>
+                    <li>파일이 있는 정확한 경로를 수동으로 입력 후 테스트</li>
+                    <li>브라우저에서 직접 URL 접속하여 확인</li>
+                </ul>
+            `);
+        }
+
+        function showResult(success, message) {
+            const resultDiv = document.getElementById('testResult');
+            resultDiv.className = 'result show' + (success ? '' : ' error');
+            resultDiv.innerHTML = message;
+        }
+
+        function updateConfigCode(url) {
+            const codeBlock = document.getElementById('configCode');
+            codeBlock.textContent = `const API_BASE_URL = '${url}';`;
+        }
+
+        function copyCode() {
+            const codeBlock = document.getElementById('configCode');
+            const text = codeBlock.textContent;
+
+            navigator.clipboard.writeText(text).then(() => {
+                alert('✅ 코드가 클립보드에 복사되었습니다!\n\njs/api.js 파일의 6번째 줄에 붙여넣으세요.');
+            }).catch(err => {
+                alert('❌ 복사 실패. 코드를 수동으로 복사하세요.');
+                console.error('복사 오류:', err);
+            });
+        }
+
+        // 페이지 로드 시 URL 파라미터 확인
+        window.addEventListener('DOMContentLoaded', () => {
+            const params = new URLSearchParams(window.location.search);
+            const urlParam = params.get('url');
+            if (urlParam) {
+                document.getElementById('apiUrl').value = urlParam;
+            }
+        });
+    </script>
+</body>
+</html>
