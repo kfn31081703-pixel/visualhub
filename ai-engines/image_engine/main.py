@@ -10,6 +10,20 @@ from datetime import datetime
 from openai import OpenAI
 from PIL import Image
 from io import BytesIO
+from pathlib import Path
+
+# Load .env file from backend-api
+def load_env_file():
+    env_path = Path(__file__).parent.parent.parent / "backend-api" / ".env"
+    if env_path.exists():
+        with open(env_path) as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith('#') and '=' in line:
+                    key, value = line.split('=', 1)
+                    if not os.getenv(key):
+                        os.environ[key] = value
+load_env_file()
 
 app = FastAPI(
     title="TOONVERSE Image Engine",
@@ -27,9 +41,14 @@ app.add_middleware(
 )
 
 # OpenAI 클라이언트 초기화
+api_key = os.getenv("OPENAI_API_KEY")
 client = None
-if os.getenv("OPENAI_API_KEY"):
-    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+if api_key:
+    print(f"🔑 OpenAI API Key found (length: {len(api_key)})")
+    client = OpenAI(api_key=api_key)
+    print("✅ OpenAI Client initialized successfully")
+else:
+    print("❌ OPENAI_API_KEY not found in environment")
 
 # 이미지 저장 디렉토리
 STORAGE_DIR = os.getenv("IMAGE_STORAGE_DIR", "/var/www/toonverse/webapp/storage/images")
