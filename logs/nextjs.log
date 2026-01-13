@@ -1,0 +1,1831 @@
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+Error: EACCES: permission denied, unlink '/var/www/toonverse/webapp/frontend/.next/app-build-manifest.json'
+    at async Object.unlink (node:internal/fs/promises:1070:10)
+    at async unlinkPath (/var/www/toonverse/webapp/frontend/node_modules/next/dist/lib/recursive-delete.js:25:13)
+    at async Promise.all (index 0)
+    at async recursiveDelete (/var/www/toonverse/webapp/frontend/node_modules/next/dist/lib/recursive-delete.js:51:5)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async HotReloaderWebpack.start (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/dev/hot-reloader-webpack.js:612:9)
+    at async startWatcher (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:156:5)
+    at async setupDevBundler (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:775:20)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async initialize (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-server.js:81:30) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'unlink',
+  path: '/var/www/toonverse/webapp/frontend/.next/app-build-manifest.json'
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+Error: EACCES: permission denied, unlink '/var/www/toonverse/webapp/frontend/.next/app-build-manifest.json'
+    at async Object.unlink (node:internal/fs/promises:1070:10)
+    at async unlinkPath (/var/www/toonverse/webapp/frontend/node_modules/next/dist/lib/recursive-delete.js:25:13)
+    at async Promise.all (index 0)
+    at async recursiveDelete (/var/www/toonverse/webapp/frontend/node_modules/next/dist/lib/recursive-delete.js:51:5)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async HotReloaderWebpack.start (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/dev/hot-reloader-webpack.js:612:9)
+    at async startWatcher (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:156:5)
+    at async setupDevBundler (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:775:20)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async initialize (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-server.js:81:30) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'unlink',
+  path: '/var/www/toonverse/webapp/frontend/.next/app-build-manifest.json'
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 39.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 87.2s (562 modules)
+ GET / 200 in 92688ms
+ ✓ Compiled in 7.1s (271 modules)
+ GET / 200 in 2996ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /gallery in 74.8s (314 modules)
+ ✓ Compiled in 6.2s (265 modules)
+ GET /gallery 200 in 19734ms
+ GET /favicon.ico 200 in 428ms
+ GET /gallery 200 in 596ms
+ GET /favicon.ico 200 in 201ms
+ ○ Compiling /webtoon/[id] ...
+ ✓ Compiled /admin/projects in 23.8s (640 modules)
+ GET /admin/projects 200 in 16836ms
+ GET /favicon.ico 200 in 404ms
+ GET /favicon.ico 200 in 12ms
+ GET /favicon.ico 200 in 407ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 34.2s (654 modules)
+ GET /favicon.ico 200 in 603ms
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 24s
+ ○ Compiling / ...
+ ✓ Compiled / in 35s (553 modules)
+ ✓ Compiled in 6.3s (271 modules)
+ GET / 200 in 1296ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 16.3s (564 modules)
+ GET /admin 200 in 19743ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /admin/dashboard ...
+ ✓ Compiled /admin/dashboard in 2.6s (328 modules)
+ ✓ Compiled in 5.6s (276 modules)
+ GET /favicon.ico 200 in 11837ms
+ GET /favicon.ico 200 in 386ms
+ GET / 200 in 1997ms
+ GET /favicon.ico 200 in 313ms
+ ○ Compiling /gallery ...
+ ✓ Compiled /gallery in 4s (628 modules)
+ GET /gallery 200 in 5919ms
+ GET /favicon.ico 200 in 220ms
+ GET /admin 200 in 510ms
+ GET /favicon.ico 200 in 2895ms
+ GET /favicon.ico 200 in 104ms
+ ○ Compiling /admin/projects ...
+ ✓ Compiled /admin/projects in 5s (646 modules)
+ GET /favicon.ico 200 in 202ms
+ ○ Compiling /admin/projects/[id] ...
+ ✓ Compiled /admin/projects/[id] in 8.3s (656 modules)
+ GET /admin/projects/8 200 in 14922ms
+ GET /favicon.ico 200 in 805ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 19.7s (674 modules)
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 20.2s
+ ○ Compiling / ...
+ ✓ Compiled /admin in 53.9s (582 modules)
+ GET /admin 200 in 47109ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /admin/dashboard ...
+ ✓ Compiled /admin/dashboard in 9.3s (330 modules)
+ ✓ Compiled in 8.6s (278 modules)
+ GET /favicon.ico 200 in 23079ms
+ GET /favicon.ico 200 in 610ms
+ GET / 200 in 2113ms
+ GET /favicon.ico 200 in 295ms
+ ○ Compiling /gallery ...
+ ✓ Compiled /gallery in 6.1s (632 modules)
+ GET /favicon.ico 200 in 488ms
+ ○ Compiling /admin/projects ...
+ ✓ Compiled /admin/projects in 7.1s (650 modules)
+ GET /favicon.ico 200 in 400ms
+ ○ Compiling /admin/projects/[id] ...
+ ✓ Compiled /admin/projects/[id] in 14.5s (621 modules)
+ GET /admin/projects/9 200 in 23540ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 3.4s (357 modules)
+ GET /favicon.ico 200 in 6208ms
+ GET / 200 in 2002ms
+ ✓ Compiled in 9.7s (310 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /admin/projects/9 200 in 1612ms
+ ✓ Compiled in 4.6s (310 modules)
+ GET /favicon.ico 200 in 3305ms
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 23.7s
+ ○ Compiling /gallery ...
+ ✓ Compiled /gallery in 42.2s (557 modules)
+ ✓ Compiled in 7.9s (273 modules)
+ GET /gallery 200 in 1504ms
+ ○ Compiling / ...
+ ✓ Compiled / in 11.5s (557 modules)
+ GET / 200 in 14838ms
+ ○ Compiling /favicon.ico ...
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ✓ Compiled /favicon.ico in 3.5s (324 modules)
+ GET /favicon.ico 200 in 5108ms
+ GET /gallery 200 in 1904ms
+ GET /favicon.ico 200 in 303ms
+ ○ Compiling /webtoon/[id] ...
+ ✓ Compiled /webtoon/[id] in 13s (599 modules)
+ GET /webtoon/1 200 in 21623ms
+ GET /favicon.ico 200 in 404ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 9.4s (626 modules)
+ GET /admin 200 in 11728ms
+ GET /favicon.ico 200 in 307ms
+ ○ Compiling /admin/dashboard ...
+ ✓ Compiled /admin/dashboard in 7.1s (642 modules)
+ GET /favicon.ico 200 in 595ms
+ ○ Compiling /admin/projects ...
+ ✓ Compiled /admin/projects in 7.7s (660 modules)
+ GET /admin/projects 200 in 10032ms
+ GET /favicon.ico 200 in 298ms
+ GET /webtoon/10 200 in 1388ms
+ GET /favicon.ico 200 in 511ms
+ GET / 200 in 984ms
+ GET /gallery 200 in 1919ms
+ GET /favicon.ico 200 in 386ms
+ ○ Compiling /webtoon/[id]/episode/[episodeId] ...
+ ✓ Compiled /webtoon/[id]/episode/[episodeId] in 16s (674 modules)
+ GET /favicon.ico 200 in 199ms
+ ○ Compiling /admin/jobs ...
+ ✓ Compiled /admin/jobs in 8.5s (684 modules)
+ GET /favicon.ico 200 in 400ms
+ GET /favicon.ico 200 in 384ms
+ GET /favicon.ico 200 in 305ms
+ GET /favicon.ico 200 in 207ms
+ GET /favicon.ico 200 in 496ms
+ GET /favicon.ico 200 in 783ms
+ GET /favicon.ico 200 in 781ms
+ GET /favicon.ico 200 in 310ms
+ ✓ Compiled in 18.2s (645 modules)
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 21.4s
+ ○ Compiling /gallery ...
+ ✓ Compiled /gallery in 48.2s (557 modules)
+ GET /gallery 200 in 52214ms
+ ✓ Compiled in 7.3s (273 modules)
+ GET /gallery 200 in 994ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 5s (316 modules)
+ GET /favicon.ico 200 in 6410ms

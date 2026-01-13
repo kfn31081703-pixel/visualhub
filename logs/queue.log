@@ -1,0 +1,78 @@
+  2026-01-12 20:05:04 App\Jobs\RunFullPipelineJob .................... RUNNING
+  2026-01-12 20:05:04 App\Jobs\RunTextScriptJob ...................... RUNNING
+  2026-01-12 20:05:04 App\Jobs\RunTextScriptJob ................. 32.90ms DONE
+  2026-01-12 20:05:04 App\Jobs\RunDirectorJob ........................ RUNNING
+  2026-01-12 20:05:04 App\Jobs\RunDirectorJob ................... 51.73ms DONE
+  2026-01-12 20:05:04 App\Jobs\RunImageJob ........................... RUNNING
+  2026-01-12 20:05:04 App\Jobs\RunImageJob ..................... 445.94ms FAIL
+  2026-01-12 20:05:04 App\Jobs\RunFullPipelineJob .............. 457.23ms FAIL
+  2026-01-12 20:06:58 App\Jobs\RunFullPipelineJob .................... RUNNING
+  2026-01-12 20:06:58 App\Jobs\RunTextScriptJob ...................... RUNNING
+  2026-01-12 20:06:58 App\Jobs\RunTextScriptJob ................. 42.01ms DONE
+  2026-01-12 20:06:58 App\Jobs\RunDirectorJob ........................ RUNNING
+  2026-01-12 20:06:58 App\Jobs\RunDirectorJob ................... 27.32ms DONE
+  2026-01-12 20:06:58 App\Jobs\RunImageJob ........................... RUNNING
+  2026-01-12 20:06:58 App\Jobs\RunImageJob ..................... 401.50ms DONE
+  2026-01-12 20:06:58 App\Jobs\RunFullPipelineJob .............. 406.49ms DONE
+  2026-01-12 20:16:01 App\Jobs\RunFullPipelineJob .................... RUNNING
+  2026-01-12 20:16:01 App\Jobs\RunTextScriptJob ...................... RUNNING
+  2026-01-12 20:16:01 App\Jobs\RunTextScriptJob ................. 42.77ms DONE
+  2026-01-12 20:16:01 App\Jobs\RunDirectorJob ........................ RUNNING
+  2026-01-12 20:16:01 App\Jobs\RunDirectorJob ................... 18.44ms DONE
+  2026-01-12 20:16:01 App\Jobs\RunImageJob ........................... RUNNING
+  2026-01-12 20:16:02 App\Jobs\RunImageJob ..................... 185.02ms DONE
+  2026-01-12 20:16:02 App\Jobs\RunLetteringJob ....................... RUNNING
+  2026-01-12 20:16:02 App\Jobs\RunLetteringJob ................. 287.07ms DONE
+  2026-01-12 20:16:02 App\Jobs\RunPackagingJob ....................... RUNNING
+  2026-01-12 20:16:02 App\Jobs\RunPackagingJob .................. 19.90ms FAIL
+  2026-01-12 20:16:02 App\Jobs\RunFullPipelineJob ............... 60.86ms FAIL
+  2026-01-12 20:18:44 App\Jobs\RunTextScriptJob ...................... RUNNING
+  2026-01-12 20:18:44 App\Jobs\RunTextScriptJob ................. 65.20ms DONE
+  2026-01-12 20:23:02 App\Jobs\RunFullPipelineJob .................... RUNNING
+  2026-01-12 20:23:02 App\Jobs\RunTextScriptJob ...................... RUNNING
+  2026-01-12 20:23:02 App\Jobs\RunTextScriptJob ................. 31.81ms DONE
+  2026-01-12 20:23:02 App\Jobs\RunDirectorJob ........................ RUNNING
+  2026-01-12 20:23:02 App\Jobs\RunDirectorJob ................... 21.63ms DONE
+  2026-01-12 20:23:03 App\Jobs\RunImageJob ........................... RUNNING
+  2026-01-12 20:23:03 App\Jobs\RunImageJob ..................... 168.11ms DONE
+  2026-01-12 20:23:03 App\Jobs\RunLetteringJob ....................... RUNNING
+  2026-01-12 20:23:03 App\Jobs\RunLetteringJob ................. 245.97ms DONE
+  2026-01-12 20:23:03 App\Jobs\RunPackagingJob ....................... RUNNING
+  2026-01-12 20:23:03 App\Jobs\RunPackagingJob .................. 17.07ms FAIL
+  2026-01-12 20:23:03 App\Jobs\RunFullPipelineJob ............... 27.07ms FAIL
+  2026-01-12 20:26:20 App\Jobs\RunFullPipelineJob .................... RUNNING
+  2026-01-12 20:26:20 App\Jobs\RunTextScriptJob ...................... RUNNING
+  2026-01-12 20:26:20 App\Jobs\RunTextScriptJob ................. 30.14ms DONE
+  2026-01-12 20:26:21 App\Jobs\RunDirectorJob ........................ RUNNING
+  2026-01-12 20:26:21 App\Jobs\RunDirectorJob ................... 20.93ms DONE
+  2026-01-12 20:26:21 App\Jobs\RunImageJob ........................... RUNNING
+  2026-01-12 20:26:21 App\Jobs\RunImageJob ..................... 126.97ms DONE
+  2026-01-12 20:26:21 App\Jobs\RunLetteringJob ....................... RUNNING
+  2026-01-12 20:26:21 App\Jobs\RunLetteringJob ................. 158.05ms DONE
+  2026-01-12 20:26:21 App\Jobs\RunPackagingJob ....................... RUNNING
+  2026-01-12 20:26:21 App\Jobs\RunPackagingJob ................. 222.95ms DONE
+  2026-01-12 20:26:21 App\Jobs\RunFullPipelineJob .............. 329.01ms DONE
+  2026-01-12 20:29:11 App\Jobs\RunFullPipelineJob .................... RUNNING
+  2026-01-12 20:29:11 App\Jobs\RunTextScriptJob ...................... RUNNING
+  2026-01-12 20:29:11 App\Jobs\RunTextScriptJob ................. 32.24ms DONE
+  2026-01-12 20:29:11 App\Jobs\RunDirectorJob ........................ RUNNING
+  2026-01-12 20:29:11 App\Jobs\RunDirectorJob ................... 24.91ms DONE
+  2026-01-12 20:29:11 App\Jobs\RunImageJob ........................... RUNNING
+  2026-01-12 20:29:11 App\Jobs\RunImageJob ...................... 90.85ms DONE
+  2026-01-12 20:29:12 App\Jobs\RunLetteringJob ....................... RUNNING
+  2026-01-12 20:29:12 App\Jobs\RunLetteringJob ................. 112.00ms DONE
+  2026-01-12 20:29:12 App\Jobs\RunPackagingJob ....................... RUNNING
+  2026-01-12 20:29:12 App\Jobs\RunPackagingJob ................. 129.68ms DONE
+  2026-01-12 20:29:12 App\Jobs\RunFullPipelineJob .............. 235.56ms DONE
+  2026-01-13 00:45:43 App\Jobs\RunFullPipelineJob .................... RUNNING
+  2026-01-13 00:45:43 App\Jobs\RunTextScriptJob ...................... RUNNING
+  2026-01-13 00:45:43 App\Jobs\RunTextScriptJob ................. 40.77ms DONE
+  2026-01-13 00:45:43 App\Jobs\RunDirectorJob ........................ RUNNING
+  2026-01-13 00:45:43 App\Jobs\RunDirectorJob ................... 16.28ms DONE
+  2026-01-13 00:45:43 App\Jobs\RunImageJob ........................... RUNNING
+  2026-01-13 00:45:43 App\Jobs\RunImageJob ..................... 117.98ms DONE
+  2026-01-13 00:45:43 App\Jobs\RunLetteringJob ....................... RUNNING
+  2026-01-13 00:45:44 App\Jobs\RunLetteringJob ................. 160.11ms DONE
+  2026-01-13 00:45:44 App\Jobs\RunPackagingJob ....................... RUNNING
+  2026-01-13 00:45:44 App\Jobs\RunPackagingJob ................. 185.54ms DONE
+  2026-01-13 00:45:44 App\Jobs\RunFullPipelineJob .............. 294.31ms DONE

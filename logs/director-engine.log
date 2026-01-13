@@ -1,0 +1,3052 @@
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+INFO:     Uvicorn running on http://0.0.0.0:8002 (Press CTRL+C to quit)
+INFO:     Started reloader process [19168] using WatchFiles
+INFO:     Started server process [19181]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:58158 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56780 - "POST /engine/director/storyboard HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [19181]
+INFO:     Stopping reloader process [19168]
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+INFO:     Uvicorn running on http://0.0.0.0:8002 (Press CTRL+C to quit)
+INFO:     Started reloader process [20318] using WatchFiles
+INFO:     Started server process [20332]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [20332]
+INFO:     Stopping reloader process [20318]
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+INFO:     Uvicorn running on http://0.0.0.0:8002 (Press CTRL+C to quit)
+INFO:     Started reloader process [22753] using WatchFiles
+INFO:     Started server process [22777]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:49932 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35662 - "POST /engine/director/storyboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34728 - "POST /engine/director/storyboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34862 - "POST /engine/director/storyboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39332 - "POST /engine/director/storyboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57216 - "POST /engine/director/storyboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41846 - "POST /engine/director/storyboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53980 - "POST /engine/director/storyboard HTTP/1.1" 200 OK
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
+============================================================
+🎬 TOONVERSE Director Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8002
+📚 Docs: http://0.0.0.0:8002/docs
+🔍 Health: http://0.0.0.0:8002/health
+🔑 OpenAI API: ❌ Not Configured (using dummy data)
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/director_engine']
+ERROR:    [Errno 98] Address already in use
