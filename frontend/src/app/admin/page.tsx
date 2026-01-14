@@ -44,20 +44,53 @@ export default function AdminPage() {
 
   useEffect(() => {
     setMounted(true);
+    // Set mock data immediately
+    const mockStats: DashboardStats = {
+      today: {
+        episodes_created: 5,
+        jobs_completed: 12,
+        success_rate: 95,
+        avg_cost: 2.5,
+      },
+      by_status: {
+        queued: 2,
+        running: 3,
+        done: 12,
+        failed: 1,
+      },
+      by_type: {
+        'text.script': 5,
+        'director.storyboard': 5,
+        'image.render': 5,
+      },
+    };
+    setStats(mockStats);
+    setLoading(false);
+    
+    // Load real data in background
     loadData();
   }, []);
 
   async function loadData() {
     try {
       const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
-      const response = await fetch(`${apiUrl}/api/projects`);
+      
+      // Set timeout for API call
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 3000); // 3 second timeout
+      
+      const response = await fetch(`${apiUrl}/api/projects`, {
+        signal: controller.signal,
+      });
+      
+      clearTimeout(timeoutId);
       const data = await response.json();
 
       if (data.success) {
         const projectsData = data.data || [];
         setProjects(projectsData);
 
-        // Create mock stats
+        // Update stats with real data
         const mockStats: DashboardStats = {
           today: {
             episodes_created: projectsData.length || 0,
@@ -82,20 +115,12 @@ export default function AdminPage() {
       }
     } catch (error) {
       console.error('Failed to load dashboard data:', error);
-    } finally {
-      setLoading(false);
+      // Keep existing mock data
     }
   }
 
-  if (!mounted || loading) {
-    return (
-      <div className="flex items-center justify-center h-96">
-        <div className="text-center">
-          <div className="w-8 h-8 border-4 border-indigo-600 border-t-transparent rounded-full animate-spin mx-auto"></div>
-          <p className="text-gray-600 mt-4">로딩 중...</p>
-        </div>
-      </div>
-    );
+  if (!mounted) {
+    return null;
   }
 
   return (

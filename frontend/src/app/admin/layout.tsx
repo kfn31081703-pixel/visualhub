@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Home, FolderOpen, FileText, Activity, LayoutDashboard, LogOut, Share2 } from 'lucide-react';
+import { Home, FolderOpen, Activity, LayoutDashboard, LogOut, Share2 } from 'lucide-react';
 
 const navigation = [
   { name: '대시보드', href: '/admin', icon: LayoutDashboard },
@@ -11,13 +11,31 @@ const navigation = [
   { name: 'SNS 홍보', href: '/admin/sns', icon: Share2 },
 ];
 
+function NavItem({ item }: { item: typeof navigation[0] }) {
+  const pathname = usePathname();
+  const Icon = item.icon;
+  const isActive = pathname === item.href;
+  
+  return (
+    <Link
+      href={item.href}
+      className={`flex items-center space-x-3 px-4 py-3 rounded-lg transition-colors ${
+        isActive
+          ? 'bg-indigo-50 text-indigo-600 font-medium'
+          : 'text-gray-700 hover:bg-gray-50'
+      }`}
+    >
+      <Icon className="w-5 h-5" />
+      <span>{item.name}</span>
+    </Link>
+  );
+}
+
 export default function AdminLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const pathname = usePathname();
-
   return (
     <div className="min-h-screen bg-gray-100">
       {/* Top Navigation */}
@@ -43,26 +61,11 @@ export default function AdminLayout({
       <div className="flex">
         {/* Sidebar */}
         <aside className="w-64 bg-white shadow-md min-h-[calc(100vh-4rem)]">
-          <nav className="p-4 space-y-2">
-            {navigation.map((item) => {
-              const Icon = item.icon;
-              const isActive = pathname === item.href;
-              return (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  className={`flex items-center space-x-3 px-4 py-3 rounded-lg transition-colors ${
-                    isActive
-                      ? 'bg-indigo-50 text-indigo-600 font-medium'
-                      : 'text-gray-700 hover:bg-gray-50'
-                  }`}
-                >
-                  <Icon className="w-5 h-5" />
-                  <span>{item.name}</span>
-                </Link>
-              );
-            })}
-          </nav>
+          <div className="p-4 space-y-2">
+            {navigation.map((item) => (
+              <NavItem key={item.name} item={item} />
+            ))}
+          </div>
         </aside>
 
         {/* Main Content */}
