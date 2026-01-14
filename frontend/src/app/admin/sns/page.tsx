@@ -41,22 +41,58 @@ interface Statistics {
   };
 }
 
+// Mock data
+const mockStatistics: Statistics = {
+  total: 8,
+  by_status: {
+    draft: 2,
+    scheduled: 3,
+    posted: 2,
+    failed: 1,
+  },
+  by_platform: {
+    twitter: 3,
+    facebook: 3,
+    instagram: 2,
+  },
+};
+
+const mockPosts: SnsPost[] = [
+  {
+    id: 1,
+    episode_id: 1,
+    platform: 'twitter',
+    content: '새로운 에피소드가 업로드되었습니다! #웹툰',
+    image_url: null,
+    post_url: null,
+    post_id: null,
+    status: 'scheduled',
+    scheduled_at: '2026-01-15T10:00:00Z',
+    posted_at: null,
+    created_at: '2026-01-14T08:00:00Z',
+    episode: {
+      id: 1,
+      episode_number: 1,
+      title: '각성의 시작',
+      project: {
+        title: '악당이지만 정의로운',
+      },
+    },
+  },
+];
+
 export default function SnsManagementPage() {
-  const [mounted, setMounted] = useState(false);
-  const [posts, setPosts] = useState<SnsPost[]>([]);
-  const [statistics, setStatistics] = useState<Statistics | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [posts, setPosts] = useState<SnsPost[]>(mockPosts);
+  const [statistics, setStatistics] = useState<Statistics>(mockStatistics);
+  const [loading, setLoading] = useState(false);
   const [filterPlatform, setFilterPlatform] = useState('all');
   const [filterStatus, setFilterStatus] = useState('all');
 
   useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  useEffect(() => {
+    // Load real data in background
     fetchPosts();
     fetchStatistics();
-  }, [filterPlatform, filterStatus]);
+  }, []);
 
   const fetchPosts = async () => {
     try {
@@ -178,7 +214,7 @@ export default function SnsManagementPage() {
     );
   };
 
-  if (!mounted || loading) {
+  if (loading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-indigo-50 to-purple-50 flex items-center justify-center">
         <div className="text-center">

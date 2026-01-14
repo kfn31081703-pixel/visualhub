@@ -2785,3 +2785,122 @@ Retrying 1/3...
  ✓ Starting...
  ✓ Ready in 14.4s
  ○ Compiling / ...
+ ✓ Compiled / in 73.3s (549 modules)
+ ✓ Compiled in 6.7s (268 modules)
+ GET / 200 in 1901ms
+ ○ Compiling /admin/sns ...
+ ✓ Compiled /admin/sns in 41.3s (586 modules)
+ GET /admin/sns 200 in 44022ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 4.8s (331 modules)
+ GET /favicon.ico 200 in 8214ms
+ GET /favicon.ico 200 in 317ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 6.9s (580 modules)
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+  - Experiments (use with caution):
+    · optimizeCss
+
+ ✓ Starting...
+ ✓ Ready in 15.1s
+ ○ Compiling / ...
+ ✓ Compiled / in 72.2s (549 modules)
+ GET / 200 in 7793ms
+ ✓ Compiled in 7.9s (268 modules)
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 119.8s (570 modules)
+ GET /admin 200 in 4304ms
+ GET /admin 200 in 599ms
+ ○ Compiling /admin/sns ...
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ✓ Compiled /favicon.ico in 21.3s (638 modules)
+ ⨯ src/app/admin/sns/page.tsx (217:3) @ SnsManagementPage
+ ⨯ ReferenceError: mounted is not defined
+    at SnsManagementPage (./src/app/admin/sns/page.tsx:215:5)
+digest: "2457170745"
+[0m [90m 215 |[39m   }[33m;[39m[0m
+[0m [90m 216 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 217 |[39m   [36mif[39m ([33m![39mmounted [33m||[39m loading) {[0m
+[0m [90m     |[39m   [31m[1m^[22m[39m[0m
+[0m [90m 218 |[39m     [36mreturn[39m ([0m
+[0m [90m 219 |[39m       [33m<[39m[33mdiv[39m className[33m=[39m[32m"min-h-screen bg-gradient-to-br from-indigo-50 to-purple-50 flex items-center justify-center"[39m[33m>[39m[0m
+[0m [90m 220 |[39m         [33m<[39m[33mdiv[39m className[33m=[39m[32m"text-center"[39m[33m>[39m[0m
+ ⨯ src/app/admin/sns/create/page.tsx (190:3) @ CreateSnsPostPage
+ ⨯ ReferenceError: mounted is not defined
+    at CreateSnsPostPage (./src/app/admin/sns/create/page.tsx:227:5)
+digest: "3437756828"
+[0m [90m 188 |[39m   }[33m;[39m[0m
+[0m [90m 189 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 190 |[39m   [36mif[39m ([33m![39mmounted) {[0m
+[0m [90m     |[39m   [31m[1m^[22m[39m[0m
+[0m [90m 191 |[39m     [36mreturn[39m [36mnull[39m[33m;[39m[0m
+[0m [90m 192 |[39m   }[0m
+[0m [90m 193 |[39m[0m
+ GET /admin 200 in 490ms
+ ⨯ src/app/admin/sns/page.tsx (217:3) @ SnsManagementPage
+ ⨯ ReferenceError: mounted is not defined
+    at SnsManagementPage (./src/app/admin/sns/page.tsx:215:5)
+digest: "2457170745"
+[0m [90m 215 |[39m   }[33m;[39m[0m
+[0m [90m 216 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 217 |[39m   [36mif[39m ([33m![39mmounted [33m||[39m loading) {[0m
+[0m [90m     |[39m   [31m[1m^[22m[39m[0m
+[0m [90m 218 |[39m     [36mreturn[39m ([0m
+[0m [90m 219 |[39m       [33m<[39m[33mdiv[39m className[33m=[39m[32m"min-h-screen bg-gradient-to-br from-indigo-50 to-purple-50 flex items-center justify-center"[39m[33m>[39m[0m
+[0m [90m 220 |[39m         [33m<[39m[33mdiv[39m className[33m=[39m[32m"text-center"[39m[33m>[39m[0m
+ GET /admin/sns 500 in 407ms
+ ⨯ src/app/admin/sns/create/page.tsx (190:3) @ CreateSnsPostPage
+ ⨯ ReferenceError: mounted is not defined
+    at CreateSnsPostPage (./src/app/admin/sns/create/page.tsx:227:5)
+digest: "3437756828"
+[0m [90m 188 |[39m   }[33m;[39m[0m
+[0m [90m 189 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 190 |[39m   [36mif[39m ([33m![39mmounted) {[0m
+[0m [90m     |[39m   [31m[1m^[22m[39m[0m
+[0m [90m 191 |[39m     [36mreturn[39m [36mnull[39m[33m;[39m[0m
+[0m [90m 192 |[39m   }[0m
+[0m [90m 193 |[39m[0m
+ GET /admin/sns/create 500 in 402ms
+ ○ Compiling /admin/sns/accounts ...
+ ✓ Compiled /admin/sns/accounts in 5.3s (648 modules)
+ GET /admin/sns/accounts 200 in 8722ms
+ ○ Compiling /gallery ...
+ ✓ Compiled /_not-found in 15.8s (664 modules)
+ ⨯ src/app/admin/sns/page.tsx (217:3) @ SnsManagementPage
+ ⨯ ReferenceError: mounted is not defined
+    at SnsManagementPage (./src/app/admin/sns/page.tsx:215:5)
+digest: "2457170745"
+[0m [90m 215 |[39m   }[33m;[39m[0m
+[0m [90m 216 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 217 |[39m   [36mif[39m ([33m![39mmounted [33m||[39m loading) {[0m
+[0m [90m     |[39m   [31m[1m^[22m[39m[0m
+[0m [90m 218 |[39m     [36mreturn[39m ([0m
+[0m [90m 219 |[39m       [33m<[39m[33mdiv[39m className[33m=[39m[32m"min-h-screen bg-gradient-to-br from-indigo-50 to-purple-50 flex items-center justify-center"[39m[33m>[39m[0m
+[0m [90m 220 |[39m         [33m<[39m[33mdiv[39m className[33m=[39m[32m"text-center"[39m[33m>[39m[0m
+ GET /admin/sns 500 in 1991ms
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+  - Experiments (use with caution):
+    · optimizeCss
+
+ ✓ Starting...
+ ✓ Ready in 34.9s
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 75s (570 modules)
+ ✓ Compiled in 7.5s (278 modules)
+ GET /admin 200 in 2732ms
+ ○ Compiling /admin/sns ...

@@ -35,93 +35,35 @@ interface Job {
   status: string;
 }
 
+// Mock data
+const mockStats: DashboardStats = {
+  today: {
+    episodes_created: 5,
+    jobs_completed: 12,
+    success_rate: 95,
+    avg_cost: 2.5,
+  },
+  by_status: {
+    queued: 2,
+    running: 3,
+    done: 12,
+    failed: 1,
+  },
+  by_type: {
+    'text.script': 5,
+    'director.storyboard': 5,
+    'image.render': 5,
+  },
+};
+
+const mockProjects: Project[] = [
+  { id: 1, title: '악당이지만 정의로운', genre: '판타지 액션', status: 'active' },
+  { id: 11, title: '테스트 웹툰', genre: 'action', status: 'active' },
+];
+
 export default function AdminPage() {
-  const [mounted, setMounted] = useState(false);
-  const [stats, setStats] = useState<DashboardStats | null>(null);
-  const [projects, setProjects] = useState<Project[]>([]);
-  const [recentJobs, setRecentJobs] = useState<Job[]>([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    setMounted(true);
-    // Set mock data immediately
-    const mockStats: DashboardStats = {
-      today: {
-        episodes_created: 5,
-        jobs_completed: 12,
-        success_rate: 95,
-        avg_cost: 2.5,
-      },
-      by_status: {
-        queued: 2,
-        running: 3,
-        done: 12,
-        failed: 1,
-      },
-      by_type: {
-        'text.script': 5,
-        'director.storyboard': 5,
-        'image.render': 5,
-      },
-    };
-    setStats(mockStats);
-    setLoading(false);
-    
-    // Load real data in background
-    loadData();
-  }, []);
-
-  async function loadData() {
-    try {
-      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
-      
-      // Set timeout for API call
-      const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 3000); // 3 second timeout
-      
-      const response = await fetch(`${apiUrl}/api/projects`, {
-        signal: controller.signal,
-      });
-      
-      clearTimeout(timeoutId);
-      const data = await response.json();
-
-      if (data.success) {
-        const projectsData = data.data || [];
-        setProjects(projectsData);
-
-        // Update stats with real data
-        const mockStats: DashboardStats = {
-          today: {
-            episodes_created: projectsData.length || 0,
-            jobs_completed: 0,
-            success_rate: 95,
-            avg_cost: 2.5,
-          },
-          by_status: {
-            queued: 0,
-            running: 0,
-            done: 0,
-            failed: 0,
-          },
-          by_type: {
-            'text.script': 0,
-            'director.storyboard': 0,
-            'image.render': 0,
-          },
-        };
-
-        setStats(mockStats);
-      }
-    } catch (error) {
-      console.error('Failed to load dashboard data:', error);
-      // Keep existing mock data
-    }
-  }
-
-  if (!mounted) {
-    return null;
-  }
+  const [stats] = useState<DashboardStats>(mockStats);
+  const [projects] = useState<Project[]>(mockProjects);
 
   return (
     <div>

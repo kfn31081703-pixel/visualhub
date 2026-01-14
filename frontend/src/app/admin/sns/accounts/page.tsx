@@ -15,9 +15,33 @@ interface SnsAccount {
   updated_at: string;
 }
 
+// Mock accounts
+const mockAccounts: SnsAccount[] = [
+  {
+    id: 1,
+    platform: 'twitter',
+    account_name: '@ToonverseOfficial',
+    account_id: 'toonverse_official',
+    is_active: true,
+    token_expires_at: '2027-01-14T00:00:00Z',
+    created_at: '2026-01-14T08:00:00Z',
+    updated_at: '2026-01-14T08:00:00Z',
+  },
+  {
+    id: 2,
+    platform: 'facebook',
+    account_name: 'Toonverse Official',
+    account_id: 'toonverse.official',
+    is_active: true,
+    token_expires_at: '2027-01-14T00:00:00Z',
+    created_at: '2026-01-14T08:00:00Z',
+    updated_at: '2026-01-14T08:00:00Z',
+  },
+];
+
 export default function SnsAccountsPage() {
-  const [accounts, setAccounts] = useState<SnsAccount[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [accounts, setAccounts] = useState<SnsAccount[]>(mockAccounts);
+  const [loading, setLoading] = useState(false);
   const [showAddModal, setShowAddModal] = useState(false);
   const [newAccount, setNewAccount] = useState({
     platform: 'twitter',
@@ -27,6 +51,7 @@ export default function SnsAccountsPage() {
   });
 
   useEffect(() => {
+    // Load real accounts in background
     fetchAccounts();
   }, []);
 

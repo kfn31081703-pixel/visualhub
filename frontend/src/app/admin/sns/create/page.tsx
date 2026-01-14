@@ -15,11 +15,26 @@ interface Episode {
   };
 }
 
+// Mock episodes
+const mockEpisodes: Episode[] = [
+  {
+    id: 1,
+    episode_number: 1,
+    title: '각성의 시작',
+    project: { id: 1, title: '악당이지만 정의로운' },
+  },
+  {
+    id: 16,
+    episode_number: 1,
+    title: '첫 번째 에피소드',
+    project: { id: 11, title: '테스트 웹툰' },
+  },
+];
+
 export default function CreateSnsPostPage() {
   const router = useRouter();
-  const [mounted, setMounted] = useState(false);
   const [loading, setLoading] = useState(false);
-  const [episodes, setEpisodes] = useState<Episode[]>([]);
+  const [episodes, setEpisodes] = useState<Episode[]>(mockEpisodes);
   const [formData, setFormData] = useState({
     episode_id: '',
     platform: 'twitter',
@@ -43,7 +58,7 @@ export default function CreateSnsPostPage() {
   });
 
   useEffect(() => {
-    setMounted(true);
+    // Load real episodes in background
     fetchEpisodes();
   }, []);
 
@@ -171,10 +186,6 @@ export default function CreateSnsPostPage() {
       default: return 'border-gray-500 bg-gray-50';
     }
   };
-
-  if (!mounted) {
-    return null;
-  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 to-purple-50 p-8">
