@@ -2904,3 +2904,76 @@ digest: "2457170745"
  ✓ Compiled in 7.5s (278 modules)
  GET /admin 200 in 2732ms
  ○ Compiling /admin/sns ...
+ ✓ Compiled /admin/sns in 105.3s (586 modules)
+ GET /admin 200 in 22443ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 4.2s (340 modules)
+ GET /admin 200 in 1609ms
+ GET /favicon.ico 200 in 105ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 2.9s (621 modules)
+ GET /wordpress/wp-admin/setup-config.php 404 in 1006ms
+ GET /wp-admin/setup-config.php 404 in 599ms
+ ○ Compiling / ...
+ ✓ Compiled / in 10.6s (584 modules)
+ GET / 200 in 10014ms
+ ⚠ Cross origin request detected from toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 1603ms (332 modules)
+ GET /favicon.ico 200 in 3015ms
+ GET /favicon.ico 200 in 304ms
+ ○ Compiling /admin/sns ...
+ ✓ Compiled /admin/sns in 3.4s (348 modules)
+ GET /favicon.ico 200 in 489ms
+ ○ Compiling /admin/sns/create ...
+ ✓ Compiled /admin/sns/create in 7.5s (646 modules)
+ GET /favicon.ico 200 in 205ms
+ GET / 200 in 2404ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 2.8s (649 modules)
+ HEAD /apps 404 in 5116ms
+ HEAD /_next/data 404 in 104ms
+Error: Failed to find Server Action "x". This request might be from an older or newer deployment. 
+    at rC (/var/www/toonverse/webapp/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:40:1694)
+    at rk (/var/www/toonverse/webapp/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:38:6522)
+    at ne (/var/www/toonverse/webapp/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:42:1262)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:43:726
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at Object.wrap (/var/www/toonverse/webapp/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:36:17827)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:43:616
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at Object.wrap (/var/www/toonverse/webapp/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:36:16929)
+    at nt (/var/www/toonverse/webapp/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:43:543)
+    at nb.render (/var/www/toonverse/webapp/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:43:4699)
+    at doRender (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/base-server.js:1427:44)
+    at cacheEntry.responseCache.get.routeKind (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/base-server.js:1588:34)
+    at ResponseCache.get (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/response-cache/index.js:49:26)
+    at DevServer.renderToResponseWithComponentsImpl (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/base-server.js:1496:53)
+ POST / 200 in 696ms
+   Reload env: .env.local
+ ✓ Compiled in 7.3s (614 modules)
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+  - Experiments (use with caution):
+    · optimizeCss
+
+ ✓ Starting...
+ ✓ Ready in 33.8s
+ ○ Compiling / ...
+ ✓ Compiled /admin in 187.5s (603 modules)
+ GET /admin 200 in 1504ms
+ GET /admin/sns 200 in 215ms
+ ○ Compiling /favicon.ico ...
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ✓ Compiled /favicon.ico in 7.1s (340 modules)
+ GET /favicon.ico 200 in 8715ms
+ ✓ Compiled in 8.6s (629 modules)

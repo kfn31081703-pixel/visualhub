@@ -390,7 +390,14 @@ export default function SnsManagementPage() {
                         {post.scheduled_at ? (
                           <div className="flex items-center">
                             <Calendar className="w-4 h-4 mr-2" />
-                            {new Date(post.scheduled_at).toLocaleString('ko-KR')}
+                            {new Date(post.scheduled_at).toLocaleString('ko-KR', {
+                              year: 'numeric',
+                              month: '2-digit',
+                              day: '2-digit',
+                              hour: '2-digit',
+                              minute: '2-digit',
+                              hour12: false
+                            })}
                           </div>
                         ) : (
                           '-'
