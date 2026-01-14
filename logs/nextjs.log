@@ -1915,3 +1915,39 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
  GET /wordpress/wp-admin/setup-config.php 404 in 599ms
  GET / 200 in 941ms
  GET /wp-admin/setup-config.php 404 in 396ms
+ GET /wp-admin/setup-config.php 404 in 899ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 702ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 408ms
+ GET / 200 in 716ms
+ GET / 200 in 602ms
+ GET / 200 in 613ms
+ GET /admin 200 in 608ms
+ GET /favicon.ico 200 in 2209ms
+ GET /favicon.ico 200 in 797ms
+ GET / 200 in 307ms
+ GET /favicon.ico 200 in 216ms
+ GET /wp-admin/setup-config.php 404 in 410ms
+ GET /wp-admin/setup-config.php 404 in 692ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 399ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 301ms
+ GET /robots.txt 404 in 838ms
+ GET / 200 in 596ms
+ GET / 200 in 898ms
+ GET / 200 in 802ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 399ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 297ms
+ GET /wp-admin/setup-config.php 404 in 392ms
+ GET /wp-admin/setup-config.php 404 in 898ms
+ GET /wp-admin/setup-config.php 404 in 400ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 493ms
+ GET /wp-admin/setup-config.php 404 in 220ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 594ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 408ms
+ GET /wp-login.php 404 in 500ms
+ GET /.git/config 404 in 597ms
+ GET / 200 in 400ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 510ms
+ GET /wp-admin/setup-config.php 404 in 697ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 296ms
+ GET /.git/config 404 in 315ms
+ GET /wp-admin/setup-config.php 404 in 497ms

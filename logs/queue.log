@@ -1023,3 +1023,27 @@ Context: {"exception":{}}
   2026-01-14 01:24:46 App\Jobs\RunPackagingJob ....................... RUNNING
   2026-01-14 01:25:13 App\Jobs\RunPackagingJob ...................... 26s DONE
   2026-01-14 01:25:13 App\Jobs\RunFullPipelineJob ................... 27s DONE
+  2026-01-14 02:31:25 App\Jobs\RunFullPipelineJob .................... RUNNING
+  2026-01-14 02:31:25 App\Jobs\RunTextScriptJob ...................... RUNNING
+  2026-01-14 02:31:26 App\Jobs\RunTextScriptJob ................ 790.44ms DONE
+  2026-01-14 02:31:26 App\Jobs\RunDirectorJob ........................ RUNNING
+  2026-01-14 02:31:27 App\Jobs\RunDirectorJob .................. 798.02ms DONE
+  2026-01-14 02:31:27 App\Jobs\RunImageJob ........................... RUNNING
+  2026-01-14 02:34:34 App\Jobs\RunImageJob ........................ 3m 6s DONE
+  2026-01-14 02:34:34 App\Jobs\RunLetteringJob ....................... RUNNING
+  2026-01-14 02:34:47 App\Jobs\RunLetteringJob ...................... 13s DONE
+  2026-01-14 02:34:47 App\Jobs\RunPackagingJob ....................... RUNNING
+  2026-01-14 02:35:01 App\Jobs\RunPackagingJob ...................... 13s DONE
+  2026-01-14 02:35:01 App\Jobs\RunFullPipelineJob ................... 13s DONE
+  2026-01-14 02:35:01 App\Jobs\RunFullPipelineJob .................... RUNNING
+  2026-01-14 02:35:01 App\Jobs\RunTextScriptJob ...................... RUNNING
+  2026-01-14 02:35:01 App\Jobs\RunTextScriptJob ................ 192.63ms DONE
+  2026-01-14 02:35:02 App\Jobs\RunDirectorJob ........................ RUNNING
+  2026-01-14 02:35:02 App\Jobs\RunDirectorJob .................. 311.93ms DONE
+  2026-01-14 02:35:02 App\Jobs\RunImageJob ........................... RUNNING
+  2026-01-14 02:36:15 App\Jobs\RunImageJob ....................... 1m 12s DONE
+  2026-01-14 02:36:15 App\Jobs\RunLetteringJob ....................... RUNNING
+  2026-01-14 02:36:30 App\Jobs\RunLetteringJob ...................... 14s DONE
+  2026-01-14 02:36:30 App\Jobs\RunPackagingJob ....................... RUNNING
+  2026-01-14 02:36:58 App\Jobs\RunPackagingJob ...................... 28s DONE
+  2026-01-14 02:36:59 App\Jobs\RunFullPipelineJob ................... 28s DONE

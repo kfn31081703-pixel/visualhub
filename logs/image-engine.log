@@ -4494,3 +4494,7 @@ INFO:     Started server process [133276]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     127.0.0.1:46888 - "POST /engine/image/generate-batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55476 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33868 - "POST /engine/image/generate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48680 - "POST /engine/image/generate-batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56232 - "POST /engine/image/generate-batch HTTP/1.1" 200 OK
