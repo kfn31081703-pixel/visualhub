@@ -2977,3 +2977,60 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
  ✓ Compiled /favicon.ico in 7.1s (340 modules)
  GET /favicon.ico 200 in 8715ms
  ✓ Compiled in 8.6s (629 modules)
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+  - Experiments (use with caution):
+    · optimizeCss
+
+ ✓ Starting...
+ ✓ Ready in 21s
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 31.8s (570 modules)
+ ✓ Compiled in 6.5s (278 modules)
+ GET /admin 200 in 697ms
+ ○ Compiling /admin/sns/create ...
+ ✓ Compiled /admin/sns/create in 14.3s (582 modules)
+ GET /admin/sns/create 200 in 17694ms
+ ○ Compiling /favicon.ico ...
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ✓ Compiled /favicon.ico in 5.8s (338 modules)
+ GET /favicon.ico 200 in 6818ms
+ ○ Compiling /admin/sns ...
+ ✓ Compiled /admin/sns in 10.3s (583 modules)
+ ○ Compiling /admin/sns/create ...
+ ✓ Compiled /admin/sns/create in 1699ms (307 modules)
+ GET /admin/sns/create 200 in 8418ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 2.4s (339 modules)
+ ⚠ Cross origin request detected from toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET /favicon.ico 200 in 286ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 4.9s (626 modules)
+ GET /wp-admin/setup-config.php 404 in 787ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 404ms
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local, .env
+  - Experiments (use with caution):
+    · optimizeCss
+
+ ✓ Starting...
+ ✓ Ready in 16.5s
+ ○ Compiling /admin/sns/create ...
+ ✓ Compiled /admin/sns/create in 77.2s (580 modules)
+ ✓ Compiled in 7s (283 modules)
+ ○ Compiling /admin/sns ...
+ ✓ Compiled /admin/sns in 22.5s (576 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 8.2s (592 modules)
