@@ -23,13 +23,13 @@ interface Project {
   title: string;
   genre: string;
   status: string;
-  target_country: string;
-  tone: string;
-  target_audience: string;
-  keywords: string[];
-  world_setting: string;
+  target_country: string | null;
+  tone: string | null;
+  target_audience: string | null;
+  keywords: string[] | null;
+  world_setting: string | null;
   created_at: string;
-  episodes: Episode[];
+  episodes: Episode[] | null;
 }
 
 export default function WebtoonDetailPage({ params }: { params: { id: string } }) {
@@ -84,6 +84,7 @@ export default function WebtoonDetailPage({ params }: { params: { id: string } }
     router.push('/gallery');
   };
 
+  // CRITICAL: Guard against all null/undefined cases before any rendering
   if (loading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-amber-50 flex items-center justify-center">
@@ -95,7 +96,7 @@ export default function WebtoonDetailPage({ params }: { params: { id: string } }
     );
   }
 
-  // Guard against null/undefined project
+  // CRITICAL: Must have valid project to continue
   if (error || !project) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-amber-50 flex items-center justify-center p-4">
@@ -117,14 +118,20 @@ export default function WebtoonDetailPage({ params }: { params: { id: string } }
     );
   }
 
-  // Safely extract data with default values - multiple layers of defense
-  const safeProject = project || {};
-  const activeEpisodes = Array.isArray(safeProject.episodes) 
-    ? safeProject.episodes.filter(ep => ep && (ep.status === 'active' || ep.status === 'completed'))
+  // At this point, project is guaranteed to be non-null
+  // Safely extract data with multiple layers of defense
+  const activeEpisodes = Array.isArray(project.episodes) 
+    ? project.episodes.filter(ep => ep && (ep.status === 'active' || ep.status === 'completed'))
     : [];
-  const projectKeywords = Array.isArray(safeProject.keywords) ? safeProject.keywords : [];
-  const projectWorldSetting = safeProject.world_setting || 'N/A';
-  const projectTargetAudience = safeProject.target_audience || 'N/A';
+  const projectKeywords = Array.isArray(project.keywords) ? project.keywords : [];
+  const projectWorldSetting = project.world_setting || 'N/A';
+  const projectTargetAudience = project.target_audience || 'N/A';
+  const projectTitle = project.title || 'Untitled';
+  const projectGenre = project.genre || 'Unknown';
+  const projectStatus = project.status || 'Unknown';
+  const projectTone = project.tone || 'Unknown';
+  const projectTargetCountry = project.target_country || 'Unknown';
+  const projectCreatedAt = project.created_at || null;
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-amber-50">
@@ -155,13 +162,13 @@ export default function WebtoonDetailPage({ params }: { params: { id: string } }
             <div className="md:w-2/3 p-8">
               <div className="flex items-start justify-between mb-4">
                 <div>
-                  <h1 className="text-4xl font-bold text-gray-900 mb-2">{safeProject.title || 'Untitled'}</h1>
+                  <h1 className="text-4xl font-bold text-gray-900 mb-2">{projectTitle}</h1>
                   <div className="flex items-center space-x-3">
                     <span className="px-3 py-1 bg-indigo-100 text-indigo-800 text-sm font-semibold rounded-full">
-                      {safeProject.genre || 'Unknown'}
+                      {projectGenre}
                     </span>
                     <span className="px-3 py-1 bg-green-100 text-green-800 text-sm font-semibold rounded-full">
-                      {safeProject.status === 'active' ? '연재중' : safeProject.status || 'Unknown'}
+                      {projectStatus === 'active' ? '연재중' : projectStatus}
                     </span>
                   </div>
                 </div>
@@ -180,11 +187,11 @@ export default function WebtoonDetailPage({ params }: { params: { id: string } }
                   <div className="text-xs text-gray-600">총 컷 수</div>
                 </div>
                 <div className="text-center p-3 bg-gray-50 rounded-lg">
-                  <div className="text-2xl font-bold text-amber-600">{safeProject.tone || 'Unknown'}</div>
+                  <div className="text-2xl font-bold text-amber-600">{projectTone}</div>
                   <div className="text-xs text-gray-600">톤</div>
                 </div>
                 <div className="text-center p-3 bg-gray-50 rounded-lg">
-                  <div className="text-2xl font-bold text-green-600">{safeProject.target_country || 'Unknown'}</div>
+                  <div className="text-2xl font-bold text-green-600">{projectTargetCountry}</div>
                   <div className="text-xs text-gray-600">대상 국가</div>
                 </div>
               </div>
@@ -217,7 +224,7 @@ export default function WebtoonDetailPage({ params }: { params: { id: string } }
                 <div className="flex items-start">
                   <span className="text-sm font-semibold text-gray-700 w-32">생성일:</span>
                   <span className="text-sm text-gray-600">
-                    {safeProject.created_at ? new Date(safeProject.created_at).toLocaleDateString('ko-KR', {
+                    {projectCreatedAt ? new Date(projectCreatedAt).toLocaleDateString('ko-KR', {
                       year: 'numeric',
                       month: 'long',
                       day: 'numeric'
@@ -304,7 +311,7 @@ export default function WebtoonDetailPage({ params }: { params: { id: string } }
             목록으로
           </button>
           <Link
-            href={`/admin/projects/${safeProject.id || ''}`}
+            href={`/admin/projects/${project.id}`}
             className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition-colors"
           >
             관리자 페이지
