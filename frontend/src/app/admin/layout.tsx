@@ -2,12 +2,13 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Home, FolderOpen, FileText, Activity, LayoutDashboard, LogOut } from 'lucide-react';
+import { Home, FolderOpen, FileText, Activity, LayoutDashboard, LogOut, Share2 } from 'lucide-react';
 
 const navigation = [
   { name: '대시보드', href: '/admin/dashboard', icon: LayoutDashboard },
   { name: '프로젝트', href: '/admin/projects', icon: FolderOpen },
   { name: 'Jobs', href: '/admin/jobs', icon: Activity },
+  { name: 'SNS 홍보', href: '/admin/sns', icon: Share2 },
 ];
 
 export default function AdminLayout({

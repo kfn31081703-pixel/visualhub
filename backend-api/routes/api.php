@@ -6,6 +6,8 @@ use App\Http\Controllers\Api\ProjectController;
 use App\Http\Controllers\Api\EpisodeController;
 use App\Http\Controllers\Api\JobController;
 use App\Http\Controllers\Api\DashboardController;
+use App\Http\Controllers\SnsPostController;
+use App\Http\Controllers\SnsAccountController;
 
 /*
 |--------------------------------------------------------------------------
@@ -38,6 +40,24 @@ Route::post('/jobs/{id}/retry', [JobController::class, 'retry']);
 
 // Dashboard
 Route::get('/dashboard/stats', [DashboardController::class, 'stats']);
+
+// SNS Posts
+Route::get('/sns/posts', [SnsPostController::class, 'index']);
+Route::post('/sns/posts', [SnsPostController::class, 'store']);
+Route::post('/sns/posts/episode', [SnsPostController::class, 'createForEpisode']);
+Route::get('/sns/posts/statistics', [SnsPostController::class, 'statistics']);
+Route::get('/sns/posts/{id}', [SnsPostController::class, 'show']);
+Route::put('/sns/posts/{id}', [SnsPostController::class, 'update']);
+Route::delete('/sns/posts/{id}', [SnsPostController::class, 'destroy']);
+Route::post('/sns/posts/{id}/post-now', [SnsPostController::class, 'postNow']);
+
+// SNS Accounts
+Route::get('/sns/accounts', [SnsAccountController::class, 'index']);
+Route::post('/sns/accounts', [SnsAccountController::class, 'store']);
+Route::get('/sns/accounts/{id}', [SnsAccountController::class, 'show']);
+Route::put('/sns/accounts/{id}', [SnsAccountController::class, 'update']);
+Route::delete('/sns/accounts/{id}', [SnsAccountController::class, 'destroy']);
+Route::post('/sns/accounts/{id}/toggle-active', [SnsAccountController::class, 'toggleActive']);
 
 // Health check
 Route::get('/health', function () {

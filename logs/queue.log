@@ -1047,3 +1047,15 @@ Context: {"exception":{}}
   2026-01-14 02:36:30 App\Jobs\RunPackagingJob ....................... RUNNING
   2026-01-14 02:36:58 App\Jobs\RunPackagingJob ...................... 28s DONE
   2026-01-14 02:36:59 App\Jobs\RunFullPipelineJob ................... 28s DONE
+  2026-01-14 02:58:09 App\Jobs\RunFullPipelineJob .................... RUNNING
+  2026-01-14 02:58:09 App\Jobs\RunTextScriptJob ...................... RUNNING
+  2026-01-14 02:58:09 App\Jobs\RunTextScriptJob ................ 197.44ms DONE
+  2026-01-14 02:58:10 App\Jobs\RunDirectorJob ........................ RUNNING
+  2026-01-14 02:58:10 App\Jobs\RunDirectorJob .................. 309.66ms DONE
+  2026-01-14 02:58:10 App\Jobs\RunImageJob ........................... RUNNING
+  2026-01-14 02:59:15 App\Jobs\RunImageJob ........................ 1m 4s DONE
+  2026-01-14 02:59:15 App\Jobs\RunLetteringJob ....................... RUNNING
+  2026-01-14 02:59:29 App\Jobs\RunLetteringJob ...................... 14s DONE
+  2026-01-14 02:59:30 App\Jobs\RunPackagingJob ....................... RUNNING
+  2026-01-14 02:59:45 App\Jobs\RunPackagingJob ...................... 15s DONE
+  2026-01-14 02:59:45 App\Jobs\RunFullPipelineJob ................... 15s DONE

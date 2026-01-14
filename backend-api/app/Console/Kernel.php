@@ -12,7 +12,10 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule): void
     {
-        // $schedule->command('inspire')->hourly();
+        // Process scheduled SNS posts every 5 minutes
+        $schedule->command('sns:process-scheduled')
+                 ->everyFiveMinutes()
+                 ->withoutOverlapping();
     }
 
     /**

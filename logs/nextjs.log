@@ -1951,3 +1951,626 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
  GET /wordpress/wp-admin/setup-config.php 404 in 296ms
  GET /.git/config 404 in 315ms
  GET /wp-admin/setup-config.php 404 in 497ms
+ GET / 200 in 609ms
+ GET /gallery 200 in 1295ms
+ GET /favicon.ico 200 in 313ms
+ ○ Compiling /webtoon/[id]/episode/[episodeId] ...
+ ✓ Compiled /webtoon/[id] in 22.7s (661 modules)
+ GET /favicon.ico 200 in 596ms
+ HEAD / 200 in 1394ms
+ GET / 200 in 1119ms
+ GET /gallery 200 in 710ms
+ GET /admin 200 in 613ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 7.8s (624 modules)
+ GET / 200 in 1204ms
+ GET / 200 in 893ms
+ GET /gallery 200 in 884ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 4.1s (355 modules)
+ GET /favicon.ico 200 in 5715ms
+ ○ Compiling /webtoon/[id]/episode/[episodeId] ...
+ ✓ Compiled /webtoon/[id]/episode/[episodeId] in 3.6s (363 modules)
+ GET /favicon.ico 200 in 303ms
+ GET /favicon.ico 200 in 500ms
+ GET /favicon.ico 200 in 296ms
+ GET /favicon.ico 200 in 112ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 5.5s (654 modules)
+ HEAD / 200 in 1602ms
+ GET / 200 in 595ms
+ GET /favicon.ico 200 in 501ms
+ GET /favicon.ico 200 in 111ms
+ GET /favicon.ico 200 in 504ms
+ GET /ads.txt 404 in 599ms
+ GET /app-ads.txt 404 in 305ms
+ GET /sellers.json 404 in 610ms
+ GET / 200 in 897ms
+ GET /gallery 200 in 406ms
+ GET /favicon.ico 200 in 589ms
+ GET /favicon.ico 200 in 107ms
+ ○ Compiling /admin/projects/[id] ...
+ ✓ Compiled /admin/projects/[id] in 14.7s (665 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 3.7s (668 modules)
+ GET /webtoon/11/27 404 in 6904ms
+ GET /favicon.ico 200 in 403ms
+ GET /favicon.ico 200 in 102ms
+ GET /robots.txt 404 in 699ms
+ GET / 200 in 614ms
+ GET /gallery 200 in 4503ms
+ GET /favicon.ico 200 in 403ms
+ GET /webtoon/11/27 404 in 294ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 603ms
+ GET /wp-admin/setup-config.php 404 in 709ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 414ms
+ GET /wp-admin/setup-config.php 404 in 598ms
+ ✓ Compiled in 10s (317 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 10.1s (642 modules)
+ ○ Compiling /webtoon/[id]/[episodeId] ...
+ ✓ Compiled /webtoon/[id]/[episodeId] in 9.2s (634 modules)
+ ✓ Compiled in 46.3s (648 modules)
+ GET /webtoon/11/27 200 in 40189ms
+ ✓ Compiled in 8.5s (646 modules)
+ ✓ Compiled in 7.2s (646 modules)
+ ○ Compiling /favicon.ico ...
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 21.4s
+ ○ Compiling /webtoon/[id]/[episodeId] ...
+ ✓ Compiled /webtoon/[id]/[episodeId] in 39.4s (495 modules)
+ ✓ Compiled in 4s (242 modules)
+ GET /webtoon/11/27 200 in 49216ms
+ ○ Compiling /gallery ...
+ ✓ Compiled /gallery in 15s (549 modules)
+ GET /gallery 200 in 17333ms
+ GET /webtoon/11/27 200 in 603ms
+ ○ Compiling /webtoon/[id]/episode/[episodeId] ...
+ ✓ Compiled /webtoon/[id]/episode/[episodeId] in 6.5s (565 modules)
+ GET /webtoon/11/episode/27 200 in 15022ms
+ ○ Compiling /webtoon/[id] ...
+ ✓ Compiled /webtoon/[id] in 6.6s (575 modules)
+ GET /webtoon/11 200 in 12837ms
+ ○ Compiling / ...
+ ✓ Compiled / in 10s (560 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /webtoon/[id]/episode/[episodeId] in 12.8s (565 modules)
+ GET /wp-admin/setup-config.php 404 in 2703ms
+ GET /webtoon/11/episode/27 200 in 15028ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 3.8s (317 modules)
+ GET /favicon.ico 200 in 6112ms
+ ○ Compiling /gallery ...
+ ✓ Compiled /gallery in 5.7s (326 modules)
+ GET /favicon.ico 200 in 492ms
+ GET /wp-admin/setup-config.php 404 in 1617ms
+ GET /wp-admin/setup-config.php 404 in 902ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 500ms
+ GET /favicon.ico 200 in 599ms
+ ○ Compiling / ...
+ ✓ Compiled / in 7.3s (333 modules)
+ GET / 200 in 6730ms
+ GET / 200 in 10435ms
+ GET / 200 in 214ms
+ GET /gallery 200 in 903ms
+ GET /favicon.ico 200 in 708ms
+ GET / 200 in 809ms
+ GET /favicon.ico 200 in 310ms
+ GET / 200 in 413ms
+ GET /webtoon/11/episode/27 200 in 698ms
+ GET /favicon.ico 200 in 515ms
+ ○ Compiling /webtoon/[id] ...
+ ✓ Compiled /webtoon/[id] in 7.9s (331 modules)
+ GET /favicon.ico 200 in 592ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 5.4s (574 modules)
+ GET /robots.txt 404 in 7620ms
+ GET /wp-admin/setup-config.php 404 in 895ms
+ ○ Compiling /admin ...
+ ✓ Compiled /favicon.ico in 13.7s (631 modules)
+ GET /favicon.ico 200 in 7933ms
+ ○ Compiling /webtoon/[id] ...
+ ✓ Compiled /webtoon/[id] in 6.2s (345 modules)
+ GET /gallery 200 in 2002ms
+ GET /favicon.ico 200 in 409ms
+ GET /favicon.ico 200 in 500ms
+ ○ Compiling /admin/projects ...
+ ✓ Compiled /admin/projects in 8.9s (652 modules)
+ GET /favicon.ico 200 in 207ms
+ ○ Compiling /admin/projects/[id] ...
+ ✓ Compiled /_not-found in 11.7s (662 modules)
+ GET /admin/projects/11 200 in 19647ms
+ GET /favicon.ico 200 in 307ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 2807ms
+ ○ Compiling / ...
+ ✓ Compiled / in 6.9s (333 modules)
+ GET / 200 in 9829ms
+ GET / 200 in 308ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 7.8s (630 modules)
+ GET /wordpress/wp-admin/setup-config.php 404 in 1512ms
+ GET /wp-admin/setup-config.php 404 in 699ms
+ GET /robots.txt 404 in 805ms
+ GET /gallery 200 in 1001ms
+ GET /wp-admin/setup-config.php 404 in 994ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 606ms
+ ○ Compiling / ...
+ ✓ Compiled / in 5.8s (334 modules)
+ HEAD / 200 in 7621ms
+ GET / 200 in 307ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 1094ms
+ GET /wp-admin/setup-config.php 404 in 407ms
+ GET / 200 in 703ms
+ GET / 200 in 1110ms
+ GET / 200 in 1299ms
+ ✓ Compiled in 7.2s (316 modules)
+ ✓ Compiled in 4.1s (316 modules)
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 18.2s
+ ○ Compiling /webtoon/[id] ...
+ ✓ Compiled /webtoon/[id] in 33.7s (557 modules)
+ ✓ Compiled in 6.2s (273 modules)
+ GET /webtoon/11 200 in 45005ms
+ ○ Compiling /gallery ...
+ ✓ Compiled /gallery in 12.2s (553 modules)
+ GET /gallery 200 in 14536ms
+ GET /webtoon/11 200 in 997ms
+ ○ Compiling /webtoon/[id]/[episodeId] ...
+ ✓ Compiled /webtoon/[id]/[episodeId] in 3.5s (559 modules)
+ GET /webtoon/11/27 200 in 9118ms
+ ○ Compiling /webtoon/[id]/episode/[episodeId] ...
+ ✓ Compiled /webtoon/[id]/episode/[episodeId] in 9.6s (575 modules)
+ GET /webtoon/11/episode/27 200 in 16841ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 17.9s (559 modules)
+ GET /wordpress/wp-admin/setup-config.php 404 in 394ms
+ GET /wp-admin/setup-config.php 404 in 396ms
+ ○ Compiling /webtoon/[id] ...
+ ✓ Compiled /webtoon/[id] in 4.3s (284 modules)
+ GET /webtoon/11 200 in 7508ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 5.7s (316 modules)
+ GET /favicon.ico 200 in 8431ms
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+Error: EACCES: permission denied, mkdir '/var/www/toonverse/webapp/frontend/.next'
+    at async Object.mkdir (node:internal/fs/promises:858:10)
+    at async HotReloaderWebpack.start (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/dev/hot-reloader-webpack.js:614:9)
+    at async startWatcher (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:156:5)
+    at async setupDevBundler (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:775:20)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async initialize (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-server.js:81:30)
+    at async Server.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:249:36) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'mkdir',
+  path: '/var/www/toonverse/webapp/frontend/.next'
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+Error: EACCES: permission denied, mkdir '/var/www/toonverse/webapp/frontend/.next'
+    at async Object.mkdir (node:internal/fs/promises:858:10)
+    at async HotReloaderWebpack.start (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/dev/hot-reloader-webpack.js:614:9)
+    at async startWatcher (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:156:5)
+    at async setupDevBundler (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:775:20)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async initialize (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-server.js:81:30)
+    at async Server.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:249:36) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'mkdir',
+  path: '/var/www/toonverse/webapp/frontend/.next'
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+Error: EACCES: permission denied, mkdir '/var/www/toonverse/webapp/frontend/.next'
+    at async Object.mkdir (node:internal/fs/promises:858:10)
+    at async HotReloaderWebpack.start (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/dev/hot-reloader-webpack.js:614:9)
+    at async startWatcher (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:156:5)
+    at async setupDevBundler (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:775:20)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async initialize (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-server.js:81:30)
+    at async Server.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:249:36) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'mkdir',
+  path: '/var/www/toonverse/webapp/frontend/.next'
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+Error: EACCES: permission denied, mkdir '/var/www/toonverse/webapp/frontend/.next'
+    at async Object.mkdir (node:internal/fs/promises:858:10)
+    at async HotReloaderWebpack.start (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/dev/hot-reloader-webpack.js:614:9)
+    at async startWatcher (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:156:5)
+    at async setupDevBundler (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:775:20)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async initialize (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-server.js:81:30)
+    at async Server.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:249:36) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'mkdir',
+  path: '/var/www/toonverse/webapp/frontend/.next'
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 17.4s
+ ○ Compiling /admin ...
+ ✓ Compiled / in 185.1s (586 modules)
+ GET /webtoon/11 200 in 183799ms
+ HEAD /webtoon/11 200 in 497ms
+ GET / 200 in 388ms
+ ○ Compiling /gallery ...
+ ✓ Compiled /gallery in 5.2s (594 modules)
+ GET /gallery 200 in 7012ms
+ GET /webtoon/11 200 in 702ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 7.8s (503 modules)
+ GET /wp-login.php 404 in 3617ms
+ GET /wp-admin/setup-config.php 404 in 113ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 290ms
+ ○ Compiling /webtoon/[id] ...
+ ✓ Compiled /webtoon/[id] in 5.5s (284 modules)
+ GET /webtoon/11 200 in 8732ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 7.2s (316 modules)
+ GET /favicon.ico 200 in 8725ms
+ ✓ Compiled in 11.3s (579 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /webtoon/11 200 in 3116ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 2.7s (316 modules)
+ GET /favicon.ico 200 in 4019ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 5.5s (611 modules)
+ GET /webtoon/11 200 in 3614ms
+ GET /favicon.ico 200 in 811ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 5.6s (611 modules)
+ GET /webtoon/11 200 in 3425ms
+ GET /favicon.ico 200 in 1600ms
+ ✓ Compiled in 3.9s (611 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /webtoon/11 200 in 1806ms
+ GET /favicon.ico 200 in 692ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 6.9s (611 modules)
+ GET /webtoon/11 200 in 4118ms
+ GET /favicon.ico 200 in 1107ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 6.2s (611 modules)
+ GET /webtoon/11 200 in 4006ms
+ GET /favicon.ico 200 in 313ms
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 15.1s
+ ○ Compiling /webtoon/[id] ...
+ ✓ Compiled /webtoon/[id] in 72s (566 modules)
+ ✓ Compiled in 7.5s (273 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 6.2s (481 modules)
+ GET /wordpress/wp-admin/setup-config.php 404 in 891ms
+ GET /wp-admin/setup-config.php 404 in 104ms
+ ○ Compiling /about ...
+ ✓ Compiled /about in 9.6s (542 modules)
+ GET /about 200 in 11651ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 6.3s (485 modules)
+ GET /wp-admin/setup-config.php 404 in 501ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 319ms
+ ○ Compiling / ...
+ ✓ Compiled / in 9s (551 modules)
+ GET / 200 in 11729ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 7s (491 modules)
+ ○ Compiling /webtoon/[id] ...
+ ✓ Compiled /webtoon/[id] in 6.5s (284 modules)
+ GET /webtoon/11 200 in 10024ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 6.8s (316 modules)
+ GET /favicon.ico 200 in 8215ms
+ GET /webtoon/11 200 in 1519ms
+ GET /favicon.ico 200 in 102ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 4.4s (588 modules)
+ ○ Compiling /_error ...
+ ⨯ [Error: EACCES: permission denied, open '/var/www/toonverse/webapp/frontend/.next/server/webpack-runtime.js'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'open',
+  path: '/var/www/toonverse/webapp/frontend/.next/server/webpack-runtime.js'
+}
+[Error: EACCES: permission denied, open '/var/www/toonverse/webapp/frontend/.next/server/webpack-runtime.js'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'open',
+  path: '/var/www/toonverse/webapp/frontend/.next/server/webpack-runtime.js'
+}
+[Error: EACCES: permission denied, open '/var/www/toonverse/webapp/frontend/.next/server/webpack-runtime.js'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'open',
+  path: '/var/www/toonverse/webapp/frontend/.next/server/webpack-runtime.js'
+}
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 16.8s
+ ○ Compiling / ...
+request to https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2 failed, reason: 
+
+Retrying 1/3...
+request to https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2 failed, reason: 
+
+Retrying 1/3...
+request to https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2 failed, reason: 
+
+Retrying 1/3...
+request to https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2 failed, reason: 
+
+Retrying 1/3...
+request to https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2 failed, reason: 
+
+Retrying 1/3...
+request to https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2 failed, reason: 
+
+Retrying 1/3...
+request to https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2 failed, reason: 
+
+Retrying 1/3...
+ ✓ Compiled / in 76.2s (562 modules)
+ GET / 200 in 45800ms
+ ✓ Compiled in 7.5s (271 modules)
+ GET / 200 in 84675ms
+ ○ Compiling /webtoon/[id] ...
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 15.6s
+ ○ Compiling /webtoon/[id] ...
+ ✓ Compiled / in 166.9s (567 modules)
+ HEAD /webtoon/11 200 in 8829ms
+ GET /webtoon/11 200 in 490ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 4.2s (330 modules)
+ GET /favicon.ico 200 in 5811ms
+ GET / 200 in 1822ms
+ GET / 200 in 1721ms
+ GET / 200 in 892ms
+ ⚠ Cross origin request detected from toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET /favicon.ico 200 in 206ms
+ GET /favicon.ico 200 in 304ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 8.1s (565 modules)
+ GET /wordpress/wp-admin/setup-config.php 404 in 601ms
+ GET /wp-admin/setup-config.php 404 in 505ms
+ GET /webtoon/11 200 in 2089ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 6.6s (325 modules)
+ GET /favicon.ico 200 in 7940ms
+ ✓ Compiled in 10.2s (576 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /webtoon/11 200 in 3308ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 2.8s (325 modules)
+ GET /favicon.ico 200 in 3998ms
+ ✓ Compiled in 6.4s (608 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /webtoon/11 200 in 2008ms
+ GET /favicon.ico 200 in 1406ms
+ ✓ Compiled in 6.8s (608 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /webtoon/11 200 in 3104ms
+ ✓ Compiled in 5.9s (608 modules)
+ GET /favicon.ico 200 in 1706ms
+ ✓ Compiled in 4.7s (608 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /webtoon/11 200 in 2297ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 8s (608 modules)
+ GET /favicon.ico 200 in 8110ms
+ GET /webtoon/11 200 in 2803ms
+ GET /favicon.ico 200 in 1103ms
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 18.5s
+ ○ Compiling /webtoon/[id] ...
+ ✓ Compiled /webtoon/[id] in 37.5s (557 modules)
+ GET /webtoon/11 200 in 15334ms
+ ✓ Compiled in 5.9s (273 modules)
+ GET /webtoon/11 200 in 7401ms
+ GET /webtoon/11 200 in 1003ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 4.8s (316 modules)
+ GET /favicon.ico 200 in 6232ms
+ ○ Compiling /gallery ...
+ ✓ Compiled /gallery in 6s (585 modules)
+ GET /gallery 200 in 7744ms
+ GET /favicon.ico 200 in 306ms
+ ○ Compiling /webtoon/[id]/episode/[episodeId] ...
+ ✓ Compiled /webtoon/[id]/episode/[episodeId] in 7.8s (601 modules)
+ GET /webtoon/11/episode/27 200 in 14531ms
+ GET /favicon.ico 200 in 488ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 8.5s (572 modules)
+ GET /wordpress/wp-admin/setup-config.php 404 in 278ms
+ GET /wp-admin/setup-config.php 404 in 401ms
+ GET /webtoon/11 200 in 1199ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 6.9s (331 modules)
+ GET /favicon.ico 200 in 8327ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 9.7s (626 modules)
+ GET /admin 200 in 11811ms
+ GET /favicon.ico 200 in 901ms
+ GET /favicon.ico 200 in 599ms
+ GET /gallery 200 in 313ms
+ GET /favicon.ico 200 in 106ms
+ GET /favicon.ico 200 in 102ms
+ ○ Compiling / ...
+ ✓ Compiled / in 9.4s (640 modules)
+ GET /favicon.ico 200 in 196ms
+ GET /favicon.ico 200 in 189ms
+ ○ Compiling /admin/projects ...
+ ✓ Compiled /admin/projects in 6.2s (658 modules)
+ GET /favicon.ico 200 in 24ms
+ ○ Compiling /admin/projects/[id] ...
+ ✓ Compiled /admin/projects/[id] in 19.7s (665 modules)
+ GET /admin/projects/12 200 in 25954ms
+ GET /favicon.ico 200 in 697ms
+ ○ Compiling /_not-found ...
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled /_not-found in 13.4s (628 modules)
+ GET /admin/projects/12 200 in 9310ms
+ GET / 200 in 5212ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 3.6s (358 modules)
+ GET /favicon.ico 200 in 4619ms
+ GET /favicon.ico 200 in 4204ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 19.6s (671 modules)
+ GET /admin/projects/12 200 in 10651ms
+ GET /favicon.ico 200 in 599ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 10s (671 modules)
+ GET /admin/projects/12 200 in 9513ms
+ GET /favicon.ico 200 in 293ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 19.7s (673 modules)
+ GET /admin/projects/12 200 in 17155ms
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 17.4s
+ ○ Compiling /_not-found ...
+ ✓ Compiled / in 71.9s (556 modules)
