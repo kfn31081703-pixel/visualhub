@@ -2,7 +2,7 @@
 
 namespace App\Jobs;
 
-use App\Models\Job;
+use App\Models\Job as EpisodeJob;
 use App\Models\Episode;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -23,7 +23,7 @@ class RunDirectorJob implements ShouldQueue
     /**
      * Create a new job instance.
      */
-    public function __construct(Job $jobModel)
+    public function __construct(EpisodeJob $jobModel)
     {
         $this->jobModel = $jobModel;
     }

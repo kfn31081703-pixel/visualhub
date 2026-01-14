@@ -4467,3 +4467,30 @@ INFO:     Started reloader process [89829] using WatchFiles
 INFO:     Started server process [89855]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [89855]
+INFO:     Stopping reloader process [89829]
+🔑 OpenAI API Key found (length: 167)
+✅ OpenAI Client initialized successfully
+============================================================
+🎨 TOONVERSE Image Engine Starting...
+============================================================
+📍 API URL: http://0.0.0.0:8003
+📚 Docs: http://0.0.0.0:8003/docs
+🔍 Health: http://0.0.0.0:8003/health
+🔑 OpenAI API: ✅ Configured
+💾 Storage: /var/www/toonverse/webapp/storage/images
+============================================================
+INFO:     Will watch for changes in these directories: ['/var/www/toonverse/webapp/ai-engines/image_engine']
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:     Started reloader process [133232] using WatchFiles
+🔑 OpenAI API Key found (length: 167)
+✅ OpenAI Client initialized successfully
+🔑 OpenAI API Key found (length: 167)
+✅ OpenAI Client initialized successfully
+INFO:     Started server process [133276]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:46888 - "POST /engine/image/generate-batch HTTP/1.1" 200 OK

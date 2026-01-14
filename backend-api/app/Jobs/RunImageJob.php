@@ -2,7 +2,7 @@
 
 namespace App\Jobs;
 
-use App\Models\Job;
+use App\Models\Job as EpisodeJob;
 use App\Models\Episode;
 use App\Models\Asset;
 use Illuminate\Bus\Queueable;
@@ -24,7 +24,7 @@ class RunImageJob implements ShouldQueue
     /**
      * Create a new job instance.
      */
-    public function __construct(Job $jobModel)
+    public function __construct(EpisodeJob $jobModel)
     {
         $this->jobModel = $jobModel;
     }

@@ -1861,3 +1861,57 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
  GET /wordpress/wp-admin/setup-config.php 404 in 301ms
  GET /wp-admin/setup-config.php 404 in 691ms
  GET /wp-admin/setup-config.php 404 in 303ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 208ms
+ GET /wp-admin/setup-config.php 404 in 597ms
+ GET /robots.txt 404 in 592ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 407ms
+ ○ Compiling / ...
+ ✓ Compiled / in 4.4s (312 modules)
+ GET / 200 in 6414ms
+ GET /wp-admin/setup-config.php 404 in 304ms
+ GET / 200 in 1110ms
+ GET /admin/projects 200 in 1586ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /admin in 5.1s (343 modules)
+ ✓ Compiled in 8.6s (634 modules)
+ GET /favicon.ico 200 in 19969ms
+ GET /gallery 200 in 7924ms
+ ○ Compiling /about ...
+ ✓ Compiled /about in 5.4s (642 modules)
+ GET /about 200 in 7036ms
+ GET / 200 in 1395ms
+ GET /favicon.ico 200 in 405ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 7.3s (634 modules)
+ GET /favicon.png 404 in 10024ms
+ GET /admin/projects 200 in 1602ms
+ GET /favicon.ico 200 in 203ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 1888ms (350 modules)
+ GET /favicon.ico 200 in 605ms
+ GET /favicon.ico 200 in 110ms
+ GET / 200 in 1410ms
+ GET /favicon.ico 200 in 14ms
+ GET / 200 in 1205ms
+ GET /wp-admin/setup-config.php 404 in 693ms
+ GET /wp-admin/setup-config.php 404 in 697ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 595ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 696ms
+ HEAD / 200 in 1110ms
+ GET / 200 in 607ms
+ GET /favicon.ico 200 in 601ms
+ ⚠ Cross origin request detected from toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET /favicon.ico 200 in 403ms
+ GET /favicon.ico 200 in 392ms
+ GET /ads.txt 404 in 602ms
+ GET /app-ads.txt 404 in 417ms
+ GET /sellers.json 404 in 398ms
+ GET / 200 in 808ms
+ GET / 200 in 1005ms
+ GET /wp-admin/setup-config.php 404 in 697ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 507ms
+ GET /wp-admin/setup-config.php 404 in 399ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 599ms
+ GET / 200 in 941ms
+ GET /wp-admin/setup-config.php 404 in 396ms

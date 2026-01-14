@@ -2,7 +2,7 @@
 
 namespace App\Jobs;
 
-use App\Models\Job;
+use App\Models\Job as EpisodeJob;
 use App\Models\Episode;
 use App\Models\Asset;
 use Illuminate\Bus\Queueable;
@@ -21,7 +21,7 @@ class RunPackagingJob implements ShouldQueue
     public $timeout = 300; // 5 minutes
     public $tries = 3;
 
-    public function __construct(Job $jobModel)
+    public function __construct(EpisodeJob $jobModel)
     {
         $this->jobModel = $jobModel;
     }

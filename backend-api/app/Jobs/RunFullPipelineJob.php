@@ -2,7 +2,7 @@
 
 namespace App\Jobs;
 
-use App\Models\Job;
+use App\Models\Job as EpisodeJob;
 use App\Models\Episode;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -19,7 +19,7 @@ class RunFullPipelineJob implements ShouldQueue
     public $timeout = 900; // 15 minutes
     public $tries = 1; // 전체 파이프라인은 재시도하지 않음
 
-    public function __construct(Job $jobModel)
+    public function __construct(EpisodeJob $jobModel)
     {
         $this->jobModel = $jobModel;
     }
@@ -43,7 +43,7 @@ class RunFullPipelineJob implements ShouldQueue
 
             // Step 1: Text Engine (시나리오 생성)
             Log::info("Step 1: Generating script...");
-            $textJob = Job::create([
+            $textJob = EpisodeJob::create([
                 'episode_id' => $episode->id,
                 'type' => 'text.script',
                 'status' => 'queued',
@@ -58,7 +58,7 @@ class RunFullPipelineJob implements ShouldQueue
             
             for ($i = 0; $i < $maxRetries; $i++) {
                 usleep(100000); // 0.1초
-                $textJob = Job::where('id', $textJobId)->first();
+                $textJob = EpisodeJob::where('id', $textJobId)->first();
                 
                 if ($textJob && $textJob->status === 'done') {
                     Log::info("Text Job {$textJobId} completed successfully (attempt " . ($i + 1) . ")");
@@ -79,7 +79,7 @@ class RunFullPipelineJob implements ShouldQueue
 
             // Step 2: Director Engine (컷 리스트 생성)
             Log::info("Step 2: Generating storyboard...");
-            $directorJob = Job::create([
+            $directorJob = EpisodeJob::create([
                 'episode_id' => $episode->id,
                 'type' => 'director.storyboard',
                 'status' => 'queued',
@@ -96,7 +96,7 @@ class RunFullPipelineJob implements ShouldQueue
             
             for ($i = 0; $i < $maxRetries; $i++) {
                 usleep(100000);
-                $directorJob = Job::where('id', $directorJobId)->first();
+                $directorJob = EpisodeJob::where('id', $directorJobId)->first();
                 if ($directorJob && $directorJob->status === 'done') {
                     Log::info("Director Job {$directorJobId} completed (attempt " . ($i + 1) . ")");
                     break;
@@ -114,7 +114,7 @@ class RunFullPipelineJob implements ShouldQueue
 
             // Step 3: Image Engine (이미지 생성)
             Log::info("Step 3: Generating images...");
-            $imageJob = Job::create([
+            $imageJob = EpisodeJob::create([
                 'episode_id' => $episode->id,
                 'type' => 'image.generate',
                 'status' => 'queued',
@@ -130,7 +130,7 @@ class RunFullPipelineJob implements ShouldQueue
             
             for ($i = 0; $i < $maxRetries; $i++) {
                 usleep(100000);
-                $imageJob = Job::where('id', $imageJobId)->first();
+                $imageJob = EpisodeJob::where('id', $imageJobId)->first();
                 if ($imageJob && $imageJob->status === 'done') {
                     Log::info("Image Job {$imageJobId} completed (attempt " . ($i + 1) . ")");
                     break;
@@ -148,7 +148,7 @@ class RunFullPipelineJob implements ShouldQueue
 
             // Step 4: Lettering Engine (말풍선 + 대사 합성)
             Log::info("Step 4: Applying lettering...");
-            $letteringJob = Job::create([
+            $letteringJob = EpisodeJob::create([
                 'episode_id' => $episode->id,
                 'type' => 'lettering.apply',
                 'status' => 'queued',
@@ -164,7 +164,7 @@ class RunFullPipelineJob implements ShouldQueue
             
             for ($i = 0; $i < $maxRetries; $i++) {
                 usleep(100000);
-                $letteringJob = Job::where('id', $letteringJobId)->first();
+                $letteringJob = EpisodeJob::where('id', $letteringJobId)->first();
                 if ($letteringJob && $letteringJob->status === 'done') {
                     Log::info("Lettering Job {$letteringJobId} completed (attempt " . ($i + 1) . ")");
                     break;
@@ -182,7 +182,7 @@ class RunFullPipelineJob implements ShouldQueue
 
             // Step 5: Packaging Engine (최종 웹툰 이미지 패키징)
             Log::info("Step 5: Packaging final webtoon...");
-            $packagingJob = Job::create([
+            $packagingJob = EpisodeJob::create([
                 'episode_id' => $episode->id,
                 'type' => 'packaging.webtoon',
                 'status' => 'queued',
@@ -198,7 +198,7 @@ class RunFullPipelineJob implements ShouldQueue
             
             for ($i = 0; $i < $maxRetries; $i++) {
                 usleep(100000);
-                $packagingJob = Job::where('id', $packagingJobId)->first();
+                $packagingJob = EpisodeJob::where('id', $packagingJobId)->first();
                 if ($packagingJob && $packagingJob->status === 'done') {
                     Log::info("Packaging Job {$packagingJobId} completed (attempt " . ($i + 1) . ")");
                     break;

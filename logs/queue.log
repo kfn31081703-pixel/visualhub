@@ -76,3 +76,950 @@
   2026-01-13 00:45:44 App\Jobs\RunPackagingJob ....................... RUNNING
   2026-01-13 00:45:44 App\Jobs\RunPackagingJob ................. 185.54ms DONE
   2026-01-13 00:45:44 App\Jobs\RunFullPipelineJob .............. 294.31ms DONE
+  2026-01-14 00:38:38 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 00:38:38 App\Jobs\TestQueueJob .................... 189.36ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob executed: Hello from Queue!
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 00:38:40 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 00:38:40 App\Jobs\TestQueueJob ...................... 7.07ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob executed: Hello from Queue!
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 00:38:43 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 00:38:43 App\Jobs\TestQueueJob ..................... 91.29ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob executed: Hello from Queue!
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 00:39:52 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 00:39:52 App\Jobs\TestQueueJob ..................... 12.97ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob executed: Dispatched at 2026-01-14 00:39:52
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 00:39:56 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 00:39:56 App\Jobs\TestQueueJob ...................... 6.45ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob executed: Dispatched at 2026-01-14 00:39:52
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 00:39:59 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 00:39:59 App\Jobs\TestQueueJob .................... 207.55ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob executed: Dispatched at 2026-01-14 00:39:52
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 00:40:30 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 00:40:30 App\Jobs\TestQueueJob .................... 192.27ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob executed: Direct Queue Push
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 00:40:33 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 00:40:33 App\Jobs\TestQueueJob .................... 402.48ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob executed: Direct Queue Push
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 00:40:35 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 00:40:35 App\Jobs\TestQueueJob ...................... 6.61ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob executed: Direct Queue Push
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 00:43:48 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 00:43:48 App\Jobs\TestQueueJob ..................... 94.03ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob executed: Debug Test
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 00:43:51 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 00:43:51 App\Jobs\TestQueueJob .................... 191.59ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob executed: Debug Test
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 00:43:55 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 00:43:56 App\Jobs\TestQueueJob .................... 200.26ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob executed: Debug Test
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 00:44:20 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 00:44:21 App\Jobs\TestQueueJob .................... 196.14ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob executed: Config Cached Test
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 00:44:24 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 00:44:24 App\Jobs\TestQueueJob .................... 301.82ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob executed: Config Cached Test
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 00:44:27 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 00:44:27 App\Jobs\TestQueueJob .................... 190.05ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob executed: Config Cached Test
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 00:45:15 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 00:45:15 App\Jobs\TestQueueJob ..................... 95.15ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob STARTED: Sync Test
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 00:45:18 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 00:45:18 App\Jobs\TestQueueJob .................... 192.08ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob STARTED: Sync Test
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 00:45:21 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 00:45:21 App\Jobs\TestQueueJob ..................... 96.50ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob STARTED: Sync Test
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 00:57:38 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 00:57:38 App\Jobs\TestQueueJob .................... 209.97ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob STARTED: Database Queue Test
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 00:57:42 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 00:57:42 App\Jobs\TestQueueJob .................... 303.52ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob STARTED: Database Queue Test
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 00:57:46 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 00:57:46 App\Jobs\TestQueueJob .................... 195.84ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob STARTED: Database Queue Test
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 00:58:38 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 00:58:39 App\Jobs\TestQueueJob ..................... 18.32ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob STARTED: Final Database Queue Test
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 00:58:42 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 00:58:42 App\Jobs\TestQueueJob .................... 104.18ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob STARTED: Final Database Queue Test
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 00:58:46 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 00:58:46 App\Jobs\TestQueueJob .................... 207.89ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob STARTED: Final Database Queue Test
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 00:59:20 App\Jobs\RunFullPipelineJob .................... RUNNING
+  2026-01-14 00:59:20 App\Jobs\RunFullPipelineJob .............. 294.91ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Full Pipeline Job 60 permanently failed
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 01:00:29 App\Jobs\RunFullPipelineJob .................... RUNNING
+  2026-01-14 01:00:29 App\Jobs\RunFullPipelineJob .............. 209.99ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Full Pipeline Job 60 permanently failed
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 01:01:40 App\Jobs\RunFullPipelineJob .................... RUNNING
+  2026-01-14 01:01:40 App\Jobs\RunFullPipelineJob .............. 104.10ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Full Pipeline Job 60 permanently failed
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 01:02:54 App\Jobs\RunFullPipelineJob .................... RUNNING
+  2026-01-14 01:02:54 App\Jobs\RunFullPipelineJob .............. 197.79ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $jobModel
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 01:03:09 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 01:03:10 App\Jobs\TestQueueJob .................... 186.85ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob STARTED: Test
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 01:03:13 App\Jobs\RunFullPipelineJob .................... RUNNING
+  2026-01-14 01:03:13 App\Jobs\RunFullPipelineJob ............... 94.14ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $jobModel
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 01:03:16 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 01:03:16 App\Jobs\TestQueueJob ..................... 98.28ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob STARTED: Test
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 01:03:19 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 01:03:20 App\Jobs\TestQueueJob .................... 391.94ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: TestQueueJob STARTED: Test
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 01:04:50 App\Jobs\RunFullPipelineJob .................... RUNNING
+  2026-01-14 01:04:50 App\Jobs\RunFullPipelineJob ............... 97.55ms FAIL
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/toonverse/webapp/backend-api/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Undefined variable $jobModel
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:164
+    160▕             }
+    161▕             if (!\is_resource($stream)) {
+    162▕                 $this->stream = null;
+    163▕ 
+  ➜ 164▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    165▕             }
+    166▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    167▕             $this->stream = $stream;
+    168▕             $this->inodeUrl = $this->getInodeFromUrl();
+
+      [2m+11 vendor frames [22m
+
+  12  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2026-01-14 01:08:43 App\Jobs\RunFullPipelineJob .................... RUNNING
+  2026-01-14 01:08:43 App\Jobs\RunFullPipelineJob .............. 105.10ms FAIL
+  2026-01-14 01:09:49 App\Jobs\RunFullPipelineJob .................... RUNNING
+  2026-01-14 01:09:50 App\Jobs\RunFullPipelineJob ............... 95.22ms FAIL
+  2026-01-14 01:10:19 App\Jobs\TestQueueJob .......................... RUNNING
+  2026-01-14 01:10:25 App\Jobs\TestQueueJob .......................... 5s DONE
+  2026-01-14 01:10:55 App\Jobs\RunFullPipelineJob .................... RUNNING
+  2026-01-14 01:10:55 App\Jobs\RunFullPipelineJob .............. 299.44ms FAIL
+  2026-01-14 01:11:55 App\Jobs\RunFullPipelineJob .................... RUNNING
+  2026-01-14 01:11:56 App\Jobs\RunFullPipelineJob .............. 487.54ms FAIL
+  2026-01-14 01:13:29 App\Jobs\RunFullPipelineJob .................... RUNNING
+  2026-01-14 01:13:29 App\Jobs\RunFullPipelineJob .............. 298.75ms FAIL
+  2026-01-14 01:14:13 App\Jobs\RunFullPipelineJob .................... RUNNING
+  2026-01-14 01:14:14 App\Jobs\RunFullPipelineJob .............. 799.43ms FAIL
+  2026-01-14 01:22:19 App\Jobs\RunFullPipelineJob .................... RUNNING
+  2026-01-14 01:22:19 App\Jobs\RunTextScriptJob ...................... RUNNING
+  2026-01-14 01:22:20 App\Jobs\RunTextScriptJob ................ 513.92ms DONE
+  2026-01-14 01:22:20 App\Jobs\RunDirectorJob ........................ RUNNING
+  2026-01-14 01:22:25 App\Jobs\RunDirectorJob ........................ 4s DONE
+  2026-01-14 01:22:25 App\Jobs\RunImageJob ........................... RUNNING
+  2026-01-14 01:24:16 App\Jobs\RunImageJob ....................... 1m 50s DONE
+  2026-01-14 01:24:16 App\Jobs\RunLetteringJob ....................... RUNNING
+  2026-01-14 01:24:46 App\Jobs\RunLetteringJob ...................... 29s DONE
+  2026-01-14 01:24:46 App\Jobs\RunPackagingJob ....................... RUNNING
+  2026-01-14 01:25:13 App\Jobs\RunPackagingJob ...................... 26s DONE
+  2026-01-14 01:25:13 App\Jobs\RunFullPipelineJob ................... 27s DONE
