@@ -104,7 +104,7 @@ class SnsPostController extends Controller
     {
         $validator = Validator::make($request->all(), [
             'episode_id' => 'required|exists:episodes,id',
-            'platform' => 'required|in:twitter,facebook,instagram',
+            'platform' => 'required|in:twitter,facebook,instagram,tiktok',
             'content' => 'required|string',
             'image_url' => 'nullable|url',
             'scheduled_at' => 'nullable|date',
@@ -142,7 +142,7 @@ class SnsPostController extends Controller
         }
 
         $validator = Validator::make($request->all(), [
-            'platform' => 'sometimes|in:twitter,facebook,instagram',
+            'platform' => 'sometimes|in:twitter,facebook,instagram,tiktok',
             'content' => 'sometimes|string',
             'image_url' => 'nullable|url',
             'scheduled_at' => 'nullable|date',
@@ -250,6 +250,7 @@ class SnsPostController extends Controller
                 'twitter' => SnsPost::where('platform', 'twitter')->count(),
                 'facebook' => SnsPost::where('platform', 'facebook')->count(),
                 'instagram' => SnsPost::where('platform', 'instagram')->count(),
+                'tiktok' => SnsPost::where('platform', 'tiktok')->count(),
             ],
             'recent_posts' => SnsPost::where('status', 'posted')
                 ->orderBy('posted_at', 'desc')

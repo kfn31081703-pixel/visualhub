@@ -2574,3 +2574,42 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
  ✓ Ready in 17.4s
  ○ Compiling /_not-found ...
  ✓ Compiled / in 71.9s (556 modules)
+ ○ Compiling /admin/sns ...
+ ✓ Compiled /admin/sns in 19.1s (577 modules)
+ GET /admin/sns 200 in 21853ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 4.9s (330 modules)
+ GET /favicon.ico 200 in 7217ms
+ GET /favicon.ico 200 in 183ms
+ ✓ Compiled in 13.9s (591 modules)
+ ✓ Compiled in 6.4s (591 modules)
+ ○ Compiling / ...
+ ✓ Compiled /_not-found in 15.1s (603 modules)
+ ✓ Compiled in 8.6s (605 modules)
+ ✓ Compiled in 6.1s (605 modules)
+ ✓ Compiled in 3.4s (296 modules)
+ GET /wp-admin/setup-config.php 404 in 1279ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 701ms
+ ✓ Compiled in 3.6s (296 modules)
+ ✓ Compiled in 3.4s (296 modules)
+ ✓ Compiled in 11.5s (593 modules)
+ ✓ Compiled in 8.8s (595 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 4.1s (584 modules)
+ GET /admin/sns 200 in 2091ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 8.1s (333 modules)
+ GET /favicon.ico 200 in 10628ms
+ GET /favicon.ico 200 in 386ms
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 20.9s

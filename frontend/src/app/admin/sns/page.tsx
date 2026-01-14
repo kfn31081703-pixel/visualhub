@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, Twitter, Facebook, Instagram, Send, Calendar, Check, X, RefreshCw, Plus } from 'lucide-react';
+import { ArrowLeft, Twitter, Facebook, Instagram, Send, Calendar, Check, X, RefreshCw, Plus, Music } from 'lucide-react';
 
 interface SnsPost {
   id: number;
@@ -42,11 +42,16 @@ interface Statistics {
 }
 
 export default function SnsManagementPage() {
+  const [mounted, setMounted] = useState(false);
   const [posts, setPosts] = useState<SnsPost[]>([]);
   const [statistics, setStatistics] = useState<Statistics | null>(null);
   const [loading, setLoading] = useState(true);
   const [filterPlatform, setFilterPlatform] = useState('all');
   const [filterStatus, setFilterStatus] = useState('all');
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     fetchPosts();
@@ -132,6 +137,7 @@ export default function SnsManagementPage() {
       case 'twitter': return <Twitter className="w-5 h-5" />;
       case 'facebook': return <Facebook className="w-5 h-5" />;
       case 'instagram': return <Instagram className="w-5 h-5" />;
+      case 'tiktok': return <Music className="w-5 h-5" />;
       default: return null;
     }
   };
@@ -141,6 +147,7 @@ export default function SnsManagementPage() {
       case 'twitter': return 'bg-blue-500';
       case 'facebook': return 'bg-blue-700';
       case 'instagram': return 'bg-gradient-to-r from-purple-500 to-pink-500';
+      case 'tiktok': return 'bg-black';
       default: return 'bg-gray-500';
     }
   };
@@ -167,7 +174,7 @@ export default function SnsManagementPage() {
     );
   };
 
-  if (loading) {
+  if (!mounted || loading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-indigo-50 to-purple-50 flex items-center justify-center">
         <div className="text-center">
@@ -190,12 +197,24 @@ export default function SnsManagementPage() {
           관리자 페이지로 돌아가기
         </Link>
         
-        <h1 className="text-4xl font-bold text-gray-900 mb-2">
-          SNS 자동 홍보 관리
-        </h1>
-        <p className="text-gray-600">
-          웹툰 에피소드를 SNS에 자동으로 홍보하세요
-        </p>
+        <div className="flex items-center justify-between">
+          <div>
+            <h1 className="text-4xl font-bold text-gray-900 mb-2">
+              SNS 자동 홍보 관리
+            </h1>
+            <p className="text-gray-600">
+              웹툰 에피소드를 SNS에 자동으로 홍보하세요
+            </p>
+          </div>
+          
+          <Link
+            href="/admin/sns/create"
+            className="px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 flex items-center shadow-md"
+          >
+            <Plus className="w-5 h-5 mr-2" />
+            홍보글 작성
+          </Link>
+        </div>
       </div>
 
       {/* Statistics Cards */}
@@ -237,6 +256,7 @@ export default function SnsManagementPage() {
               <option value="twitter">Twitter</option>
               <option value="facebook">Facebook</option>
               <option value="instagram">Instagram</option>
+              <option value="tiktok">TikTok</option>
             </select>
           </div>
           

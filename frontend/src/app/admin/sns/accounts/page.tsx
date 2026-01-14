@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, Twitter, Facebook, Instagram, Plus, Check, X, RefreshCw, Settings } from 'lucide-react';
+import { ArrowLeft, Twitter, Facebook, Instagram, Plus, Check, X, RefreshCw, Settings, Music } from 'lucide-react';
 
 interface SnsAccount {
   id: number;
@@ -114,6 +114,7 @@ export default function SnsAccountsPage() {
       case 'twitter': return <Twitter className="w-6 h-6" />;
       case 'facebook': return <Facebook className="w-6 h-6" />;
       case 'instagram': return <Instagram className="w-6 h-6" />;
+      case 'tiktok': return <Music className="w-6 h-6" />;
       default: return null;
     }
   };
@@ -123,6 +124,7 @@ export default function SnsAccountsPage() {
       case 'twitter': return 'from-blue-400 to-blue-600';
       case 'facebook': return 'from-blue-600 to-blue-800';
       case 'instagram': return 'from-purple-500 to-pink-500';
+      case 'tiktok': return 'from-gray-900 to-black';
       default: return 'from-gray-400 to-gray-600';
     }
   };
@@ -275,6 +277,7 @@ export default function SnsAccountsPage() {
                   <option value="twitter">Twitter</option>
                   <option value="facebook">Facebook</option>
                   <option value="instagram">Instagram</option>
+                  <option value="tiktok">TikTok</option>
                 </select>
               </div>
               

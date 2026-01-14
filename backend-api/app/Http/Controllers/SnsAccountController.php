@@ -47,7 +47,7 @@ class SnsAccountController extends Controller
     public function store(Request $request)
     {
         $validator = Validator::make($request->all(), [
-            'platform' => 'required|in:twitter,facebook,instagram',
+            'platform' => 'required|in:twitter,facebook,instagram,tiktok',
             'account_name' => 'required|string|max:255',
             'account_id' => 'nullable|string',
             'access_token' => 'nullable|string',
@@ -88,7 +88,7 @@ class SnsAccountController extends Controller
         }
 
         $validator = Validator::make($request->all(), [
-            'platform' => 'sometimes|in:twitter,facebook,instagram',
+            'platform' => 'sometimes|in:twitter,facebook,instagram,tiktok',
             'account_name' => 'sometimes|string|max:255',
             'account_id' => 'nullable|string',
             'access_token' => 'nullable|string',

@@ -23,7 +23,9 @@ class SnsService
             
             'facebook' => "🎉 새로운 에피소드가 공개되었습니다!\n\n📖 제목: {title} - {episode_number}화\n🎭 장르: {genre}\n🎨 톤: {tone}\n\n{description}\n\n지금 바로 ToonVerse에서 확인해보세요! 🚀\n\n#웹툰 #{genre} #TOONVERSE #AI웹툰",
             
-            'instagram' => "✨ NEW EPISODE ALERT! ✨\n\n{title} - Episode {episode_number}\n\n{description}\n\n📱 Read now on ToonVerse!\n\n#{genre} #webtoon #TOONVERSE #comics #manga #manhwa #{tone}"
+            'instagram' => "✨ NEW EPISODE ALERT! ✨\n\n{title} - Episode {episode_number}\n\n{description}\n\n📱 Read now on ToonVerse!\n\n#{genre} #webtoon #TOONVERSE #comics #manga #manhwa #{tone}",
+            
+            'tiktok' => "🔥 {title} EP.{episode_number} 🔥\n\n{description}\n\n✨ 지금 바로 확인! ✨\n\n#{genre} #웹툰 #TOONVERSE #추천 #꿀잼"
         ];
 
         $template = $templates[$platform] ?? $templates['twitter'];
@@ -128,6 +130,7 @@ class SnsService
                 'twitter' => $this->postToTwitter($post, $account),
                 'facebook' => $this->postToFacebook($post, $account),
                 'instagram' => $this->postToInstagram($post, $account),
+                'tiktok' => $this->postToTikTok($post, $account),
                 default => throw new \Exception("Unsupported platform: {$post->platform}")
             };
 
@@ -207,6 +210,21 @@ class SnsService
             'success' => true,
             'post_id' => 'ig_' . time(),
             'post_url' => 'https://instagram.com/p/' . time(),
+        ];
+    }
+
+    /**
+     * Post to TikTok
+     */
+    private function postToTikTok(SnsPost $post, SnsAccount $account): array
+    {
+        // TODO: Implement TikTok API integration
+        Log::info('TikTok posting (mock)', ['post_id' => $post->id]);
+        
+        return [
+            'success' => true,
+            'post_id' => 'tiktok_' . time(),
+            'post_url' => 'https://tiktok.com/@toonverse/video/' . time(),
         ];
     }
 
