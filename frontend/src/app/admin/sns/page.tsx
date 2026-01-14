@@ -64,7 +64,8 @@ export default function SnsManagementPage() {
       if (filterPlatform !== 'all') params.append('platform', filterPlatform);
       if (filterStatus !== 'all') params.append('status', filterStatus);
       
-      const response = await fetch(`http://localhost:8000/api/sns/posts?${params}`);
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+      const response = await fetch(`${apiUrl}/api/sns/posts?${params}`);
       const data = await response.json();
       
       if (data.success) {
@@ -79,7 +80,8 @@ export default function SnsManagementPage() {
 
   const fetchStatistics = async () => {
     try {
-      const response = await fetch('http://localhost:8000/api/sns/statistics');
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+      const response = await fetch(`${apiUrl}/api/sns/statistics`);
       const data = await response.json();
       
       if (data.success) {
@@ -94,7 +96,8 @@ export default function SnsManagementPage() {
     if (!confirm('이 게시물을 지금 바로 게시하시겠습니까?')) return;
     
     try {
-      const response = await fetch(`http://localhost:8000/api/sns/posts/${postId}/post-now`, {
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+      const response = await fetch(`${apiUrl}/api/sns/posts/${postId}/post-now`, {
         method: 'POST',
       });
       const data = await response.json();
@@ -116,7 +119,8 @@ export default function SnsManagementPage() {
     if (!confirm('이 게시물을 삭제하시겠습니까?')) return;
     
     try {
-      const response = await fetch(`http://localhost:8000/api/sns/posts/${postId}`, {
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+      const response = await fetch(`${apiUrl}/api/sns/posts/${postId}`, {
         method: 'DELETE',
       });
       const data = await response.json();

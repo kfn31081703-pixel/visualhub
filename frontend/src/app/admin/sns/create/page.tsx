@@ -49,7 +49,8 @@ export default function CreateSnsPostPage() {
 
   const fetchEpisodes = async () => {
     try {
-      const response = await fetch('http://localhost:8000/api/projects');
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+      const response = await fetch(`${apiUrl}/api/projects`);
       const data = await response.json();
       
       if (data.success && data.data) {
@@ -126,7 +127,8 @@ export default function CreateSnsPostPage() {
         scheduled_at: postNow ? new Date(Date.now() + 60000).toISOString() : formData.scheduled_at || null,
       };
 
-      const response = await fetch('http://localhost:8000/api/sns/posts', {
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+      const response = await fetch(`${apiUrl}/api/sns/posts`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

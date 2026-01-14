@@ -32,7 +32,8 @@ export default function SnsAccountsPage() {
 
   const fetchAccounts = async () => {
     try {
-      const response = await fetch('http://localhost:8000/api/sns/accounts');
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+      const response = await fetch(`${apiUrl}/api/sns/accounts`);
       const data = await response.json();
       
       if (data.success) {
@@ -47,7 +48,8 @@ export default function SnsAccountsPage() {
 
   const handleToggleActive = async (accountId: number) => {
     try {
-      const response = await fetch(`http://localhost:8000/api/sns/accounts/${accountId}/toggle-active`, {
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+      const response = await fetch(`${apiUrl}/api/sns/accounts/${accountId}/toggle-active`, {
         method: 'POST',
       });
       const data = await response.json();
@@ -64,7 +66,8 @@ export default function SnsAccountsPage() {
     e.preventDefault();
     
     try {
-      const response = await fetch('http://localhost:8000/api/sns/accounts', {
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+      const response = await fetch(`${apiUrl}/api/sns/accounts`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -94,7 +97,8 @@ export default function SnsAccountsPage() {
     if (!confirm('이 계정을 삭제하시겠습니까?')) return;
     
     try {
-      const response = await fetch(`http://localhost:8000/api/sns/accounts/${accountId}`, {
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+      const response = await fetch(`${apiUrl}/api/sns/accounts/${accountId}`, {
         method: 'DELETE',
       });
       const data = await response.json();

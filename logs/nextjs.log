@@ -2613,3 +2613,72 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
 
  ✓ Starting...
  ✓ Ready in 20.9s
+ ○ Compiling /admin/sns/create ...
+ ✓ Compiled /admin/sns/create in 47.1s (584 modules)
+ ✓ Compiled in 7.5s (286 modules)
+ GET /admin/sns/create 200 in 55224ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 6.7s (330 modules)
+ GET /favicon.ico 200 in 9216ms
+ GET /favicon.ico 200 in 90ms
+ ○ Compiling / ...
+ ✓ Compiled / in 9.3s (586 modules)
+ GET / 200 in 6313ms
+ GET / 200 in 11634ms
+ GET / 200 in 808ms
+ ⚠ Cross origin request detected from toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 8.7s (589 modules)
+ GET /wp-admin/setup-config.php 404 in 801ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 503ms
+ ○ Compiling /admin/sns ...
+ ✓ Compiled /admin/sns in 19.4s (604 modules)
+ GET /admin/sns 200 in 23279ms
+ GET /admin/sns/create 200 in 17784ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 4.1s (349 modules)
+ GET /favicon.ico 200 in 5708ms
+ GET /favicon.ico 200 in 205ms
+ GET /favicon.ico 200 in 106ms
+ GET /favicon.ico 200 in 102ms
+ ✓ Compiled in 19.1s (618 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /admin/sns/create 200 in 1293ms
+ GET /admin/sns 200 in 1488ms
+ GET /admin/sns 200 in 3824ms
+ GET /admin/sns/create 200 in 4214ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 1810ms (349 modules)
+ GET /favicon.ico 200 in 3806ms
+ GET /favicon.ico 200 in 2223ms
+ ✓ Compiled in 4.4s (301 modules)
+ GET /favicon.ico 200 in 816ms
+ GET /favicon.ico 200 in 1108ms
+ ✓ Compiled in 10.1s (650 modules)
+ ✓ Compiled in 5.7s (650 modules)
+ GET / 200 in 1917ms
+ ✓ Compiled in 10.1s (650 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 30.1s (650 modules)
+ GET /admin/sns 200 in 27486ms
+ ✓ Compiled in 3.6s (301 modules)
+ GET /favicon.ico 200 in 1987ms
+ GET /favicon.ico 200 in 205ms
+ ✓ Compiled in 2.9s (301 modules)
+ ✓ Compiled in 3.7s (301 modules)
+ ✓ Compiled in 2.9s (301 modules)
+ ✓ Compiled in 5.3s (301 modules)
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 17.8s
