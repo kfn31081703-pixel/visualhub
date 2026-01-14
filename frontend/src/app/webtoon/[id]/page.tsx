@@ -117,11 +117,14 @@ export default function WebtoonDetailPage({ params }: { params: { id: string } }
     );
   }
 
-  // Safely extract data with default values
-  const activeEpisodes = (project?.episodes || []).filter(ep => ep.status === 'active' || ep.status === 'completed');
-  const projectKeywords = project?.keywords || [];
-  const projectWorldSetting = project?.world_setting || 'N/A';
-  const projectTargetAudience = project?.target_audience || 'N/A';
+  // Safely extract data with default values - multiple layers of defense
+  const safeProject = project || {};
+  const activeEpisodes = Array.isArray(safeProject.episodes) 
+    ? safeProject.episodes.filter(ep => ep && (ep.status === 'active' || ep.status === 'completed'))
+    : [];
+  const projectKeywords = Array.isArray(safeProject.keywords) ? safeProject.keywords : [];
+  const projectWorldSetting = safeProject.world_setting || 'N/A';
+  const projectTargetAudience = safeProject.target_audience || 'N/A';
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-amber-50">
@@ -152,13 +155,13 @@ export default function WebtoonDetailPage({ params }: { params: { id: string } }
             <div className="md:w-2/3 p-8">
               <div className="flex items-start justify-between mb-4">
                 <div>
-                  <h1 className="text-4xl font-bold text-gray-900 mb-2">{project.title}</h1>
+                  <h1 className="text-4xl font-bold text-gray-900 mb-2">{safeProject.title || 'Untitled'}</h1>
                   <div className="flex items-center space-x-3">
                     <span className="px-3 py-1 bg-indigo-100 text-indigo-800 text-sm font-semibold rounded-full">
-                      {project.genre}
+                      {safeProject.genre || 'Unknown'}
                     </span>
                     <span className="px-3 py-1 bg-green-100 text-green-800 text-sm font-semibold rounded-full">
-                      {project.status === 'active' ? '연재중' : project.status}
+                      {safeProject.status === 'active' ? '연재중' : safeProject.status || 'Unknown'}
                     </span>
                   </div>
                 </div>
@@ -172,16 +175,16 @@ export default function WebtoonDetailPage({ params }: { params: { id: string } }
                 </div>
                 <div className="text-center p-3 bg-gray-50 rounded-lg">
                   <div className="text-2xl font-bold text-purple-600">
-                    {activeEpisodes.reduce((sum, ep) => sum + (ep.storyboard_json?.total_panels || 0), 0)}
+                    {activeEpisodes.reduce((sum, ep) => sum + (ep?.storyboard_json?.total_panels || 0), 0)}
                   </div>
                   <div className="text-xs text-gray-600">총 컷 수</div>
                 </div>
                 <div className="text-center p-3 bg-gray-50 rounded-lg">
-                  <div className="text-2xl font-bold text-amber-600">{project.tone}</div>
+                  <div className="text-2xl font-bold text-amber-600">{safeProject.tone || 'Unknown'}</div>
                   <div className="text-xs text-gray-600">톤</div>
                 </div>
                 <div className="text-center p-3 bg-gray-50 rounded-lg">
-                  <div className="text-2xl font-bold text-green-600">{project.target_country}</div>
+                  <div className="text-2xl font-bold text-green-600">{safeProject.target_country || 'Unknown'}</div>
                   <div className="text-xs text-gray-600">대상 국가</div>
                 </div>
               </div>
@@ -214,11 +217,11 @@ export default function WebtoonDetailPage({ params }: { params: { id: string } }
                 <div className="flex items-start">
                   <span className="text-sm font-semibold text-gray-700 w-32">생성일:</span>
                   <span className="text-sm text-gray-600">
-                    {new Date(project.created_at).toLocaleDateString('ko-KR', {
+                    {safeProject.created_at ? new Date(safeProject.created_at).toLocaleDateString('ko-KR', {
                       year: 'numeric',
                       month: 'long',
                       day: 'numeric'
-                    })}
+                    }) : 'N/A'}
                   </span>
                 </div>
               </div>
@@ -248,33 +251,33 @@ export default function WebtoonDetailPage({ params }: { params: { id: string } }
                 >
                   {/* Episode Number */}
                   <div className="flex-shrink-0 w-20 h-20 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center mr-6 group-hover:scale-110 transition-transform">
-                    <span className="text-2xl font-bold text-white">{episode.episode_number}</span>
+                    <span className="text-2xl font-bold text-white">{episode?.episode_number || '?'}</span>
                   </div>
 
                   {/* Episode Info */}
                   <div className="flex-1">
                     <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-indigo-600 transition-colors">
-                      {episode.title}
+                      {episode?.title || 'Untitled'}
                     </h3>
                     <div className="flex items-center space-x-4 text-sm text-gray-600">
                       <div className="flex items-center">
                         <Eye className="w-4 h-4 mr-1" />
-                        <span>{episode.storyboard_json?.total_panels || 0}컷</span>
+                        <span>{episode?.storyboard_json?.total_panels || 0}컷</span>
                       </div>
                       <div className="flex items-center">
                         <Clock className="w-4 h-4 mr-1" />
                         <span>
-                          {new Date(episode.created_at).toLocaleDateString('ko-KR')}
+                          {episode?.created_at ? new Date(episode.created_at).toLocaleDateString('ko-KR') : 'N/A'}
                         </span>
                       </div>
                       <span className={`px-2 py-1 rounded-full text-xs font-semibold ${
-                        episode.status === 'active' 
+                        episode?.status === 'active' 
                           ? 'bg-green-100 text-green-800' 
-                          : episode.status === 'completed'
+                          : episode?.status === 'completed'
                           ? 'bg-blue-100 text-blue-800'
                           : 'bg-gray-100 text-gray-800'
                       }`}>
-                        {episode.status === 'active' ? '공개' : episode.status}
+                        {episode?.status === 'active' ? '공개' : (episode?.status || 'Unknown')}
                       </span>
                     </div>
                   </div>
@@ -301,7 +304,7 @@ export default function WebtoonDetailPage({ params }: { params: { id: string } }
             목록으로
           </button>
           <Link
-            href={`/admin/projects/${project.id}`}
+            href={`/admin/projects/${safeProject.id || ''}`}
             className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition-colors"
           >
             관리자 페이지
