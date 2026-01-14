@@ -30,9 +30,12 @@ interface Project {
 export default function GalleryPage() {
   const router = useRouter();
   const [projects, setProjects] = useState<Project[]>([]);
+  const [filteredProjects, setFilteredProjects] = useState<Project[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [mounted, setMounted] = useState(false);
+  const [selectedGenre, setSelectedGenre] = useState<string>('all');
+  const [genres, setGenres] = useState<string[]>([]);
 
   useEffect(() => {
     setMounted(true);
@@ -60,6 +63,12 @@ export default function GalleryPage() {
           project.status === 'active'
         );
         setProjects(activeProjects);
+        setFilteredProjects(activeProjects);
+        
+        // Extract unique genres
+        const uniqueGenres = Array.from(new Set(activeProjects.map((p: Project) => p.genre).filter(Boolean)));
+        setGenres(uniqueGenres);
+        
         setError(null);
       } else {
         setError('프로젝트를 불러올 수 없습니다.');
@@ -82,6 +91,16 @@ export default function GalleryPage() {
 
   const handleEpisodeClick = (projectId: number, episodeId: number) => {
     router.push(`/webtoon/${projectId}/episode/${episodeId}`);
+  };
+
+  const handleGenreFilter = (genre: string) => {
+    setSelectedGenre(genre);
+    if (genre === 'all') {
+      setFilteredProjects(projects);
+    } else {
+      const filtered = projects.filter((project) => project.genre === genre);
+      setFilteredProjects(filtered);
+    }
   };
 
   // Prevent hydration mismatch by not rendering content until mounted
@@ -149,6 +168,43 @@ export default function GalleryPage() {
           <p className="text-xl text-gray-600">AI가 생성한 웹툰을 감상하세요</p>
         </div>
 
+        {/* Genre Filter */}
+        {!loading && !error && genres.length > 0 && (
+          <div className="mb-8 bg-white rounded-2xl shadow-lg p-6">
+            <div className="flex items-center justify-between mb-4">
+              <h2 className="text-lg font-bold text-gray-900">장르별 필터</h2>
+              <span className="text-sm text-gray-600">
+                {filteredProjects.length}개의 웹툰
+              </span>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <button
+                onClick={() => handleGenreFilter('all')}
+                className={`px-6 py-2 rounded-full font-semibold transition-all ${
+                  selectedGenre === 'all'
+                    ? 'bg-indigo-600 text-white shadow-md'
+                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                }`}
+              >
+                전체 ({projects.length})
+              </button>
+              {genres.map((genre) => (
+                <button
+                  key={genre}
+                  onClick={() => handleGenreFilter(genre)}
+                  className={`px-6 py-2 rounded-full font-semibold transition-all ${
+                    selectedGenre === genre
+                      ? 'bg-indigo-600 text-white shadow-md'
+                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                  }`}
+                >
+                  {genre} ({projects.filter((p) => p.genre === genre).length})
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
         {loading ? (
           <div className="text-center py-20">
             <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600"></div>
@@ -158,7 +214,7 @@ export default function GalleryPage() {
           <div className="bg-red-50 border border-red-200 text-red-700 px-6 py-4 rounded-lg text-center">
             {error}
           </div>
-        ) : projects.length === 0 ? (
+        ) : filteredProjects.length === 0 && selectedGenre === 'all' ? (
           <div className="bg-white rounded-2xl shadow-lg p-12 text-center">
             <div className="max-w-md mx-auto">
               <div className="w-24 h-24 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -179,9 +235,29 @@ export default function GalleryPage() {
               </div>
             </div>
           </div>
+        ) : filteredProjects.length === 0 ? (
+          <div className="bg-white rounded-2xl shadow-lg p-12 text-center">
+            <div className="max-w-md mx-auto">
+              <div className="w-24 h-24 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Sparkles className="w-12 h-12 text-gray-400" />
+              </div>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                {selectedGenre} 장르의 웹툰이 없습니다
+              </h2>
+              <p className="text-gray-600 mb-8">
+                다른 장르를 선택하거나 전체 목록을 확인해보세요.
+              </p>
+              <button
+                onClick={() => handleGenreFilter('all')}
+                className="inline-flex items-center justify-center px-6 py-3 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition-colors"
+              >
+                전체 보기
+              </button>
+            </div>
+          </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {projects.map((project) => (
+            {filteredProjects.map((project) => (
               <div 
                 key={project.id}
                 className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow cursor-pointer"
