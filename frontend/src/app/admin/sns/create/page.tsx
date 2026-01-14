@@ -5,6 +5,9 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { ArrowLeft, Twitter, Facebook, Instagram, Music, Image as ImageIcon, Video, Upload, Save, Send } from 'lucide-react';
 
+// API Base URL
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://toonverse.store';
+
 interface Episode {
   id: number;
   episode_number: number;
@@ -64,8 +67,7 @@ export default function CreateSnsPostPage() {
 
   const fetchEpisodes = async () => {
     try {
-      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
-      const response = await fetch(`${apiUrl}/api/projects`);
+      const response = await fetch(`${API_BASE_URL}/api/projects`);
       const data = await response.json();
       
       if (data.success && data.data) {
@@ -142,8 +144,7 @@ export default function CreateSnsPostPage() {
         scheduled_at: postNow ? new Date(Date.now() + 60000).toISOString() : formData.scheduled_at || null,
       };
 
-      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
-      const response = await fetch(`${apiUrl}/api/sns/posts`, {
+      const response = await fetch(`${API_BASE_URL}/api/sns/posts`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

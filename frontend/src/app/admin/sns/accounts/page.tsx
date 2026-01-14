@@ -4,6 +4,9 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, Twitter, Facebook, Instagram, Plus, Check, X, RefreshCw, Settings, Music } from 'lucide-react';
 
+// API Base URL
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://toonverse.store';
+
 interface SnsAccount {
   id: number;
   platform: string;
@@ -57,8 +60,7 @@ export default function SnsAccountsPage() {
 
   const fetchAccounts = async () => {
     try {
-      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
-      const response = await fetch(`${apiUrl}/api/sns/accounts`);
+      const response = await fetch(`${API_BASE_URL}/api/sns/accounts`);
       const data = await response.json();
       
       if (data.success) {
@@ -73,8 +75,7 @@ export default function SnsAccountsPage() {
 
   const handleToggleActive = async (accountId: number) => {
     try {
-      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
-      const response = await fetch(`${apiUrl}/api/sns/accounts/${accountId}/toggle-active`, {
+      const response = await fetch(`${API_BASE_URL}/api/sns/accounts/${accountId}/toggle-active`, {
         method: 'POST',
       });
       const data = await response.json();
@@ -91,8 +92,7 @@ export default function SnsAccountsPage() {
     e.preventDefault();
     
     try {
-      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
-      const response = await fetch(`${apiUrl}/api/sns/accounts`, {
+      const response = await fetch(`${API_BASE_URL}/api/sns/accounts`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -122,8 +122,7 @@ export default function SnsAccountsPage() {
     if (!confirm('이 계정을 삭제하시겠습니까?')) return;
     
     try {
-      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
-      const response = await fetch(`${apiUrl}/api/sns/accounts/${accountId}`, {
+      const response = await fetch(`${API_BASE_URL}/api/sns/accounts/${accountId}`, {
         method: 'DELETE',
       });
       const data = await response.json();

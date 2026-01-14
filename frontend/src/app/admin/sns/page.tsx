@@ -4,6 +4,9 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, Twitter, Facebook, Instagram, Send, Calendar, Check, X, RefreshCw, Plus, Music } from 'lucide-react';
 
+// API Base URL
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://toonverse.store';
+
 interface SnsPost {
   id: number;
   episode_id: number;
@@ -100,8 +103,7 @@ export default function SnsManagementPage() {
       if (filterPlatform !== 'all') params.append('platform', filterPlatform);
       if (filterStatus !== 'all') params.append('status', filterStatus);
       
-      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
-      const response = await fetch(`${apiUrl}/api/sns/posts?${params}`);
+      const response = await fetch(`${API_BASE_URL}/api/sns/posts?${params}`);
       const data = await response.json();
       
       if (data.success) {
@@ -116,8 +118,7 @@ export default function SnsManagementPage() {
 
   const fetchStatistics = async () => {
     try {
-      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
-      const response = await fetch(`${apiUrl}/api/sns/statistics`);
+      const response = await fetch(`${API_BASE_URL}/api/sns/statistics`);
       const data = await response.json();
       
       if (data.success) {
@@ -132,8 +133,7 @@ export default function SnsManagementPage() {
     if (!confirm('이 게시물을 지금 바로 게시하시겠습니까?')) return;
     
     try {
-      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
-      const response = await fetch(`${apiUrl}/api/sns/posts/${postId}/post-now`, {
+      const response = await fetch(`${API_BASE_URL}/api/sns/posts/${postId}/post-now`, {
         method: 'POST',
       });
       const data = await response.json();
