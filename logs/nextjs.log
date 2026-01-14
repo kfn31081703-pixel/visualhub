@@ -1,0 +1,3036 @@
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+Error: EACCES: permission denied, unlink '/var/www/toonverse/webapp/frontend/.next/app-build-manifest.json'
+    at async Object.unlink (node:internal/fs/promises:1070:10)
+    at async unlinkPath (/var/www/toonverse/webapp/frontend/node_modules/next/dist/lib/recursive-delete.js:25:13)
+    at async Promise.all (index 0)
+    at async recursiveDelete (/var/www/toonverse/webapp/frontend/node_modules/next/dist/lib/recursive-delete.js:51:5)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async HotReloaderWebpack.start (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/dev/hot-reloader-webpack.js:612:9)
+    at async startWatcher (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:156:5)
+    at async setupDevBundler (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:775:20)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async initialize (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-server.js:81:30) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'unlink',
+  path: '/var/www/toonverse/webapp/frontend/.next/app-build-manifest.json'
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+Error: EACCES: permission denied, unlink '/var/www/toonverse/webapp/frontend/.next/app-build-manifest.json'
+    at async Object.unlink (node:internal/fs/promises:1070:10)
+    at async unlinkPath (/var/www/toonverse/webapp/frontend/node_modules/next/dist/lib/recursive-delete.js:25:13)
+    at async Promise.all (index 0)
+    at async recursiveDelete (/var/www/toonverse/webapp/frontend/node_modules/next/dist/lib/recursive-delete.js:51:5)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async HotReloaderWebpack.start (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/dev/hot-reloader-webpack.js:612:9)
+    at async startWatcher (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:156:5)
+    at async setupDevBundler (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:775:20)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async initialize (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-server.js:81:30) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'unlink',
+  path: '/var/www/toonverse/webapp/frontend/.next/app-build-manifest.json'
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 39.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 87.2s (562 modules)
+ GET / 200 in 92688ms
+ ✓ Compiled in 7.1s (271 modules)
+ GET / 200 in 2996ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /gallery in 74.8s (314 modules)
+ ✓ Compiled in 6.2s (265 modules)
+ GET /gallery 200 in 19734ms
+ GET /favicon.ico 200 in 428ms
+ GET /gallery 200 in 596ms
+ GET /favicon.ico 200 in 201ms
+ ○ Compiling /webtoon/[id] ...
+ ✓ Compiled /admin/projects in 23.8s (640 modules)
+ GET /admin/projects 200 in 16836ms
+ GET /favicon.ico 200 in 404ms
+ GET /favicon.ico 200 in 12ms
+ GET /favicon.ico 200 in 407ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 34.2s (654 modules)
+ GET /favicon.ico 200 in 603ms
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 24s
+ ○ Compiling / ...
+ ✓ Compiled / in 35s (553 modules)
+ ✓ Compiled in 6.3s (271 modules)
+ GET / 200 in 1296ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 16.3s (564 modules)
+ GET /admin 200 in 19743ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /admin/dashboard ...
+ ✓ Compiled /admin/dashboard in 2.6s (328 modules)
+ ✓ Compiled in 5.6s (276 modules)
+ GET /favicon.ico 200 in 11837ms
+ GET /favicon.ico 200 in 386ms
+ GET / 200 in 1997ms
+ GET /favicon.ico 200 in 313ms
+ ○ Compiling /gallery ...
+ ✓ Compiled /gallery in 4s (628 modules)
+ GET /gallery 200 in 5919ms
+ GET /favicon.ico 200 in 220ms
+ GET /admin 200 in 510ms
+ GET /favicon.ico 200 in 2895ms
+ GET /favicon.ico 200 in 104ms
+ ○ Compiling /admin/projects ...
+ ✓ Compiled /admin/projects in 5s (646 modules)
+ GET /favicon.ico 200 in 202ms
+ ○ Compiling /admin/projects/[id] ...
+ ✓ Compiled /admin/projects/[id] in 8.3s (656 modules)
+ GET /admin/projects/8 200 in 14922ms
+ GET /favicon.ico 200 in 805ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 19.7s (674 modules)
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:280:16
+    at new Promise (<anonymous>)
+    at startServer (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:191:11)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:52
+    at Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:26)
+    at process.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:310:35)
+    at process.emit (node:events:524:28) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 20.2s
+ ○ Compiling / ...
+ ✓ Compiled /admin in 53.9s (582 modules)
+ GET /admin 200 in 47109ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /admin/dashboard ...
+ ✓ Compiled /admin/dashboard in 9.3s (330 modules)
+ ✓ Compiled in 8.6s (278 modules)
+ GET /favicon.ico 200 in 23079ms
+ GET /favicon.ico 200 in 610ms
+ GET / 200 in 2113ms
+ GET /favicon.ico 200 in 295ms
+ ○ Compiling /gallery ...
+ ✓ Compiled /gallery in 6.1s (632 modules)
+ GET /favicon.ico 200 in 488ms
+ ○ Compiling /admin/projects ...
+ ✓ Compiled /admin/projects in 7.1s (650 modules)
+ GET /favicon.ico 200 in 400ms
+ ○ Compiling /admin/projects/[id] ...
+ ✓ Compiled /admin/projects/[id] in 14.5s (621 modules)
+ GET /admin/projects/9 200 in 23540ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 3.4s (357 modules)
+ GET /favicon.ico 200 in 6208ms
+ GET / 200 in 2002ms
+ ✓ Compiled in 9.7s (310 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /admin/projects/9 200 in 1612ms
+ ✓ Compiled in 4.6s (310 modules)
+ GET /favicon.ico 200 in 3305ms
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 23.7s
+ ○ Compiling /gallery ...
+ ✓ Compiled /gallery in 42.2s (557 modules)
+ ✓ Compiled in 7.9s (273 modules)
+ GET /gallery 200 in 1504ms
+ ○ Compiling / ...
+ ✓ Compiled / in 11.5s (557 modules)
+ GET / 200 in 14838ms
+ ○ Compiling /favicon.ico ...
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ✓ Compiled /favicon.ico in 3.5s (324 modules)
+ GET /favicon.ico 200 in 5108ms
+ GET /gallery 200 in 1904ms
+ GET /favicon.ico 200 in 303ms
+ ○ Compiling /webtoon/[id] ...
+ ✓ Compiled /webtoon/[id] in 13s (599 modules)
+ GET /webtoon/1 200 in 21623ms
+ GET /favicon.ico 200 in 404ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 9.4s (626 modules)
+ GET /admin 200 in 11728ms
+ GET /favicon.ico 200 in 307ms
+ ○ Compiling /admin/dashboard ...
+ ✓ Compiled /admin/dashboard in 7.1s (642 modules)
+ GET /favicon.ico 200 in 595ms
+ ○ Compiling /admin/projects ...
+ ✓ Compiled /admin/projects in 7.7s (660 modules)
+ GET /admin/projects 200 in 10032ms
+ GET /favicon.ico 200 in 298ms
+ GET /webtoon/10 200 in 1388ms
+ GET /favicon.ico 200 in 511ms
+ GET / 200 in 984ms
+ GET /gallery 200 in 1919ms
+ GET /favicon.ico 200 in 386ms
+ ○ Compiling /webtoon/[id]/episode/[episodeId] ...
+ ✓ Compiled /webtoon/[id]/episode/[episodeId] in 16s (674 modules)
+ GET /favicon.ico 200 in 199ms
+ ○ Compiling /admin/jobs ...
+ ✓ Compiled /admin/jobs in 8.5s (684 modules)
+ GET /favicon.ico 200 in 400ms
+ GET /favicon.ico 200 in 384ms
+ GET /favicon.ico 200 in 305ms
+ GET /favicon.ico 200 in 207ms
+ GET /favicon.ico 200 in 496ms
+ GET /favicon.ico 200 in 783ms
+ GET /favicon.ico 200 in 781ms
+ GET /favicon.ico 200 in 310ms
+ ✓ Compiled in 18.2s (645 modules)
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 21.4s
+ ○ Compiling /gallery ...
+ ✓ Compiled /gallery in 48.2s (557 modules)
+ GET /gallery 200 in 52214ms
+ ✓ Compiled in 7.3s (273 modules)
+ GET /gallery 200 in 994ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 5s (316 modules)
+ GET /favicon.ico 200 in 6410ms
+ GET /gallery 200 in 3124ms
+ GET /favicon.ico 200 in 517ms
+ ○ Compiling /admin/projects ...
+ ✓ Compiled /admin/projects in 11.1s (578 modules)
+ GET /admin/projects 200 in 13287ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 1607ms (335 modules)
+ GET /favicon.ico 200 in 3202ms
+ ○ Compiling / ...
+ ✓ Compiled / in 10.1s (592 modules)
+ GET / 200 in 12714ms
+ GET / 200 in 407ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 4.6s (343 modules)
+ HEAD /favicon.ico 200 in 6115ms
+ GET /favicon.ico 200 in 205ms
+ GET /favicon.ico 200 in 299ms
+ GET /favicon.ico 200 in 97ms
+ GET / 200 in 2011ms
+ GET / 200 in 701ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 7.3s (587 modules)
+ GET /wp-admin/setup-config.php 404 in 897ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 411ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 689ms
+ GET /wp-admin/setup-config.php 404 in 410ms
+ GET /wp-admin/setup-config.php 404 in 299ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 493ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 198ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 301ms
+ GET /wp-admin/setup-config.php 404 in 691ms
+ GET /wp-admin/setup-config.php 404 in 303ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 208ms
+ GET /wp-admin/setup-config.php 404 in 597ms
+ GET /robots.txt 404 in 592ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 407ms
+ ○ Compiling / ...
+ ✓ Compiled / in 4.4s (312 modules)
+ GET / 200 in 6414ms
+ GET /wp-admin/setup-config.php 404 in 304ms
+ GET / 200 in 1110ms
+ GET /admin/projects 200 in 1586ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /admin in 5.1s (343 modules)
+ ✓ Compiled in 8.6s (634 modules)
+ GET /favicon.ico 200 in 19969ms
+ GET /gallery 200 in 7924ms
+ ○ Compiling /about ...
+ ✓ Compiled /about in 5.4s (642 modules)
+ GET /about 200 in 7036ms
+ GET / 200 in 1395ms
+ GET /favicon.ico 200 in 405ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 7.3s (634 modules)
+ GET /favicon.png 404 in 10024ms
+ GET /admin/projects 200 in 1602ms
+ GET /favicon.ico 200 in 203ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 1888ms (350 modules)
+ GET /favicon.ico 200 in 605ms
+ GET /favicon.ico 200 in 110ms
+ GET / 200 in 1410ms
+ GET /favicon.ico 200 in 14ms
+ GET / 200 in 1205ms
+ GET /wp-admin/setup-config.php 404 in 693ms
+ GET /wp-admin/setup-config.php 404 in 697ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 595ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 696ms
+ HEAD / 200 in 1110ms
+ GET / 200 in 607ms
+ GET /favicon.ico 200 in 601ms
+ ⚠ Cross origin request detected from toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET /favicon.ico 200 in 403ms
+ GET /favicon.ico 200 in 392ms
+ GET /ads.txt 404 in 602ms
+ GET /app-ads.txt 404 in 417ms
+ GET /sellers.json 404 in 398ms
+ GET / 200 in 808ms
+ GET / 200 in 1005ms
+ GET /wp-admin/setup-config.php 404 in 697ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 507ms
+ GET /wp-admin/setup-config.php 404 in 399ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 599ms
+ GET / 200 in 941ms
+ GET /wp-admin/setup-config.php 404 in 396ms
+ GET /wp-admin/setup-config.php 404 in 899ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 702ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 408ms
+ GET / 200 in 716ms
+ GET / 200 in 602ms
+ GET / 200 in 613ms
+ GET /admin 200 in 608ms
+ GET /favicon.ico 200 in 2209ms
+ GET /favicon.ico 200 in 797ms
+ GET / 200 in 307ms
+ GET /favicon.ico 200 in 216ms
+ GET /wp-admin/setup-config.php 404 in 410ms
+ GET /wp-admin/setup-config.php 404 in 692ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 399ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 301ms
+ GET /robots.txt 404 in 838ms
+ GET / 200 in 596ms
+ GET / 200 in 898ms
+ GET / 200 in 802ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 399ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 297ms
+ GET /wp-admin/setup-config.php 404 in 392ms
+ GET /wp-admin/setup-config.php 404 in 898ms
+ GET /wp-admin/setup-config.php 404 in 400ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 493ms
+ GET /wp-admin/setup-config.php 404 in 220ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 594ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 408ms
+ GET /wp-login.php 404 in 500ms
+ GET /.git/config 404 in 597ms
+ GET / 200 in 400ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 510ms
+ GET /wp-admin/setup-config.php 404 in 697ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 296ms
+ GET /.git/config 404 in 315ms
+ GET /wp-admin/setup-config.php 404 in 497ms
+ GET / 200 in 609ms
+ GET /gallery 200 in 1295ms
+ GET /favicon.ico 200 in 313ms
+ ○ Compiling /webtoon/[id]/episode/[episodeId] ...
+ ✓ Compiled /webtoon/[id] in 22.7s (661 modules)
+ GET /favicon.ico 200 in 596ms
+ HEAD / 200 in 1394ms
+ GET / 200 in 1119ms
+ GET /gallery 200 in 710ms
+ GET /admin 200 in 613ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 7.8s (624 modules)
+ GET / 200 in 1204ms
+ GET / 200 in 893ms
+ GET /gallery 200 in 884ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 4.1s (355 modules)
+ GET /favicon.ico 200 in 5715ms
+ ○ Compiling /webtoon/[id]/episode/[episodeId] ...
+ ✓ Compiled /webtoon/[id]/episode/[episodeId] in 3.6s (363 modules)
+ GET /favicon.ico 200 in 303ms
+ GET /favicon.ico 200 in 500ms
+ GET /favicon.ico 200 in 296ms
+ GET /favicon.ico 200 in 112ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 5.5s (654 modules)
+ HEAD / 200 in 1602ms
+ GET / 200 in 595ms
+ GET /favicon.ico 200 in 501ms
+ GET /favicon.ico 200 in 111ms
+ GET /favicon.ico 200 in 504ms
+ GET /ads.txt 404 in 599ms
+ GET /app-ads.txt 404 in 305ms
+ GET /sellers.json 404 in 610ms
+ GET / 200 in 897ms
+ GET /gallery 200 in 406ms
+ GET /favicon.ico 200 in 589ms
+ GET /favicon.ico 200 in 107ms
+ ○ Compiling /admin/projects/[id] ...
+ ✓ Compiled /admin/projects/[id] in 14.7s (665 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 3.7s (668 modules)
+ GET /webtoon/11/27 404 in 6904ms
+ GET /favicon.ico 200 in 403ms
+ GET /favicon.ico 200 in 102ms
+ GET /robots.txt 404 in 699ms
+ GET / 200 in 614ms
+ GET /gallery 200 in 4503ms
+ GET /favicon.ico 200 in 403ms
+ GET /webtoon/11/27 404 in 294ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 603ms
+ GET /wp-admin/setup-config.php 404 in 709ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 414ms
+ GET /wp-admin/setup-config.php 404 in 598ms
+ ✓ Compiled in 10s (317 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 10.1s (642 modules)
+ ○ Compiling /webtoon/[id]/[episodeId] ...
+ ✓ Compiled /webtoon/[id]/[episodeId] in 9.2s (634 modules)
+ ✓ Compiled in 46.3s (648 modules)
+ GET /webtoon/11/27 200 in 40189ms
+ ✓ Compiled in 8.5s (646 modules)
+ ✓ Compiled in 7.2s (646 modules)
+ ○ Compiling /favicon.ico ...
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 21.4s
+ ○ Compiling /webtoon/[id]/[episodeId] ...
+ ✓ Compiled /webtoon/[id]/[episodeId] in 39.4s (495 modules)
+ ✓ Compiled in 4s (242 modules)
+ GET /webtoon/11/27 200 in 49216ms
+ ○ Compiling /gallery ...
+ ✓ Compiled /gallery in 15s (549 modules)
+ GET /gallery 200 in 17333ms
+ GET /webtoon/11/27 200 in 603ms
+ ○ Compiling /webtoon/[id]/episode/[episodeId] ...
+ ✓ Compiled /webtoon/[id]/episode/[episodeId] in 6.5s (565 modules)
+ GET /webtoon/11/episode/27 200 in 15022ms
+ ○ Compiling /webtoon/[id] ...
+ ✓ Compiled /webtoon/[id] in 6.6s (575 modules)
+ GET /webtoon/11 200 in 12837ms
+ ○ Compiling / ...
+ ✓ Compiled / in 10s (560 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /webtoon/[id]/episode/[episodeId] in 12.8s (565 modules)
+ GET /wp-admin/setup-config.php 404 in 2703ms
+ GET /webtoon/11/episode/27 200 in 15028ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 3.8s (317 modules)
+ GET /favicon.ico 200 in 6112ms
+ ○ Compiling /gallery ...
+ ✓ Compiled /gallery in 5.7s (326 modules)
+ GET /favicon.ico 200 in 492ms
+ GET /wp-admin/setup-config.php 404 in 1617ms
+ GET /wp-admin/setup-config.php 404 in 902ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 500ms
+ GET /favicon.ico 200 in 599ms
+ ○ Compiling / ...
+ ✓ Compiled / in 7.3s (333 modules)
+ GET / 200 in 6730ms
+ GET / 200 in 10435ms
+ GET / 200 in 214ms
+ GET /gallery 200 in 903ms
+ GET /favicon.ico 200 in 708ms
+ GET / 200 in 809ms
+ GET /favicon.ico 200 in 310ms
+ GET / 200 in 413ms
+ GET /webtoon/11/episode/27 200 in 698ms
+ GET /favicon.ico 200 in 515ms
+ ○ Compiling /webtoon/[id] ...
+ ✓ Compiled /webtoon/[id] in 7.9s (331 modules)
+ GET /favicon.ico 200 in 592ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 5.4s (574 modules)
+ GET /robots.txt 404 in 7620ms
+ GET /wp-admin/setup-config.php 404 in 895ms
+ ○ Compiling /admin ...
+ ✓ Compiled /favicon.ico in 13.7s (631 modules)
+ GET /favicon.ico 200 in 7933ms
+ ○ Compiling /webtoon/[id] ...
+ ✓ Compiled /webtoon/[id] in 6.2s (345 modules)
+ GET /gallery 200 in 2002ms
+ GET /favicon.ico 200 in 409ms
+ GET /favicon.ico 200 in 500ms
+ ○ Compiling /admin/projects ...
+ ✓ Compiled /admin/projects in 8.9s (652 modules)
+ GET /favicon.ico 200 in 207ms
+ ○ Compiling /admin/projects/[id] ...
+ ✓ Compiled /_not-found in 11.7s (662 modules)
+ GET /admin/projects/11 200 in 19647ms
+ GET /favicon.ico 200 in 307ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 2807ms
+ ○ Compiling / ...
+ ✓ Compiled / in 6.9s (333 modules)
+ GET / 200 in 9829ms
+ GET / 200 in 308ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 7.8s (630 modules)
+ GET /wordpress/wp-admin/setup-config.php 404 in 1512ms
+ GET /wp-admin/setup-config.php 404 in 699ms
+ GET /robots.txt 404 in 805ms
+ GET /gallery 200 in 1001ms
+ GET /wp-admin/setup-config.php 404 in 994ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 606ms
+ ○ Compiling / ...
+ ✓ Compiled / in 5.8s (334 modules)
+ HEAD / 200 in 7621ms
+ GET / 200 in 307ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 1094ms
+ GET /wp-admin/setup-config.php 404 in 407ms
+ GET / 200 in 703ms
+ GET / 200 in 1110ms
+ GET / 200 in 1299ms
+ ✓ Compiled in 7.2s (316 modules)
+ ✓ Compiled in 4.1s (316 modules)
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 18.2s
+ ○ Compiling /webtoon/[id] ...
+ ✓ Compiled /webtoon/[id] in 33.7s (557 modules)
+ ✓ Compiled in 6.2s (273 modules)
+ GET /webtoon/11 200 in 45005ms
+ ○ Compiling /gallery ...
+ ✓ Compiled /gallery in 12.2s (553 modules)
+ GET /gallery 200 in 14536ms
+ GET /webtoon/11 200 in 997ms
+ ○ Compiling /webtoon/[id]/[episodeId] ...
+ ✓ Compiled /webtoon/[id]/[episodeId] in 3.5s (559 modules)
+ GET /webtoon/11/27 200 in 9118ms
+ ○ Compiling /webtoon/[id]/episode/[episodeId] ...
+ ✓ Compiled /webtoon/[id]/episode/[episodeId] in 9.6s (575 modules)
+ GET /webtoon/11/episode/27 200 in 16841ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 17.9s (559 modules)
+ GET /wordpress/wp-admin/setup-config.php 404 in 394ms
+ GET /wp-admin/setup-config.php 404 in 396ms
+ ○ Compiling /webtoon/[id] ...
+ ✓ Compiled /webtoon/[id] in 4.3s (284 modules)
+ GET /webtoon/11 200 in 7508ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 5.7s (316 modules)
+ GET /favicon.ico 200 in 8431ms
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+Error: EACCES: permission denied, mkdir '/var/www/toonverse/webapp/frontend/.next'
+    at async Object.mkdir (node:internal/fs/promises:858:10)
+    at async HotReloaderWebpack.start (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/dev/hot-reloader-webpack.js:614:9)
+    at async startWatcher (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:156:5)
+    at async setupDevBundler (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:775:20)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async initialize (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-server.js:81:30)
+    at async Server.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:249:36) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'mkdir',
+  path: '/var/www/toonverse/webapp/frontend/.next'
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+Error: EACCES: permission denied, mkdir '/var/www/toonverse/webapp/frontend/.next'
+    at async Object.mkdir (node:internal/fs/promises:858:10)
+    at async HotReloaderWebpack.start (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/dev/hot-reloader-webpack.js:614:9)
+    at async startWatcher (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:156:5)
+    at async setupDevBundler (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:775:20)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async initialize (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-server.js:81:30)
+    at async Server.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:249:36) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'mkdir',
+  path: '/var/www/toonverse/webapp/frontend/.next'
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+Error: EACCES: permission denied, mkdir '/var/www/toonverse/webapp/frontend/.next'
+    at async Object.mkdir (node:internal/fs/promises:858:10)
+    at async HotReloaderWebpack.start (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/dev/hot-reloader-webpack.js:614:9)
+    at async startWatcher (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:156:5)
+    at async setupDevBundler (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:775:20)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async initialize (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-server.js:81:30)
+    at async Server.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:249:36) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'mkdir',
+  path: '/var/www/toonverse/webapp/frontend/.next'
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+Error: EACCES: permission denied, mkdir '/var/www/toonverse/webapp/frontend/.next'
+    at async Object.mkdir (node:internal/fs/promises:858:10)
+    at async HotReloaderWebpack.start (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/dev/hot-reloader-webpack.js:614:9)
+    at async startWatcher (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:156:5)
+    at async setupDevBundler (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:775:20)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async initialize (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-server.js:81:30)
+    at async Server.<anonymous> (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/start-server.js:249:36) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'mkdir',
+  path: '/var/www/toonverse/webapp/frontend/.next'
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 17.4s
+ ○ Compiling /admin ...
+ ✓ Compiled / in 185.1s (586 modules)
+ GET /webtoon/11 200 in 183799ms
+ HEAD /webtoon/11 200 in 497ms
+ GET / 200 in 388ms
+ ○ Compiling /gallery ...
+ ✓ Compiled /gallery in 5.2s (594 modules)
+ GET /gallery 200 in 7012ms
+ GET /webtoon/11 200 in 702ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 7.8s (503 modules)
+ GET /wp-login.php 404 in 3617ms
+ GET /wp-admin/setup-config.php 404 in 113ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 290ms
+ ○ Compiling /webtoon/[id] ...
+ ✓ Compiled /webtoon/[id] in 5.5s (284 modules)
+ GET /webtoon/11 200 in 8732ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 7.2s (316 modules)
+ GET /favicon.ico 200 in 8725ms
+ ✓ Compiled in 11.3s (579 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /webtoon/11 200 in 3116ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 2.7s (316 modules)
+ GET /favicon.ico 200 in 4019ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 5.5s (611 modules)
+ GET /webtoon/11 200 in 3614ms
+ GET /favicon.ico 200 in 811ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 5.6s (611 modules)
+ GET /webtoon/11 200 in 3425ms
+ GET /favicon.ico 200 in 1600ms
+ ✓ Compiled in 3.9s (611 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /webtoon/11 200 in 1806ms
+ GET /favicon.ico 200 in 692ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 6.9s (611 modules)
+ GET /webtoon/11 200 in 4118ms
+ GET /favicon.ico 200 in 1107ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 6.2s (611 modules)
+ GET /webtoon/11 200 in 4006ms
+ GET /favicon.ico 200 in 313ms
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 15.1s
+ ○ Compiling /webtoon/[id] ...
+ ✓ Compiled /webtoon/[id] in 72s (566 modules)
+ ✓ Compiled in 7.5s (273 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 6.2s (481 modules)
+ GET /wordpress/wp-admin/setup-config.php 404 in 891ms
+ GET /wp-admin/setup-config.php 404 in 104ms
+ ○ Compiling /about ...
+ ✓ Compiled /about in 9.6s (542 modules)
+ GET /about 200 in 11651ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 6.3s (485 modules)
+ GET /wp-admin/setup-config.php 404 in 501ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 319ms
+ ○ Compiling / ...
+ ✓ Compiled / in 9s (551 modules)
+ GET / 200 in 11729ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 7s (491 modules)
+ ○ Compiling /webtoon/[id] ...
+ ✓ Compiled /webtoon/[id] in 6.5s (284 modules)
+ GET /webtoon/11 200 in 10024ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 6.8s (316 modules)
+ GET /favicon.ico 200 in 8215ms
+ GET /webtoon/11 200 in 1519ms
+ GET /favicon.ico 200 in 102ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 4.4s (588 modules)
+ ○ Compiling /_error ...
+ ⨯ [Error: EACCES: permission denied, open '/var/www/toonverse/webapp/frontend/.next/server/webpack-runtime.js'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'open',
+  path: '/var/www/toonverse/webapp/frontend/.next/server/webpack-runtime.js'
+}
+[Error: EACCES: permission denied, open '/var/www/toonverse/webapp/frontend/.next/server/webpack-runtime.js'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'open',
+  path: '/var/www/toonverse/webapp/frontend/.next/server/webpack-runtime.js'
+}
+[Error: EACCES: permission denied, open '/var/www/toonverse/webapp/frontend/.next/server/webpack-runtime.js'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'open',
+  path: '/var/www/toonverse/webapp/frontend/.next/server/webpack-runtime.js'
+}
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 16.8s
+ ○ Compiling / ...
+request to https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2 failed, reason: 
+
+Retrying 1/3...
+request to https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2 failed, reason: 
+
+Retrying 1/3...
+request to https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2 failed, reason: 
+
+Retrying 1/3...
+request to https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2 failed, reason: 
+
+Retrying 1/3...
+request to https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2 failed, reason: 
+
+Retrying 1/3...
+request to https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2 failed, reason: 
+
+Retrying 1/3...
+request to https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2 failed, reason: 
+
+Retrying 1/3...
+ ✓ Compiled / in 76.2s (562 modules)
+ GET / 200 in 45800ms
+ ✓ Compiled in 7.5s (271 modules)
+ GET / 200 in 84675ms
+ ○ Compiling /webtoon/[id] ...
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 15.6s
+ ○ Compiling /webtoon/[id] ...
+ ✓ Compiled / in 166.9s (567 modules)
+ HEAD /webtoon/11 200 in 8829ms
+ GET /webtoon/11 200 in 490ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 4.2s (330 modules)
+ GET /favicon.ico 200 in 5811ms
+ GET / 200 in 1822ms
+ GET / 200 in 1721ms
+ GET / 200 in 892ms
+ ⚠ Cross origin request detected from toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET /favicon.ico 200 in 206ms
+ GET /favicon.ico 200 in 304ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 8.1s (565 modules)
+ GET /wordpress/wp-admin/setup-config.php 404 in 601ms
+ GET /wp-admin/setup-config.php 404 in 505ms
+ GET /webtoon/11 200 in 2089ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 6.6s (325 modules)
+ GET /favicon.ico 200 in 7940ms
+ ✓ Compiled in 10.2s (576 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /webtoon/11 200 in 3308ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 2.8s (325 modules)
+ GET /favicon.ico 200 in 3998ms
+ ✓ Compiled in 6.4s (608 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /webtoon/11 200 in 2008ms
+ GET /favicon.ico 200 in 1406ms
+ ✓ Compiled in 6.8s (608 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /webtoon/11 200 in 3104ms
+ ✓ Compiled in 5.9s (608 modules)
+ GET /favicon.ico 200 in 1706ms
+ ✓ Compiled in 4.7s (608 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /webtoon/11 200 in 2297ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 8s (608 modules)
+ GET /favicon.ico 200 in 8110ms
+ GET /webtoon/11 200 in 2803ms
+ GET /favicon.ico 200 in 1103ms
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 18.5s
+ ○ Compiling /webtoon/[id] ...
+ ✓ Compiled /webtoon/[id] in 37.5s (557 modules)
+ GET /webtoon/11 200 in 15334ms
+ ✓ Compiled in 5.9s (273 modules)
+ GET /webtoon/11 200 in 7401ms
+ GET /webtoon/11 200 in 1003ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 4.8s (316 modules)
+ GET /favicon.ico 200 in 6232ms
+ ○ Compiling /gallery ...
+ ✓ Compiled /gallery in 6s (585 modules)
+ GET /gallery 200 in 7744ms
+ GET /favicon.ico 200 in 306ms
+ ○ Compiling /webtoon/[id]/episode/[episodeId] ...
+ ✓ Compiled /webtoon/[id]/episode/[episodeId] in 7.8s (601 modules)
+ GET /webtoon/11/episode/27 200 in 14531ms
+ GET /favicon.ico 200 in 488ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 8.5s (572 modules)
+ GET /wordpress/wp-admin/setup-config.php 404 in 278ms
+ GET /wp-admin/setup-config.php 404 in 401ms
+ GET /webtoon/11 200 in 1199ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 6.9s (331 modules)
+ GET /favicon.ico 200 in 8327ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 9.7s (626 modules)
+ GET /admin 200 in 11811ms
+ GET /favicon.ico 200 in 901ms
+ GET /favicon.ico 200 in 599ms
+ GET /gallery 200 in 313ms
+ GET /favicon.ico 200 in 106ms
+ GET /favicon.ico 200 in 102ms
+ ○ Compiling / ...
+ ✓ Compiled / in 9.4s (640 modules)
+ GET /favicon.ico 200 in 196ms
+ GET /favicon.ico 200 in 189ms
+ ○ Compiling /admin/projects ...
+ ✓ Compiled /admin/projects in 6.2s (658 modules)
+ GET /favicon.ico 200 in 24ms
+ ○ Compiling /admin/projects/[id] ...
+ ✓ Compiled /admin/projects/[id] in 19.7s (665 modules)
+ GET /admin/projects/12 200 in 25954ms
+ GET /favicon.ico 200 in 697ms
+ ○ Compiling /_not-found ...
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled /_not-found in 13.4s (628 modules)
+ GET /admin/projects/12 200 in 9310ms
+ GET / 200 in 5212ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 3.6s (358 modules)
+ GET /favicon.ico 200 in 4619ms
+ GET /favicon.ico 200 in 4204ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 19.6s (671 modules)
+ GET /admin/projects/12 200 in 10651ms
+ GET /favicon.ico 200 in 599ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 10s (671 modules)
+ GET /admin/projects/12 200 in 9513ms
+ GET /favicon.ico 200 in 293ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 19.7s (673 modules)
+ GET /admin/projects/12 200 in 17155ms
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 17.4s
+ ○ Compiling /_not-found ...
+ ✓ Compiled / in 71.9s (556 modules)
+ ○ Compiling /admin/sns ...
+ ✓ Compiled /admin/sns in 19.1s (577 modules)
+ GET /admin/sns 200 in 21853ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 4.9s (330 modules)
+ GET /favicon.ico 200 in 7217ms
+ GET /favicon.ico 200 in 183ms
+ ✓ Compiled in 13.9s (591 modules)
+ ✓ Compiled in 6.4s (591 modules)
+ ○ Compiling / ...
+ ✓ Compiled /_not-found in 15.1s (603 modules)
+ ✓ Compiled in 8.6s (605 modules)
+ ✓ Compiled in 6.1s (605 modules)
+ ✓ Compiled in 3.4s (296 modules)
+ GET /wp-admin/setup-config.php 404 in 1279ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 701ms
+ ✓ Compiled in 3.6s (296 modules)
+ ✓ Compiled in 3.4s (296 modules)
+ ✓ Compiled in 11.5s (593 modules)
+ ✓ Compiled in 8.8s (595 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 4.1s (584 modules)
+ GET /admin/sns 200 in 2091ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 8.1s (333 modules)
+ GET /favicon.ico 200 in 10628ms
+ GET /favicon.ico 200 in 386ms
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 20.9s
+ ○ Compiling /admin/sns/create ...
+ ✓ Compiled /admin/sns/create in 47.1s (584 modules)
+ ✓ Compiled in 7.5s (286 modules)
+ GET /admin/sns/create 200 in 55224ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 6.7s (330 modules)
+ GET /favicon.ico 200 in 9216ms
+ GET /favicon.ico 200 in 90ms
+ ○ Compiling / ...
+ ✓ Compiled / in 9.3s (586 modules)
+ GET / 200 in 6313ms
+ GET / 200 in 11634ms
+ GET / 200 in 808ms
+ ⚠ Cross origin request detected from toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 8.7s (589 modules)
+ GET /wp-admin/setup-config.php 404 in 801ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 503ms
+ ○ Compiling /admin/sns ...
+ ✓ Compiled /admin/sns in 19.4s (604 modules)
+ GET /admin/sns 200 in 23279ms
+ GET /admin/sns/create 200 in 17784ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 4.1s (349 modules)
+ GET /favicon.ico 200 in 5708ms
+ GET /favicon.ico 200 in 205ms
+ GET /favicon.ico 200 in 106ms
+ GET /favicon.ico 200 in 102ms
+ ✓ Compiled in 19.1s (618 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /admin/sns/create 200 in 1293ms
+ GET /admin/sns 200 in 1488ms
+ GET /admin/sns 200 in 3824ms
+ GET /admin/sns/create 200 in 4214ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 1810ms (349 modules)
+ GET /favicon.ico 200 in 3806ms
+ GET /favicon.ico 200 in 2223ms
+ ✓ Compiled in 4.4s (301 modules)
+ GET /favicon.ico 200 in 816ms
+ GET /favicon.ico 200 in 1108ms
+ ✓ Compiled in 10.1s (650 modules)
+ ✓ Compiled in 5.7s (650 modules)
+ GET / 200 in 1917ms
+ ✓ Compiled in 10.1s (650 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 30.1s (650 modules)
+ GET /admin/sns 200 in 27486ms
+ ✓ Compiled in 3.6s (301 modules)
+ GET /favicon.ico 200 in 1987ms
+ GET /favicon.ico 200 in 205ms
+ ✓ Compiled in 2.9s (301 modules)
+ ✓ Compiled in 3.7s (301 modules)
+ ✓ Compiled in 2.9s (301 modules)
+ ✓ Compiled in 5.3s (301 modules)
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 17.8s
+ ○ Compiling /admin/sns/create ...
+ ✓ Compiled /_not-found in 57s (587 modules)
+ GET /admin/sns/create 200 in 60390ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 3.6s (331 modules)
+ GET /favicon.ico 200 in 6922ms
+ GET /favicon.ico 200 in 299ms
+ GET /robots.txt 404 in 6918ms
+ GET /admin/sns/create 200 in 1795ms
+ GET /favicon.ico 200 in 1372ms
+ GET /favicon.ico 200 in 376ms
+ ✓ Compiled in 11.9s (584 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /admin/sns/create 200 in 1228ms
+ GET /admin/sns/create 200 in 1911ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 2.4s (330 modules)
+ GET /favicon.ico 200 in 4608ms
+ GET /favicon.ico 200 in 208ms
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 14.7s
+ ○ Compiling /admin ...
+request to https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap failed, reason: 
+
+Retrying 1/3...
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 16.7s
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 80.1s (583 modules)
+ ✓ Compiled in 7.3s (281 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 8.6s (555 modules)
+ HEAD / 200 in 11036ms
+ ✓ Compiled in 5.2s (287 modules)
+[?25h
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 33.1s
+ ○ Compiling /admin/sns ...
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 18.2s
+ ○ Compiling /admin ...
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 15.1s
+ ○ Compiling / ...
+ ✓ Compiled / in 68.8s (549 modules)
+ ✓ Compiled in 5.2s (268 modules)
+ GET / 200 in 5914ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 44.9s (584 modules)
+ ✓ Compiled in 5.5s (576 modules)
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 14.4s
+ ○ Compiling / ...
+ ✓ Compiled / in 73.3s (549 modules)
+ ✓ Compiled in 6.7s (268 modules)
+ GET / 200 in 1901ms
+ ○ Compiling /admin/sns ...
+ ✓ Compiled /admin/sns in 41.3s (586 modules)
+ GET /admin/sns 200 in 44022ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 4.8s (331 modules)
+ GET /favicon.ico 200 in 8214ms
+ GET /favicon.ico 200 in 317ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 6.9s (580 modules)
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+  - Experiments (use with caution):
+    · optimizeCss
+
+ ✓ Starting...
+ ✓ Ready in 15.1s
+ ○ Compiling / ...
+ ✓ Compiled / in 72.2s (549 modules)
+ GET / 200 in 7793ms
+ ✓ Compiled in 7.9s (268 modules)
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 119.8s (570 modules)
+ GET /admin 200 in 4304ms
+ GET /admin 200 in 599ms
+ ○ Compiling /admin/sns ...
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ✓ Compiled /favicon.ico in 21.3s (638 modules)
+ ⨯ src/app/admin/sns/page.tsx (217:3) @ SnsManagementPage
+ ⨯ ReferenceError: mounted is not defined
+    at SnsManagementPage (./src/app/admin/sns/page.tsx:215:5)
+digest: "2457170745"
+[0m [90m 215 |[39m   }[33m;[39m[0m
+[0m [90m 216 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 217 |[39m   [36mif[39m ([33m![39mmounted [33m||[39m loading) {[0m
+[0m [90m     |[39m   [31m[1m^[22m[39m[0m
+[0m [90m 218 |[39m     [36mreturn[39m ([0m
+[0m [90m 219 |[39m       [33m<[39m[33mdiv[39m className[33m=[39m[32m"min-h-screen bg-gradient-to-br from-indigo-50 to-purple-50 flex items-center justify-center"[39m[33m>[39m[0m
+[0m [90m 220 |[39m         [33m<[39m[33mdiv[39m className[33m=[39m[32m"text-center"[39m[33m>[39m[0m
+ ⨯ src/app/admin/sns/create/page.tsx (190:3) @ CreateSnsPostPage
+ ⨯ ReferenceError: mounted is not defined
+    at CreateSnsPostPage (./src/app/admin/sns/create/page.tsx:227:5)
+digest: "3437756828"
+[0m [90m 188 |[39m   }[33m;[39m[0m
+[0m [90m 189 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 190 |[39m   [36mif[39m ([33m![39mmounted) {[0m
+[0m [90m     |[39m   [31m[1m^[22m[39m[0m
+[0m [90m 191 |[39m     [36mreturn[39m [36mnull[39m[33m;[39m[0m
+[0m [90m 192 |[39m   }[0m
+[0m [90m 193 |[39m[0m
+ GET /admin 200 in 490ms
+ ⨯ src/app/admin/sns/page.tsx (217:3) @ SnsManagementPage
+ ⨯ ReferenceError: mounted is not defined
+    at SnsManagementPage (./src/app/admin/sns/page.tsx:215:5)
+digest: "2457170745"
+[0m [90m 215 |[39m   }[33m;[39m[0m
+[0m [90m 216 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 217 |[39m   [36mif[39m ([33m![39mmounted [33m||[39m loading) {[0m
+[0m [90m     |[39m   [31m[1m^[22m[39m[0m
+[0m [90m 218 |[39m     [36mreturn[39m ([0m
+[0m [90m 219 |[39m       [33m<[39m[33mdiv[39m className[33m=[39m[32m"min-h-screen bg-gradient-to-br from-indigo-50 to-purple-50 flex items-center justify-center"[39m[33m>[39m[0m
+[0m [90m 220 |[39m         [33m<[39m[33mdiv[39m className[33m=[39m[32m"text-center"[39m[33m>[39m[0m
+ GET /admin/sns 500 in 407ms
+ ⨯ src/app/admin/sns/create/page.tsx (190:3) @ CreateSnsPostPage
+ ⨯ ReferenceError: mounted is not defined
+    at CreateSnsPostPage (./src/app/admin/sns/create/page.tsx:227:5)
+digest: "3437756828"
+[0m [90m 188 |[39m   }[33m;[39m[0m
+[0m [90m 189 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 190 |[39m   [36mif[39m ([33m![39mmounted) {[0m
+[0m [90m     |[39m   [31m[1m^[22m[39m[0m
+[0m [90m 191 |[39m     [36mreturn[39m [36mnull[39m[33m;[39m[0m
+[0m [90m 192 |[39m   }[0m
+[0m [90m 193 |[39m[0m
+ GET /admin/sns/create 500 in 402ms
+ ○ Compiling /admin/sns/accounts ...
+ ✓ Compiled /admin/sns/accounts in 5.3s (648 modules)
+ GET /admin/sns/accounts 200 in 8722ms
+ ○ Compiling /gallery ...
+ ✓ Compiled /_not-found in 15.8s (664 modules)
+ ⨯ src/app/admin/sns/page.tsx (217:3) @ SnsManagementPage
+ ⨯ ReferenceError: mounted is not defined
+    at SnsManagementPage (./src/app/admin/sns/page.tsx:215:5)
+digest: "2457170745"
+[0m [90m 215 |[39m   }[33m;[39m[0m
+[0m [90m 216 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 217 |[39m   [36mif[39m ([33m![39mmounted [33m||[39m loading) {[0m
+[0m [90m     |[39m   [31m[1m^[22m[39m[0m
+[0m [90m 218 |[39m     [36mreturn[39m ([0m
+[0m [90m 219 |[39m       [33m<[39m[33mdiv[39m className[33m=[39m[32m"min-h-screen bg-gradient-to-br from-indigo-50 to-purple-50 flex items-center justify-center"[39m[33m>[39m[0m
+[0m [90m 220 |[39m         [33m<[39m[33mdiv[39m className[33m=[39m[32m"text-center"[39m[33m>[39m[0m
+ GET /admin/sns 500 in 1991ms
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+  - Experiments (use with caution):
+    · optimizeCss
+
+ ✓ Starting...
+ ✓ Ready in 34.9s
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 75s (570 modules)
+ ✓ Compiled in 7.5s (278 modules)
+ GET /admin 200 in 2732ms
+ ○ Compiling /admin/sns ...
+ ✓ Compiled /admin/sns in 105.3s (586 modules)
+ GET /admin 200 in 22443ms
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 4.2s (340 modules)
+ GET /admin 200 in 1609ms
+ GET /favicon.ico 200 in 105ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 2.9s (621 modules)
+ GET /wordpress/wp-admin/setup-config.php 404 in 1006ms
+ GET /wp-admin/setup-config.php 404 in 599ms
+ ○ Compiling / ...
+ ✓ Compiled / in 10.6s (584 modules)
+ GET / 200 in 10014ms
+ ⚠ Cross origin request detected from toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 1603ms (332 modules)
+ GET /favicon.ico 200 in 3015ms
+ GET /favicon.ico 200 in 304ms
+ ○ Compiling /admin/sns ...
+ ✓ Compiled /admin/sns in 3.4s (348 modules)
+ GET /favicon.ico 200 in 489ms
+ ○ Compiling /admin/sns/create ...
+ ✓ Compiled /admin/sns/create in 7.5s (646 modules)
+ GET /favicon.ico 200 in 205ms
+ GET / 200 in 2404ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 2.8s (649 modules)
+ HEAD /apps 404 in 5116ms
+ HEAD /_next/data 404 in 104ms
+Error: Failed to find Server Action "x". This request might be from an older or newer deployment. 
+    at rC (/var/www/toonverse/webapp/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:40:1694)
+    at rk (/var/www/toonverse/webapp/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:38:6522)
+    at ne (/var/www/toonverse/webapp/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:42:1262)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:43:726
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at Object.wrap (/var/www/toonverse/webapp/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:36:17827)
+    at /var/www/toonverse/webapp/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:43:616
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at Object.wrap (/var/www/toonverse/webapp/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:36:16929)
+    at nt (/var/www/toonverse/webapp/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:43:543)
+    at nb.render (/var/www/toonverse/webapp/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:43:4699)
+    at doRender (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/base-server.js:1427:44)
+    at cacheEntry.responseCache.get.routeKind (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/base-server.js:1588:34)
+    at ResponseCache.get (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/response-cache/index.js:49:26)
+    at DevServer.renderToResponseWithComponentsImpl (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/base-server.js:1496:53)
+ POST / 200 in 696ms
+   Reload env: .env.local
+ ✓ Compiled in 7.3s (614 modules)
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+  - Experiments (use with caution):
+    · optimizeCss
+
+ ✓ Starting...
+ ✓ Ready in 33.8s
+ ○ Compiling / ...
+ ✓ Compiled /admin in 187.5s (603 modules)
+ GET /admin 200 in 1504ms
+ GET /admin/sns 200 in 215ms
+ ○ Compiling /favicon.ico ...
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ✓ Compiled /favicon.ico in 7.1s (340 modules)
+ GET /favicon.ico 200 in 8715ms
+ ✓ Compiled in 8.6s (629 modules)
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+  - Experiments (use with caution):
+    · optimizeCss
+
+ ✓ Starting...
+ ✓ Ready in 21s
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 31.8s (570 modules)
+ ✓ Compiled in 6.5s (278 modules)
+ GET /admin 200 in 697ms
+ ○ Compiling /admin/sns/create ...
+ ✓ Compiled /admin/sns/create in 14.3s (582 modules)
+ GET /admin/sns/create 200 in 17694ms
+ ○ Compiling /favicon.ico ...
+ ⚠ Cross origin request detected from www.toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ✓ Compiled /favicon.ico in 5.8s (338 modules)
+ GET /favicon.ico 200 in 6818ms
+ ○ Compiling /admin/sns ...
+ ✓ Compiled /admin/sns in 10.3s (583 modules)
+ ○ Compiling /admin/sns/create ...
+ ✓ Compiled /admin/sns/create in 1699ms (307 modules)
+ GET /admin/sns/create 200 in 8418ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 2.4s (339 modules)
+ ⚠ Cross origin request detected from toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET /favicon.ico 200 in 286ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 4.9s (626 modules)
+ GET /wp-admin/setup-config.php 404 in 787ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 404ms
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local, .env
+  - Experiments (use with caution):
+    · optimizeCss
+
+ ✓ Starting...
+ ✓ Ready in 16.5s
+ ○ Compiling /admin/sns/create ...
+ ✓ Compiled /admin/sns/create in 77.2s (580 modules)
+ ✓ Compiled in 7s (283 modules)
+ ○ Compiling /admin/sns ...
+ ✓ Compiled /admin/sns in 22.5s (576 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 8.2s (592 modules)
