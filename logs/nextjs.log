@@ -1831,3 +1831,33 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
  GET /favicon.ico 200 in 6410ms
  GET /gallery 200 in 3124ms
  GET /favicon.ico 200 in 517ms
+ ○ Compiling /admin/projects ...
+ ✓ Compiled /admin/projects in 11.1s (578 modules)
+ GET /admin/projects 200 in 13287ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 1607ms (335 modules)
+ GET /favicon.ico 200 in 3202ms
+ ○ Compiling / ...
+ ✓ Compiled / in 10.1s (592 modules)
+ GET / 200 in 12714ms
+ GET / 200 in 407ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 4.6s (343 modules)
+ HEAD /favicon.ico 200 in 6115ms
+ GET /favicon.ico 200 in 205ms
+ GET /favicon.ico 200 in 299ms
+ GET /favicon.ico 200 in 97ms
+ GET / 200 in 2011ms
+ GET / 200 in 701ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 7.3s (587 modules)
+ GET /wp-admin/setup-config.php 404 in 897ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 411ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 689ms
+ GET /wp-admin/setup-config.php 404 in 410ms
+ GET /wp-admin/setup-config.php 404 in 299ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 493ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 198ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 301ms
+ GET /wp-admin/setup-config.php 404 in 691ms
+ GET /wp-admin/setup-config.php 404 in 303ms
