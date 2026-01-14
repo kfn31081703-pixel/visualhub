@@ -8,6 +8,7 @@ use App\Http\Controllers\Api\JobController;
 use App\Http\Controllers\Api\DashboardController;
 use App\Http\Controllers\SnsPostController;
 use App\Http\Controllers\SnsAccountController;
+use App\Http\Controllers\SnsConfigController;
 
 /*
 |--------------------------------------------------------------------------
@@ -58,6 +59,12 @@ Route::get('/sns/accounts/{id}', [SnsAccountController::class, 'show']);
 Route::put('/sns/accounts/{id}', [SnsAccountController::class, 'update']);
 Route::delete('/sns/accounts/{id}', [SnsAccountController::class, 'destroy']);
 Route::post('/sns/accounts/{id}/toggle-active', [SnsAccountController::class, 'toggleActive']);
+
+// SNS Configuration
+Route::get('/sns/config', [SnsConfigController::class, 'index']);
+Route::put('/sns/config', [SnsConfigController::class, 'update']);
+Route::post('/sns/config/mock-mode', [SnsConfigController::class, 'toggleMockMode']);
+Route::post('/sns/config/test/{platform}', [SnsConfigController::class, 'testConnection']);
 
 // Health check
 Route::get('/health', function () {

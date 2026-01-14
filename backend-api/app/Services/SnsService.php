@@ -7,6 +7,8 @@ use App\Models\SnsPost;
 use App\Models\SnsAccount;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Config;
 
 class SnsService
 {
@@ -172,15 +174,109 @@ class SnsService
      */
     private function postToTwitter(SnsPost $post, SnsAccount $account): array
     {
-        // TODO: Implement Twitter API integration
-        // For now, return mock success for testing
-        Log::info('Twitter posting (mock)', ['post_id' => $post->id]);
-        
-        return [
-            'success' => true,
-            'post_id' => 'twitter_' . time(),
-            'post_url' => 'https://twitter.com/toonverse/status/' . time(),
-        ];
+        // Check if mock mode is enabled
+        if (Config::get('sns.mock_mode', true) || !Config::get('sns.twitter.enabled', false)) {
+            Log::info('Twitter posting (mock mode)', [
+                'post_id' => $post->id,
+                'account' => $account->account_name,
+            ]);
+            
+            return [
+                'success' => true,
+                'post_id' => 'twitter_mock_' . time(),
+                'post_url' => 'https://twitter.com/' . str_replace('@', '', $account->account_name) . '/status/' . time(),
+                'mock' => true,
+            ];
+        }
+
+        try {
+            // Get Twitter API credentials
+            $bearerToken = $account->access_token ?? Config::get('sns.twitter.bearer_token');
+
+            if (!$bearerToken) {
+                throw new \Exception('Twitter API credentials not configured');
+            }
+
+            // Twitter API v2 endpoint for creating tweets
+            $apiUrl = 'https://api.twitter.com/2/tweets';
+
+            // Prepare tweet data
+            $tweetData = [
+                'text' => mb_substr($post->content, 0, 280), // Twitter character limit
+            ];
+
+            // Add media if available
+            if ($post->image_url) {
+                // First, upload the media
+                $mediaId = $this->uploadTwitterMedia($post->image_url, $bearerToken);
+                if ($mediaId) {
+                    $tweetData['media'] = ['media_ids' => [$mediaId]];
+                }
+            }
+
+            // Make API request
+            $response = Http::withHeaders([
+                'Authorization' => 'Bearer ' . $bearerToken,
+                'Content-Type' => 'application/json',
+            ])->post($apiUrl, $tweetData);
+
+            if ($response->successful()) {
+                $data = $response->json();
+                
+                if (isset($data['data']['id'])) {
+                    Log::info('Twitter post created successfully', [
+                        'post_id' => $post->id,
+                        'tweet_id' => $data['data']['id']
+                    ]);
+
+                    return [
+                        'success' => true,
+                        'post_id' => $data['data']['id'],
+                        'post_url' => 'https://twitter.com/' . str_replace('@', '', $account->account_name) . '/status/' . $data['data']['id'],
+                    ];
+                }
+            }
+
+            // API request failed
+            $error = $response->json()['detail'] ?? $response->body();
+            throw new \Exception('Twitter API error: ' . $error);
+
+        } catch (\Exception $e) {
+            Log::error('Twitter posting failed', [
+                'post_id' => $post->id,
+                'error' => $e->getMessage()
+            ]);
+
+            return [
+                'success' => false,
+                'error' => $e->getMessage(),
+            ];
+        }
+    }
+
+    /**
+     * Upload media to Twitter
+     */
+    private function uploadTwitterMedia(string $imageUrl, string $bearerToken): ?string
+    {
+        try {
+            // Download image
+            $imageContent = Http::get($imageUrl)->body();
+            
+            // Upload to Twitter
+            $response = Http::withHeaders([
+                'Authorization' => 'Bearer ' . $bearerToken,
+            ])->attach('media', $imageContent, 'image.jpg')
+              ->post('https://upload.twitter.com/1.1/media/upload.json');
+
+            if ($response->successful()) {
+                return $response->json()['media_id_string'] ?? null;
+            }
+        } catch (\Exception $e) {
+            Log::error('Twitter media upload failed', ['error' => $e->getMessage()]);
+        }
+
+        return null;
     }
 
     /**
@@ -188,14 +284,80 @@ class SnsService
      */
     private function postToFacebook(SnsPost $post, SnsAccount $account): array
     {
-        // TODO: Implement Facebook API integration
-        Log::info('Facebook posting (mock)', ['post_id' => $post->id]);
-        
-        return [
-            'success' => true,
-            'post_id' => 'fb_' . time(),
-            'post_url' => 'https://facebook.com/posts/' . time(),
-        ];
+        // Check if mock mode is enabled
+        if (Config::get('sns.mock_mode', true) || !Config::get('sns.facebook.enabled', false)) {
+            Log::info('Facebook posting (mock mode)', [
+                'post_id' => $post->id,
+                'account' => $account->account_name,
+            ]);
+            
+            return [
+                'success' => true,
+                'post_id' => 'fb_mock_' . time(),
+                'post_url' => 'https://facebook.com/' . $account->account_id . '/posts/' . time(),
+                'mock' => true,
+            ];
+        }
+
+        try {
+            // Get Facebook API credentials
+            $accessToken = $account->access_token ?? Config::get('sns.facebook.access_token');
+            $pageId = $account->account_id ?? $account->settings['page_id'] ?? null;
+
+            if (!$accessToken || !$pageId) {
+                throw new \Exception('Facebook API credentials not configured');
+            }
+
+            // Facebook Graph API endpoint
+            $apiVersion = Config::get('sns.facebook.api_version', 'v18.0');
+            $apiUrl = "https://graph.facebook.com/{$apiVersion}/{$pageId}/feed";
+
+            // Prepare post data
+            $postData = [
+                'message' => $post->content,
+                'access_token' => $accessToken,
+            ];
+
+            // Add image if available
+            if ($post->image_url) {
+                $postData['link'] = $post->image_url;
+            }
+
+            // Make API request
+            $response = Http::asForm()->post($apiUrl, $postData);
+
+            if ($response->successful()) {
+                $data = $response->json();
+                
+                if (isset($data['id'])) {
+                    Log::info('Facebook post created successfully', [
+                        'post_id' => $post->id,
+                        'fb_post_id' => $data['id']
+                    ]);
+
+                    return [
+                        'success' => true,
+                        'post_id' => $data['id'],
+                        'post_url' => "https://facebook.com/{$data['id']}",
+                    ];
+                }
+            }
+
+            // API request failed
+            $error = $response->json()['error']['message'] ?? $response->body();
+            throw new \Exception('Facebook API error: ' . $error);
+
+        } catch (\Exception $e) {
+            Log::error('Facebook posting failed', [
+                'post_id' => $post->id,
+                'error' => $e->getMessage()
+            ]);
+
+            return [
+                'success' => false,
+                'error' => $e->getMessage(),
+            ];
+        }
     }
 
     /**
@@ -203,14 +365,96 @@ class SnsService
      */
     private function postToInstagram(SnsPost $post, SnsAccount $account): array
     {
-        // TODO: Implement Instagram API integration
-        Log::info('Instagram posting (mock)', ['post_id' => $post->id]);
-        
-        return [
-            'success' => true,
-            'post_id' => 'ig_' . time(),
-            'post_url' => 'https://instagram.com/p/' . time(),
-        ];
+        // Check if mock mode is enabled
+        if (Config::get('sns.mock_mode', true) || !Config::get('sns.instagram.enabled', false)) {
+            Log::info('Instagram posting (mock mode)', [
+                'post_id' => $post->id,
+                'account' => $account->account_name,
+            ]);
+            
+            return [
+                'success' => true,
+                'post_id' => 'ig_mock_' . time(),
+                'post_url' => 'https://instagram.com/p/' . base64_encode(time()),
+                'mock' => true,
+            ];
+        }
+
+        try {
+            // Get Instagram API credentials
+            $accessToken = $account->access_token ?? Config::get('sns.instagram.access_token');
+            $accountId = $account->account_id ?? $account->settings['instagram_account_id'] ?? null;
+
+            if (!$accessToken || !$accountId) {
+                throw new \Exception('Instagram API credentials not configured');
+            }
+
+            // Instagram requires an image URL
+            if (!$post->image_url) {
+                throw new \Exception('Instagram posts require an image');
+            }
+
+            // Instagram Graph API endpoint (using Facebook Graph API)
+            $apiVersion = Config::get('sns.instagram.api_version', 'v18.0');
+            
+            // Step 1: Create media container
+            $containerUrl = "https://graph.facebook.com/{$apiVersion}/{$accountId}/media";
+            $containerData = [
+                'image_url' => $post->image_url,
+                'caption' => $post->content,
+                'access_token' => $accessToken,
+            ];
+
+            $containerResponse = Http::asForm()->post($containerUrl, $containerData);
+
+            if (!$containerResponse->successful()) {
+                $error = $containerResponse->json()['error']['message'] ?? $containerResponse->body();
+                throw new \Exception('Instagram media container error: ' . $error);
+            }
+
+            $containerId = $containerResponse->json()['id'];
+
+            // Step 2: Publish the media container
+            $publishUrl = "https://graph.facebook.com/{$apiVersion}/{$accountId}/media_publish";
+            $publishData = [
+                'creation_id' => $containerId,
+                'access_token' => $accessToken,
+            ];
+
+            $publishResponse = Http::asForm()->post($publishUrl, $publishData);
+
+            if ($publishResponse->successful()) {
+                $data = $publishResponse->json();
+                
+                if (isset($data['id'])) {
+                    Log::info('Instagram post created successfully', [
+                        'post_id' => $post->id,
+                        'ig_post_id' => $data['id']
+                    ]);
+
+                    return [
+                        'success' => true,
+                        'post_id' => $data['id'],
+                        'post_url' => "https://instagram.com/p/" . base64_encode($data['id']),
+                    ];
+                }
+            }
+
+            // API request failed
+            $error = $publishResponse->json()['error']['message'] ?? $publishResponse->body();
+            throw new \Exception('Instagram publish error: ' . $error);
+
+        } catch (\Exception $e) {
+            Log::error('Instagram posting failed', [
+                'post_id' => $post->id,
+                'error' => $e->getMessage()
+            ]);
+
+            return [
+                'success' => false,
+                'error' => $e->getMessage(),
+            ];
+        }
     }
 
     /**
@@ -218,14 +462,91 @@ class SnsService
      */
     private function postToTikTok(SnsPost $post, SnsAccount $account): array
     {
-        // TODO: Implement TikTok API integration
-        Log::info('TikTok posting (mock)', ['post_id' => $post->id]);
-        
-        return [
-            'success' => true,
-            'post_id' => 'tiktok_' . time(),
-            'post_url' => 'https://tiktok.com/@toonverse/video/' . time(),
-        ];
+        // Check if mock mode is enabled
+        if (Config::get('sns.mock_mode', true) || !Config::get('sns.tiktok.enabled', false)) {
+            Log::info('TikTok posting (mock mode)', [
+                'post_id' => $post->id,
+                'account' => $account->account_name,
+                'reason' => !Config::get('sns.tiktok.enabled') ? 'API not configured' : 'Mock mode enabled'
+            ]);
+            
+            return [
+                'success' => true,
+                'post_id' => 'tiktok_mock_' . time(),
+                'post_url' => 'https://tiktok.com/@' . str_replace('@', '', $account->account_name) . '/video/' . time(),
+                'mock' => true,
+            ];
+        }
+
+        try {
+            // Get TikTok API credentials
+            $accessToken = $account->access_token ?? Config::get('sns.tiktok.access_token');
+            $openId = $account->settings['open_id'] ?? Config::get('sns.tiktok.open_id');
+
+            if (!$accessToken || !$openId) {
+                throw new \Exception('TikTok API credentials not configured');
+            }
+
+            // TikTok API endpoint for creating video posts
+            $apiUrl = 'https://open.tiktokapis.com/v2/post/publish/video/init/';
+
+            // Prepare post data
+            $postData = [
+                'post_info' => [
+                    'title' => mb_substr($post->content, 0, 150), // TikTok title limit
+                    'privacy_level' => 'PUBLIC_TO_EVERYONE',
+                    'disable_duet' => false,
+                    'disable_comment' => false,
+                    'disable_stitch' => false,
+                    'video_cover_timestamp_ms' => 1000,
+                ],
+                'source_info' => [
+                    'source' => 'FILE_UPLOAD',
+                    'video_size' => 0, // Will be updated when actual video is uploaded
+                    'chunk_size' => 10000000,
+                    'total_chunk_count' => 1,
+                ]
+            ];
+
+            // Make API request
+            $response = Http::withHeaders([
+                'Authorization' => 'Bearer ' . $accessToken,
+                'Content-Type' => 'application/json',
+            ])->post($apiUrl, $postData);
+
+            if ($response->successful()) {
+                $data = $response->json();
+                
+                if (isset($data['data']['publish_id'])) {
+                    Log::info('TikTok post created successfully', [
+                        'post_id' => $post->id,
+                        'tiktok_publish_id' => $data['data']['publish_id']
+                    ]);
+
+                    return [
+                        'success' => true,
+                        'post_id' => $data['data']['publish_id'],
+                        'post_url' => 'https://tiktok.com/@' . str_replace('@', '', $account->account_name) . '/video/' . $data['data']['publish_id'],
+                        'upload_url' => $data['data']['upload_url'] ?? null,
+                    ];
+                }
+            }
+
+            // API request failed
+            $error = $response->json()['error']['message'] ?? $response->body();
+            throw new \Exception('TikTok API error: ' . $error);
+
+        } catch (\Exception $e) {
+            Log::error('TikTok posting failed', [
+                'post_id' => $post->id,
+                'error' => $e->getMessage()
+            ]);
+
+            return [
+                'success' => false,
+                'error' => $e->getMessage(),
+            ];
+        }
     }
 
     /**
