@@ -3034,3 +3034,265 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
  ✓ Compiled /admin/sns in 22.5s (576 modules)
  ○ Compiling / ...
  ✓ Compiled / in 8.2s (592 modules)
+ ○ Compiling /_not-found ...
+ GET / 200 in 3202ms
+ ✓ Compiled /_not-found in 7.4s (568 modules)
+ GET /main.js 404 in 9614ms
+ GET /wp-admin/setup-config.php 404 in 701ms
+ ○ Compiling /admin/sns/create ...
+ ✓ Compiled /admin/sns/create in 3.9s (297 modules)
+ GET /admin/sns/create 200 in 7814ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 3.9s (584 modules)
+ ⚠ Cross origin request detected from toonverse.store to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 6.3s (330 modules)
+ GET /favicon.ico 200 in 7528ms
+ GET /favicon.ico 200 in 199ms
+ GET /admin/sns/create 200 in 2606ms
+ GET /favicon.ico 200 in 517ms
+ GET /wp-admin/setup-config.php 404 in 1012ms
+ GET /wordpress/wp-admin/setup-config.php 404 in 500ms
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local, .env
+  - Experiments (use with caution):
+    · optimizeCss
+
+ ✓ Starting...
+Error: EACCES: permission denied, unlink '/var/www/toonverse/webapp/frontend/.next/app-build-manifest.json'
+    at async Object.unlink (node:internal/fs/promises:1070:10)
+    at async unlinkPath (/var/www/toonverse/webapp/frontend/node_modules/next/dist/lib/recursive-delete.js:25:13)
+    at async Promise.all (index 0)
+    at async recursiveDelete (/var/www/toonverse/webapp/frontend/node_modules/next/dist/lib/recursive-delete.js:51:5)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async HotReloaderWebpack.start (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/dev/hot-reloader-webpack.js:612:9)
+    at async startWatcher (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:156:5)
+    at async setupDevBundler (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:775:20)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async initialize (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-server.js:81:30) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'unlink',
+  path: '/var/www/toonverse/webapp/frontend/.next/app-build-manifest.json'
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local, .env
+  - Experiments (use with caution):
+    · optimizeCss
+
+ ✓ Starting...
+Error: EACCES: permission denied, unlink '/var/www/toonverse/webapp/frontend/.next/app-build-manifest.json'
+    at async Object.unlink (node:internal/fs/promises:1070:10)
+    at async unlinkPath (/var/www/toonverse/webapp/frontend/node_modules/next/dist/lib/recursive-delete.js:25:13)
+    at async Promise.all (index 0)
+    at async recursiveDelete (/var/www/toonverse/webapp/frontend/node_modules/next/dist/lib/recursive-delete.js:51:5)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async HotReloaderWebpack.start (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/dev/hot-reloader-webpack.js:612:9)
+    at async startWatcher (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:156:5)
+    at async setupDevBundler (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:775:20)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async initialize (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-server.js:81:30) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'unlink',
+  path: '/var/www/toonverse/webapp/frontend/.next/app-build-manifest.json'
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local, .env
+  - Experiments (use with caution):
+    · optimizeCss
+
+ ✓ Starting...
+Error: EACCES: permission denied, unlink '/var/www/toonverse/webapp/frontend/.next/app-build-manifest.json'
+    at async Object.unlink (node:internal/fs/promises:1070:10)
+    at async unlinkPath (/var/www/toonverse/webapp/frontend/node_modules/next/dist/lib/recursive-delete.js:25:13)
+    at async Promise.all (index 0)
+    at async recursiveDelete (/var/www/toonverse/webapp/frontend/node_modules/next/dist/lib/recursive-delete.js:51:5)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async HotReloaderWebpack.start (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/dev/hot-reloader-webpack.js:612:9)
+    at async startWatcher (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:156:5)
+    at async setupDevBundler (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:775:20)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async initialize (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-server.js:81:30) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'unlink',
+  path: '/var/www/toonverse/webapp/frontend/.next/app-build-manifest.json'
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local, .env
+  - Experiments (use with caution):
+    · optimizeCss
+
+ ✓ Starting...
+Error: EACCES: permission denied, unlink '/var/www/toonverse/webapp/frontend/.next/app-build-manifest.json'
+    at async Object.unlink (node:internal/fs/promises:1070:10)
+    at async unlinkPath (/var/www/toonverse/webapp/frontend/node_modules/next/dist/lib/recursive-delete.js:25:13)
+    at async Promise.all (index 0)
+    at async recursiveDelete (/var/www/toonverse/webapp/frontend/node_modules/next/dist/lib/recursive-delete.js:51:5)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async HotReloaderWebpack.start (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/dev/hot-reloader-webpack.js:612:9)
+    at async startWatcher (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:156:5)
+    at async setupDevBundler (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:775:20)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async initialize (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-server.js:81:30) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'unlink',
+  path: '/var/www/toonverse/webapp/frontend/.next/app-build-manifest.json'
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local, .env
+  - Experiments (use with caution):
+    · optimizeCss
+
+ ✓ Starting...
+Error: EACCES: permission denied, unlink '/var/www/toonverse/webapp/frontend/.next/BUILD_ID'
+    at async Object.unlink (node:internal/fs/promises:1070:10)
+    at async unlinkPath (/var/www/toonverse/webapp/frontend/node_modules/next/dist/lib/recursive-delete.js:25:13)
+    at async Promise.all (index 0)
+    at async recursiveDelete (/var/www/toonverse/webapp/frontend/node_modules/next/dist/lib/recursive-delete.js:51:5)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async HotReloaderWebpack.start (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/dev/hot-reloader-webpack.js:612:9)
+    at async startWatcher (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:156:5)
+    at async setupDevBundler (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:775:20)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async initialize (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-server.js:81:30) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'unlink',
+  path: '/var/www/toonverse/webapp/frontend/.next/BUILD_ID'
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local, .env
+  - Experiments (use with caution):
+    · optimizeCss
+
+ ✓ Starting...
+Error: EACCES: permission denied, unlink '/var/www/toonverse/webapp/frontend/.next/BUILD_ID'
+    at async Object.unlink (node:internal/fs/promises:1070:10)
+    at async unlinkPath (/var/www/toonverse/webapp/frontend/node_modules/next/dist/lib/recursive-delete.js:25:13)
+    at async Promise.all (index 0)
+    at async recursiveDelete (/var/www/toonverse/webapp/frontend/node_modules/next/dist/lib/recursive-delete.js:51:5)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async HotReloaderWebpack.start (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/dev/hot-reloader-webpack.js:612:9)
+    at async startWatcher (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:156:5)
+    at async setupDevBundler (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:775:20)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async initialize (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-server.js:81:30) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'unlink',
+  path: '/var/www/toonverse/webapp/frontend/.next/BUILD_ID'
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local, .env
+  - Experiments (use with caution):
+    · optimizeCss
+
+ ✓ Starting...
+Error: EACCES: permission denied, unlink '/var/www/toonverse/webapp/frontend/.next/BUILD_ID'
+    at async Object.unlink (node:internal/fs/promises:1070:10)
+    at async unlinkPath (/var/www/toonverse/webapp/frontend/node_modules/next/dist/lib/recursive-delete.js:25:13)
+    at async Promise.all (index 0)
+    at async recursiveDelete (/var/www/toonverse/webapp/frontend/node_modules/next/dist/lib/recursive-delete.js:51:5)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async HotReloaderWebpack.start (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/dev/hot-reloader-webpack.js:612:9)
+    at async startWatcher (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:156:5)
+    at async setupDevBundler (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:775:20)
+    at async Span.traceAsyncFn (/var/www/toonverse/webapp/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async initialize (/var/www/toonverse/webapp/frontend/node_modules/next/dist/server/lib/router-server.js:81:30) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'unlink',
+  path: '/var/www/toonverse/webapp/frontend/.next/BUILD_ID'
+}
+[?25h
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+
+> toonverse-frontend@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local, .env
+  - Experiments (use with caution):
+    · optimizeCss
+
+ ✓ Starting...

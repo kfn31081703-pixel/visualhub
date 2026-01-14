@@ -66,7 +66,7 @@ export default function GalleryPage() {
         setFilteredProjects(activeProjects);
         
         // Extract unique genres
-        const uniqueGenres = Array.from(new Set(activeProjects.map((p: Project) => p.genre).filter(Boolean)));
+        const uniqueGenres = Array.from(new Set(activeProjects.map((p: Project) => p.genre).filter(Boolean))) as string[];
         setGenres(uniqueGenres);
         
         setError(null);
