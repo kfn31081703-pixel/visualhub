@@ -95,6 +95,7 @@ export default function WebtoonDetailPage({ params }: { params: { id: string } }
     );
   }
 
+  // Guard against null/undefined project
   if (error || !project) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-amber-50 flex items-center justify-center p-4">
@@ -116,7 +117,11 @@ export default function WebtoonDetailPage({ params }: { params: { id: string } }
     );
   }
 
-  const activeEpisodes = (project.episodes || []).filter(ep => ep.status === 'active' || ep.status === 'completed');
+  // Safely extract data with default values
+  const activeEpisodes = (project?.episodes || []).filter(ep => ep.status === 'active' || ep.status === 'completed');
+  const projectKeywords = project?.keywords || [];
+  const projectWorldSetting = project?.world_setting || 'N/A';
+  const projectTargetAudience = project?.target_audience || 'N/A';
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-amber-50">
@@ -185,24 +190,26 @@ export default function WebtoonDetailPage({ params }: { params: { id: string } }
               <div className="space-y-3">
                 <div className="flex items-start">
                   <span className="text-sm font-semibold text-gray-700 w-32">타겟 연령:</span>
-                  <span className="text-sm text-gray-600">{project.target_audience}</span>
+                  <span className="text-sm text-gray-600">{projectTargetAudience}</span>
                 </div>
-                <div className="flex items-start">
-                  <span className="text-sm font-semibold text-gray-700 w-32">키워드:</span>
-                  <div className="flex flex-wrap gap-2">
-                    {(project.keywords || []).map((keyword, index) => (
-                      <span
-                        key={index}
-                        className="px-2 py-1 bg-amber-100 text-amber-800 text-xs font-medium rounded-full"
-                      >
-                        {keyword}
-                      </span>
-                    ))}
+                {projectKeywords.length > 0 && (
+                  <div className="flex items-start">
+                    <span className="text-sm font-semibold text-gray-700 w-32">키워드:</span>
+                    <div className="flex flex-wrap gap-2">
+                      {projectKeywords.map((keyword, index) => (
+                        <span
+                          key={index}
+                          className="px-2 py-1 bg-amber-100 text-amber-800 text-xs font-medium rounded-full"
+                        >
+                          {keyword}
+                        </span>
+                      ))}
+                    </div>
                   </div>
-                </div>
+                )}
                 <div className="flex items-start">
                   <span className="text-sm font-semibold text-gray-700 w-32">세계관:</span>
-                  <span className="text-sm text-gray-600">{project.world_setting}</span>
+                  <span className="text-sm text-gray-600">{projectWorldSetting}</span>
                 </div>
                 <div className="flex items-start">
                   <span className="text-sm font-semibold text-gray-700 w-32">생성일:</span>
